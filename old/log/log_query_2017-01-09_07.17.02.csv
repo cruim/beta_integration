@@ -1,0 +1,5 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+690290;joint-cream;sent;parcel-on-a-place;"2017-01-08 14:37:45";690290A;Отправлен;690290-690290A_708;Невручение;32024906
+696187;joint-cream;sent;parcel-on-a-place;"2017-01-08 14:27:54";696187A;Отправлен;696187-696187A_713;Невручение;32024953
+699540;joint-cream;sent;parcel-on-a-place;"2017-01-08 15:19:00";699540A;Отправлен;699540-699540A_719;Невручение;32025021
+694155;gemor-cream;sent;parcel-on-a-place;"2017-01-08 15:08:14";694155A;Отправлен;694155-694155A_719;Невручение;32025001

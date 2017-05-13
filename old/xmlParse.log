@@ -1,0 +1,1075 @@
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1"><error code="-20001" msg="Неверный код партнера или пароль!" backtrace="ORA-06512: на  &quot;ANP.ASSERT&quot;, line 11
+ORA-06512: на  &quot;ANP.USER_LOGIN&quot;, line 60
+ORA-06512: на  &quot;ANP.WEB&quot;, line 193
+"></error></response>
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1"/>
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1"><error code="-20001" msg="Неверный код партнера или пароль!" backtrace="ORA-06512: на  &quot;ANP.ASSERT&quot;, line 11
+ORA-06512: на  &quot;ANP.USER_LOGIN&quot;, line 60
+ORA-06512: на  &quot;ANP.WEB&quot;, line 193
+"></error></response>
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1"/>
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
+	<error code="-20001" msg="Неверная структура заголовка запроса" backtrace="{ОбщийМодуль.WS_ОбработкаЗапросов.Модуль(17)}: Преобразование значения к типу Число не может быть выполнено"/>
+</response>
+
+<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1"/>
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<html>
+<head><title>504 Gateway Time-out</title></head>
+<body bgcolor="white">
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
+	<error code="-20001" msg="{(13)}: Заказ 640711-640711A_640 уже в производстве" backtrace="ЗаписьДанных-&gt;Документ.ЗаказНаОтгрузку"/>
+</response>
+
+<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1"/>
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
+  <error code="-20001" msg="doc/order[@order_id=691413-691413A_710] Не указаны позиции заказа" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 667 ORA-06512: на  &quot;ANP.FBR&quot;, line 1596 ORA-06512: на  &quot;ANP.FBR&quot;, line 3221 " request_id="115883128"/>
+</response>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1"/>
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
+  <error code="-20001" msg="doc/ordrow[@ordrow_id=694480-694480A_744//4]ORA-20001: Для позиции заказа не указан товар @good_id=" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 654 ORA-06512: на  &quot;ANP.FBR&quot;, line 1596 ORA-06512: на  &quot;ANP.FBR&quot;, line 3221 " request_id="117881491"/>
+</response>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1"/>
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
+  <error code="-20001" msg="doc/ordrow[@ordrow_id=685433-685433A_765//4]ORA-20001: Для позиции заказа не указан товар @good_id=" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 654 ORA-06512: на  &quot;ANP.FBR&quot;, line 1596 ORA-06512: на  &quot;ANP.FBR&quot;, line 3221 " request_id="119340151"/>
+</response>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1"/>
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
+  <error code="-20001" msg="doc/order[@order_id=685433-685433A_765]ORA-20001: Недопустимый почтовый индекс @zip=2214" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 595 ORA-06512: на  &quot;ANP.FBR&quot;, line 1596 ORA-06512: на  &quot;ANP.FBR&quot;, line 3221 " request_id="119519114"/>
+</response>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1"/>
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
+  <error code="-20001" msg="doc/ordrow[@ordrow_id=791839-791839A_806//4]ORA-20001: Для позиции заказа не указан товар @good_id=" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 654 ORA-06512: на  &quot;ANP.FBR&quot;, line 1596 ORA-06512: на  &quot;ANP.FBR&quot;, line 3221 " request_id="122222387"/>
+</response>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1"/>
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
+  <error code="-20001" msg="doc/ordrow[@ordrow_id=821759-821759A_829//4]ORA-20001: Для позиции заказа не указан товар @good_id=" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 654 ORA-06512: на  &quot;ANP.FBR&quot;, line 1596 ORA-06512: на  &quot;ANP.FBR&quot;, line 3221 " request_id="123803968"/>
+</response>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1"/>
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
+  <error code="-20001" msg="doc/ordrow[@ordrow_id=836343-836343A_838//10]ORA-20001: Для позиции заказа не указан товар @good_id=" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 654 ORA-06512: на  &quot;ANP.FBR&quot;, line 1907 ORA-06512: на  &quot;ANP.FBR&quot;, line 3588 " request_id="124496149"/>
+</response>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1"/>
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+
+

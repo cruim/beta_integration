@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+647261;gemor-cream;sent;parcel-on-a-place;"2016-12-02 12:06:25";647261A;Отправлен;647261-647261A_659;Невручение;32024851

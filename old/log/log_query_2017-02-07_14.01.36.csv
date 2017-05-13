@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+716298;gemor-cream;parcel-on-a-place;delivered;"2017-02-06 17:06:00";716298A;"Товар в точке получения";716298-716298A_741;Вручение;CB018024308RU

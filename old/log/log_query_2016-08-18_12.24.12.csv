@@ -1,0 +1,6 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+505629;joint-cream;sent;delivered;"2016-08-18 10:44:00";505629A;Отправлен;505629-505629A_423;Вручение;32022834
+507137;gemor-cream;sent;delivered;"2016-08-18 11:22:50";507137A;Отправлен;507137-507137A_423;Вручение;32022876
+507482;prosta-cream;sent;parcel-on-a-place;"2016-08-18 10:30:36";507482A;Отправлен;507482-507482A_423;Невручение;32022883
+508456;psorias-cream;sent;delivered;"2016-08-18 11:28:25";508456A;Отправлен;508456-508456A_428;Вручение;32022998
+508231;vari-cream-com;sent;delivered;"2016-08-18 10:41:08";508231A;Отправлен;508231-508231A_428;Вручение;32022993

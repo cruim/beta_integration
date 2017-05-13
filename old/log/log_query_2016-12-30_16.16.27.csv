@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+691583;vari-cream-com;sent;parcel-on-a-place;"2016-12-30 13:51:13";691583A;Отправлен;691583-691583A_708;Невручение;32024891
+690036;fungus-cream;sent;parcel-on-a-place;"2016-12-30 13:46:40";690036A;Отправлен;690036-690036A_708;Невручение;32024881

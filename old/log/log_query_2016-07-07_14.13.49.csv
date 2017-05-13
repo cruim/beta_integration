@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+436409;prosta-cream;sent;delivered;"2016-07-06 14:25:00";436409A;Отправлен;436409-436409A_294;Вручение;CB016540754RU
+449016;psorias-cream;sent;parcel-on-a-place;"2016-07-07 08:37:00";449016A;Отправлен;449016-449016A_299;Невручение;CB016539186RU

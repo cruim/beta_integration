@@ -1,0 +1,22 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+433796;prosta-cream;parcel-on-a-place;delivered;"2016-07-07 11:22:00";433796A;"Товар в точке получения";433796-433796A_275;Вручение;CB014107157RU
+445599;wrinkles-cream;sent;delivered;"2016-07-07 15:00:00";445599A;Отправлен;445599-445599A_294;Вручение;CB016540927RU
+445746;vari-cream-com;sent;parcel-on-a-place;"2016-07-07 13:20:00";445746A;Отправлен;445746-445746A_293;Невручение;CB016539725RU
+444496;vari-cream-com;sent;parcel-on-a-place;"2016-07-07 19:15:00";444496A;Отправлен;444496-444496A_293;Невручение;CB016540666RU
+447499;wrinkles-cream;sent;parcel-on-a-place;"2016-07-07 11:40:00";447499A;Отправлен;447499-447499A_299;Невручение;CB016539291RU
+447392;vari-cream-com;sent;parcel-on-a-place;"2016-07-07 12:23:00";447392A;Отправлен;447392-447392A_299;Невручение;CB016540343RU
+447129;vari-cream-com;sent;parcel-on-a-place;"2016-07-07 17:51:00";447129A;Отправлен;447129-447129A_299;Невручение;CB016540048RU
+447118;gemor-cream;sent;parcel-on-a-place;"2016-07-07 18:47:00";447118A;Отправлен;447118-447118A_299;Невручение;CB016539067RU
+446992;psorias-cream;sent;parcel-on-a-place;"2016-07-07 17:55:00";446992A;Отправлен;446992-446992A_299;Невручение;CB016541366RU
+446943;psorias-cream;sent;parcel-on-a-place;"2016-07-07 19:16:00";446943A;Отправлен;446943-446943A_299;Невручение;CB016541410RU
+449016;psorias-cream;parcel-on-a-place;delivered;"2016-07-07 17:40:00";449016A;"Товар в точке получения";449016-449016A_299;Вручение;CB016539186RU
+446911;wrinkles-cream;sent;parcel-on-a-place;"2016-07-07 17:16:00";446911A;Отправлен;446911-446911A_299;Невручение;CB016539345RU
+450129;psorias-cream;sent;parcel-on-a-place;"2016-07-07 19:14:00";450129A;Отправлен;450129-450129A_299;Невручение;CB016539583RU
+449903;gemor-cream;sent;parcel-on-a-place;"2016-07-07 18:41:00";449903A;Отправлен;449903-449903A_299;Невручение;CB016541114RU
+449271;vari-cream-com;sent;parcel-on-a-place;"2016-07-07 14:42:00";449271A;Отправлен;449271-449271A_299;Невручение;CB016540785RU
+448942;vari-cream-com;sent;parcel-on-a-place;"2016-07-07 13:09:00";448942C;Отправлен;448942-448942C_299;Невручение;CB016540459RU
+448750;psorias-cream;sent;parcel-on-a-place;"2016-07-07 20:24:00";448750A;Отправлен;448750-448750A_299;Невручение;CB016541406RU
+448598;gemor-cream;sent;parcel-on-a-place;"2016-07-07 19:01:00";448598A;Отправлен;448598-448598A_299;Невручение;CB016539946RU
+448471;fungus-cream;sent;parcel-on-a-place;"2016-07-07 17:52:00";448471A;Отправлен;448471-448471A_299;Невручение;CB016539212RU
+448196;gemor-cream;sent;parcel-on-a-place;"2016-07-07 17:39:00";448196A;Отправлен;448196-448196A_299;Невручение;CB016540989RU
+448171;vari-cream-com;sent;parcel-on-a-place;"2016-07-07 21:01:00";448171A;Отправлен;448171-448171A_299;Невручение;CB016540365RU

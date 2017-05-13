@@ -1,0 +1,11 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+572117;vari-cream-com;sent;parcel-on-a-place;"2016-10-12 09:15:00";572117A;Отправлен;572117-572117A_538;"Прибыло в город назначения";CB016567434RU
+577819;wrinkles-cream;sent;delivered;"2016-10-12 15:13:03";577819A;Отправлен;577819-577819A_551;Вручение;32024464
+580205;joint-cream;sent;delivered;"2016-10-12 15:13:14";580205A;Отправлен;580205-580205A_551;Вручение;32024456
+579371;joint-cream;sent;delivered;"2016-10-12 12:59:02";579371A;Отправлен;579371-579371A_551;Вручение;32024455
+578773;joint-cream;sent;delivered;"2016-10-12 13:54:00";578773A;Отправлен;578773-578773A_551;Вручение;32024466
+581377;joint-cream;sent;delivered;"2016-10-12 12:41:31";581377A;Отправлен;581377-581377A_551;Вручение;32024459
+581512;vari-cream-com;sent;delivered;"2016-10-12 15:13:30";581512A;Отправлен;581512-581512A_554;Вручение;32024470
+583174;vari-cream-com;sent;delivered;"2016-10-12 12:57:33";583174A;Отправлен;583174-583174A_554;Вручение;32024474
+583048;joint-cream;sent;delivered;"2016-10-12 14:26:29";583048A;Отправлен;583048-583048A_554;Вручение;32024473
+582034;joint-cream;sent;delivered;"2016-10-12 15:11:53";582034A;Отправлен;582034-582034A_554;Вручение;32024471

@@ -1,0 +1,11 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+522624;joint-cream;sent;parcel-on-a-place;"2016-08-27 09:41:52";522624A;Отправлен;522624-522624A_454;Невручение;32023406
+521457;joint-cream;sent;parcel-on-a-place;"2016-08-27 10:01:46";521457A;Отправлен;521457-521457A_454;Невручение;32023388
+523432;joint-cream;sent;parcel-on-a-place;"2016-08-27 11:10:02";523432A;Отправлен;523432-523432A_454;Невручение;32023411
+521888;joint-cream;sent;parcel-on-a-place;"2016-08-27 09:57:01";521888A;Отправлен;521888-521888A_454;Невручение;32023400
+521578;psorias-cream;sent;parcel-on-a-place;"2016-08-27 11:09:26";521578A;Отправлен;521578-521578A_454;Невручение;32023394
+518333;joint-cream;sent;parcel-on-a-place;"2016-08-27 10:01:46";518333A;Отправлен;518333-518333A_454;Невручение;32023380
+521548;vari-cream-com;sent;delivered;"2016-08-27 10:23:06";521548A;Отправлен;521548-521548A_454;Вручение;32023393
+521640;joint-cream;sent;delivered;"2016-08-27 10:41:02";521640A;Отправлен;521640-521640A_454;Вручение;32023396
+522286;joint-cream;sent;delivered;"2016-08-27 09:15:51";522286A;Отправлен;522286-522286A_454;Вручение;32023403
+521521;vari-cream-com;sent;parcel-on-a-place;"2016-08-27 10:01:46";521521A;Отправлен;521521-521521A_454;Невручение;32023392

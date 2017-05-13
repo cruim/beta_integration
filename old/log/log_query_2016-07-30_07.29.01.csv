@@ -1,0 +1,19 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+455719;psorias-cream;parcel-on-a-place;delivered;"2016-07-29 20:47:00";455719A;"Товар в точке получения";455719-455719A_321;Вручение;CB016545646RU
+466667;gemor-cream;parcel-on-a-place;delivered;"2016-07-29 19:22:00";466667A;"Товар в точке получения";466667-466667A_337;Вручение;CB016547735RU
+466297;psorias-cream;parcel-on-a-place;delivered;"2016-07-29 17:21:00";466297A;"Товар в точке получения";466297-466297A_337;Вручение;CB016547810RU
+469687;vari-cream-com;parcel-on-a-place;delivered;"2016-07-29 14:02:00";469687A;"Товар в точке получения";469687-469687A_346;Вручение;CB016548673RU
+469176;joint-cream;parcel-on-a-place;delivered;"2016-07-29 08:52:00";469176A;"Товар в точке получения";469176-469176A_346;Вручение;CB016548625RU
+469149;joint-cream;parcel-on-a-place;delivered;"2016-07-29 12:19:00";469149A;"Товар в точке получения";469149-469149A_346;Вручение;CB016548497RU
+468844;joint-cream;parcel-on-a-place;delivered;"2016-07-29 15:15:00";468844A;"Товар в точке получения";468844-468844A_346;Вручение;CB016548687RU
+468731;psorias-cream;parcel-on-a-place;delivered;"2016-07-29 14:22:00";468731A;"Товар в точке получения";468731-468731A_346;Вручение;CB016549104RU
+468567;joint-cream;parcel-on-a-place;delivered;"2016-07-29 14:01:00";468567A;"Товар в точке получения";468567-468567A_346;Вручение;CB016548735RU
+467672;joint-cream;parcel-on-a-place;delivered;"2016-07-29 11:48:00";467672A;"Товар в точке получения";467672-467672A_346;Вручение;CB016548700RU
+467659;joint-cream;parcel-on-a-place;delivered;"2016-07-29 15:15:00";467659A;"Товар в точке получения";467659-467659A_346;Вручение;CB016548228RU
+472368;joint-cream;parcel-on-a-place;delivered;"2016-07-29 13:10:00";472368A;"Товар в точке получения";472368-472368A_356;Вручение;CB016549740RU
+481953;vari-cream-com;sent;delivered;"2016-07-29 15:36:33";481953A;Отправлен;481953-481953A_378;Вручение;32022128
+481826;vari-cream-com;sent;delivered;"2016-07-29 15:44:18";481826A;Отправлен;481826-481826A_378;Вручение;32022124
+481695;gemor-cream;sent;delivered;"2016-07-29 15:40:18";481695A;Отправлен;481695-481695A_378;Вручение;32022120
+478934;vari-cream-com;sent;delivered;"2016-07-29 15:02:46";478934A;Отправлен;478934-478934A_378;Вручение;32022105
+481437;vari-cream-com;sent;injob;"2016-07-29 15:49:35";481437A;Отправлен;481437-481437A_378;Возврат;32022115
+481416;vari-cream-com;sent;injob;"2016-07-29 16:39:47";481416A;Отправлен;481416-481416A_378;Возврат;32022114

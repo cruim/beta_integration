@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+703862;joint-cream;sent;parcel-on-a-place;"2017-01-30 09:47:00";703862A;Отправлен;703862-703862A_725;"Прибыло в город назначения";CB016572329RU
+702374;joint-cream;sent;parcel-on-a-place;"2017-01-30 09:36:00";702374A;Отправлен;702374-702374A_725;"Прибыло в город назначения";CB016572315RU
+710693;gemor-cream;sent;parcel-on-a-place;"2017-01-30 08:22:00";710693A;Отправлен;710693-710693A_731;"Прибыло в город назначения";CB018023894RU

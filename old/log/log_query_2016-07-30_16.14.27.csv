@@ -1,0 +1,9 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+483096;vari-cream-com;sent;injob;"2016-07-30 12:26:20";483096A;Отправлен;483096-483096A_382;Возврат;32022159
+482734;prosta-cream;sent;injob;"2016-07-30 12:58:31";482734A;Отправлен;482734-482734A_382;Возврат;32022150
+482993;joint-cream;sent;delivered;"2016-07-30 13:23:43";482993A;Отправлен;482993-482993A_382;Вручение;32022155
+482886;gemor-cream;sent;delivered;"2016-07-30 12:38:53";482886C;Отправлен;482886-482886C_382;Вручение;32022154
+482689;gemor-cream;sent;delivered;"2016-07-30 13:34:34";482689C;Отправлен;482689-482689C_382;Вручение;32022149
+483746;vari-cream-com;sent;injob;"2016-07-30 13:49:00";483746A;Отправлен;483746-483746A_382;Возврат;32022173
+483268;joint-cream;sent;injob;"2016-07-30 13:24:17";483268A;Отправлен;483268-483268A_382;Возврат;32022163
+483229;vari-cream-com;sent;injob;"2016-07-30 12:11:00";483229A;Отправлен;483229-483229A_382;Возврат;32022162

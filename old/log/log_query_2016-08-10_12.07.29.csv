@@ -1,0 +1,13 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+497182;joint-cream;sent;delivered;"2016-08-10 11:01:50";497182A;Отправлен;497182-497182A_404;Вручение;32022540
+496395;joint-cream;sent;delivered;"2016-08-10 10:13:32";496395A;Отправлен;496395-496395A_404;Вручение;32022523
+496246;joint-cream;sent;delivered;"2016-08-10 10:40:39";496246A;Отправлен;496246-496246A_404;Вручение;32022519
+497950;vari-cream-com;sent;parcel-on-a-place;"2016-08-10 10:00:00";497950A;Отправлен;497950-497950A_404;"Прибыло в город назначения";32022552
+497354;gemor-cream;sent;parcel-on-a-place;"2016-08-10 09:24:49";497354A;Отправлен;497354-497354A_404;Невручение;32022543
+494997;joint-cream;sent;parcel-on-a-place;"2016-08-10 09:21:05";494997A;Отправлен;494997-494997A_404;Невручение;32022494
+493743;vari-cream-com;sent;parcel-on-a-place;"2016-08-10 09:52:52";493743A;Отправлен;493743-493743A_404;Невручение;32022470
+498106;joint-cream;sent;parcel-on-a-place;"2016-08-10 09:31:10";498106A;Отправлен;498106-498106A_408;Невручение;32022580
+497082;joint-cream;sent;delivered;"2016-08-10 10:46:38";497082A;Отправлен;497082-497082A_408;Вручение;32022568
+496733;joint-cream;sent;delivered;"2016-08-10 09:21:26";496733A;Отправлен;496733-496733A_408;Вручение;32022566
+498919;vari-cream-com;sent;delivered;"2016-08-10 10:46:12";498919A;Отправлен;498919-498919A_408;Вручение;32022600
+498785;vari-cream-com;sent;delivered;"2016-08-10 11:40:15";498785A;Отправлен;498785-498785A_408;Вручение;32022598

@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+497895;joint-cream;sent;delivered;"2016-08-10 11:04:45";497895A;Отправлен;497895-497895A_404;Вручение;32022551
+494629;vari-cream-com;sent;delivered;"2016-08-10 11:36:53";494629A;Отправлен;494629-494629A_404;Вручение;32022486
+492872;wrinkles-cream;sent;delivered;"2016-08-10 11:06:38";492872A;Отправлен;492872-492872A_404;Вручение;32022466

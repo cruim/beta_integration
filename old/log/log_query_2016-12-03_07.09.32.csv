@@ -1,0 +1,9 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+627978;gemor-cream;parcel-on-a-place;delivered;"2016-12-02 15:35:00";627978A;"Товар в точке получения";627978-627978A_621;Вручение;CB016569792RU
+622031;fungus-cream;parcel-on-a-place;delivered;"2016-12-02 17:53:00";622031A;"Товар в точке получения";622031-622031A_626;Вручение;CB016569934RU
+635693;prosta-cream;parcel-on-a-place;delivered;"2016-12-02 09:03:00";635693A;"Товар в точке получения";635693-635693A_636;Вручение;CB016570098RU
+637340;gemor-cream;parcel-on-a-place;delivered;"2016-12-02 15:59:00";637340A;"Товар в точке получения";637340-637340A_647;Вручение;CB016570209RU
+639775;gemor-cream;parcel-on-a-place;delivered;"2016-12-02 09:09:00";639775A;"Товар в точке получения";639775-639775A_647;Вручение;CB016570169RU
+643292;joint-cream;parcel-on-a-place;delivered;"2016-12-02 15:39:08";643292A;"Товар в точке получения";643292-643292A_653;Вручение;32024846
+640789;fungus-cream;sent;delivered;"2016-12-02 20:04:07";640789A;Отправлен;640789-640789A_656;Вручение;32024848
+648100;joint-cream;sent;delivered;"2016-12-02 13:57:43";648100A;Отправлен;648100-648100A_659;Вручение;32024852

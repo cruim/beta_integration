@@ -1,0 +1,17 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+532020;joint-cream;parcel-on-a-place;delivered;"2016-09-23 14:07:00";532020A;"Товар в точке получения";532020-532020A_467;Вручение;CB016563622RU
+533940;vari-cream-com;parcel-on-a-place;delivered;"2016-09-23 12:19:00";533940A;"Товар в точке получения";533940-533940A_471;Вручение;CB016564013RU
+535034;joint-cream;parcel-on-a-place;delivered;"2016-09-23 14:17:00";535034A;"Товар в точке получения";535034-535034A_471;Вручение;CB016563786RU
+535727;joint-cream;parcel-on-a-place;delivered;"2016-09-23 12:58:00";535727A;"Товар в точке получения";535727-535727A_471;Вручение;CB016563914RU
+532821;joint-cream;parcel-on-a-place;delivered;"2016-09-22 15:41:00";532821A;"Товар в точке получения";532821-532821A_471;Вручение;CB016564234RU
+537223;gemor-cream;parcel-on-a-place;delivered;"2016-09-23 14:16:00";537223A;"Товар в точке получения";537223-537223A_477;Вручение;CB016564490RU
+537790;psorias-cream;parcel-on-a-place;delivered;"2016-09-23 10:43:00";537790A;"Товар в точке получения";537790-537790A_477;Вручение;CB016564455RU
+537379;joint-cream;parcel-on-a-place;delivered;"2016-09-23 14:57:00";537379A;"Товар в точке получения";537379-537379A_477;Вручение;CB016564591RU
+547403;prosta-cream;parcel-on-a-place;delivered;"2016-09-23 11:15:00";547403A;"Товар в точке получения";547403-547403A_496;Вручение;CB016565583RU
+555128;joint-cream;parcel-on-a-place;delivered;"2016-09-23 15:51:01";555128A;"Товар в точке получения";555128-555128A_506;Вручение;32024051
+554994;gemor-cream;parcel-on-a-place;delivered;"2016-09-23 16:35:43";554994A;"Товар в точке получения";554994-554994A_506;Вручение;32024047
+555118;joint-cream;parcel-on-a-place;delivered;"2016-09-23 15:57:54";555118A;"Товар в точке получения";555118-555118A_506;Вручение;32024050
+556856;vari-cream-com;parcel-on-a-place;delivered;"2016-09-23 16:57:33";556856A;"Товар в точке получения";556856-556856A_509;Вручение;32024108
+556021;wrinkles-cream;parcel-on-a-place;delivered;"2016-09-23 18:00:00";556021A;"Товар в точке получения";556021-556021A_509;Вручение;32024092
+557096;vari-cream-com;parcel-on-a-place;delivered;"2016-09-23 15:55:41";557096A;"Товар в точке получения";557096-557096A_509;Вручение;32024113
+556852;vari-cream-com;parcel-on-a-place;delivered;"2016-09-23 20:24:33";556852A;"Товар в точке получения";556852-556852A_509;Вручение;32024107

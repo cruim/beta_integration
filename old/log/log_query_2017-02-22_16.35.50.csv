@@ -1,0 +1,6 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+751546;gemor-cream;parcel-on-a-place;delivered;"2017-02-22 09:23:00";751546A;"Товар в точке получения";751546-751546A_765;Вручение;CB018025113RU
+762791;joint-cream;sent;parcel-on-a-place;"2017-02-22 12:00:00";762791A;Отправлен;762791-762791A_776;"Прибыло в город назначения";CB018025609RU
+761759;joint-cream;sent;parcel-on-a-place;"2017-02-22 09:38:00";761759A;Отправлен;761759-761759A_776;"Прибыло в город назначения";CB018025538RU
+760652;joint-cream;sent;parcel-on-a-place;"2017-02-22 09:24:00";760652A;Отправлен;760652-760652A_776;"Прибыло в город назначения";CB018025626RU
+761693;zdorov-cream;sent;parcel-on-a-place;"2017-02-22 09:14:00";761693A;Отправлен;761693-761693A_776;"Прибыло в город назначения";CB018025586RU

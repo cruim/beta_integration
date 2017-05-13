@@ -1,0 +1,12 @@
+id;status;api_mark;date_of_delivery;statusCode;success;set_order_id
+691210;delivered;from_BetaPost_API;2017-01-11;200;1;691210
+697059;delivered;from_BetaPost_API;2017-01-10;200;1;697059
+695201;delivered;from_BetaPost_API;2017-01-10;200;1;695201
+693814;delivered;from_BetaPost_API;2017-01-10;200;1;693814
+694405;delivered;from_BetaPost_API;2017-01-11;200;1;694405
+695413;delivered;from_BetaPost_API;2017-01-10;200;1;695413
+694565;delivered;from_BetaPost_API;2017-01-11;200;1;694565
+698632;parcel-on-a-place;from_BetaPost_API;2017-01-11;200;1;698632
+701036;delivered;from_BetaPost_API;2017-01-10;200;1;701036
+698743;delivered;from_BetaPost_API;2017-01-11;200;1;698743
+701688;delivered;from_BetaPost_API;2017-01-10;200;1;701688

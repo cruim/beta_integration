@@ -1,0 +1,6 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+718392;joint-cream;parcel-on-a-place;delivered;"2017-02-17 18:37:00";718392A;"Товар в точке получения";718392-718392A_737;Вручение;CB018024020RU
+743666;gemor-cream;parcel-on-a-place;delivered;"2017-02-17 16:21:00";743666A;"Товар в точке получения";743666-743666A_759;Вручение;CB018024824RU
+749653;prosta-cream;parcel-on-a-place;delivered;"2017-02-17 15:23:00";749653A;"Товар в точке получения";749653-749653A_765;Вручение;CB018025396RU
+749052;gemor-cream;parcel-on-a-place;delivered;"2017-02-17 14:15:00";749052A;"Товар в точке получения";749052-749052A_765;Вручение;CB018025215RU
+755350;vari-cream-com;parcel-on-a-place;delivered;"2017-02-17 14:51:00";755350A;"Товар в точке получения";755350-755350A_767;Вручение;CB018025201RU

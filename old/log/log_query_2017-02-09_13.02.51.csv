@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+706493;prosta-cream;parcel-on-a-place;delivered;"2017-02-09 10:15:00";706493A;"Товар в точке получения";706493-706493A_725;Вручение;CB016572275RU

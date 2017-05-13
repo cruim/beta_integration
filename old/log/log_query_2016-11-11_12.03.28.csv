@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+624810;joint-cream;sent;parcel-on-a-place;"2016-11-11 09:08:17";624810A;Отправлен;624810-624810A_614;Невручение;32024755

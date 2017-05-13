@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+623250;joint-cream;sent;delivered;"2016-11-16 10:12:07";623250A;Отправлен;623250-623250A_612;Вручение;32024747
+628038;wrinkles-cream;sent;delivered;"2016-11-16 11:16:46";628038A;Отправлен;628038-628038A_622;Вручение;32024774

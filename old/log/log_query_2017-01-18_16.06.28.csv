@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+690933;vari-cream-com;parcel-on-a-place;injob;"2017-01-18 13:26:18";690933A;"Товар в точке получения";690933-690933A_708;Возврат;32024911
+707469;joint-cream;parcel-on-a-place;injob;"2017-01-18 13:26:18";707469A;"Товар в точке получения";707469-707469A_722;Возврат;32025091

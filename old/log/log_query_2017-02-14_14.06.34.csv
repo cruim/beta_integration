@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+740587;erectile-cream;sent;parcel-on-a-place;"2017-02-14 09:26:00";740587A;Отправлен;740587-740587A_759;"Прибыло в город назначения";CB018024943RU
+731732;wrinkles-cream;sent;parcel-on-a-place;"2017-02-14 09:52:00";731732A;Отправлен;731732-731732A_759;"Прибыло в город назначения";CB018024855RU
+746409;cream-masthopaty;sent;parcel-on-a-place;"2017-02-14 08:12:00";746409A;Отправлен;746409-746409A_762;"Прибыло в город назначения";CB018024988RU

@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+702353;joint-cream;sent;parcel-on-a-place;"2017-01-30 10:07:00";702353A;Отправлен;702353-702353A_723;"Прибыло в город назначения";CB016572200RU
+704558;joint-cream;sent;parcel-on-a-place;"2017-01-30 09:47:00";704558A;Отправлен;704558-704558A_723;"Прибыло в город назначения";CB016572451RU

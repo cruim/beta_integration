@@ -1,0 +1,125 @@
+string(18) "602229-602229A_583"
+object(RetailCrm\Response\ApiResponse)#7 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(602229)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#6 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(602429)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#5 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(602626)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#7 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(602778)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#6 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(603113)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#5 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(603196)
+  }
+}
+<br /><br />array(6) {
+  [0]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "602229"
+    ["shipping_order_order_id"]=>
+    string(18) "602229-602229A_583"
+    ["order_site"]=>
+    string(12) "fungus-cream"
+  }
+  [1]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "602429"
+    ["shipping_order_order_id"]=>
+    string(18) "602429-602429A_583"
+    ["order_site"]=>
+    string(11) "joint-cream"
+  }
+  [2]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "602626"
+    ["shipping_order_order_id"]=>
+    string(18) "602626-602626A_583"
+    ["order_site"]=>
+    string(11) "joint-cream"
+  }
+  [3]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "602778"
+    ["shipping_order_order_id"]=>
+    string(18) "602778-602778A_583"
+    ["order_site"]=>
+    string(11) "joint-cream"
+  }
+  [4]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "603113"
+    ["shipping_order_order_id"]=>
+    string(18) "603113-603113A_583"
+    ["order_site"]=>
+    string(11) "joint-cream"
+  }
+  [5]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "603196"
+    ["shipping_order_order_id"]=>
+    string(18) "603196-603196A_583"
+    ["order_site"]=>
+    string(11) "joint-cream"
+  }
+}
+<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />array(0) {
+}

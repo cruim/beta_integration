@@ -1,0 +1,5 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+645985;vari-cream-com;sent;delivered;"2016-12-07 12:50:00";645985A;Отправлен;645985-645985A_655;Вручение;CB016570393RU
+646410;psorias-cream;sent;parcel-on-a-place;"2016-12-07 09:05:00";646410A;Отправлен;646410-646410A_655;"Прибыло в город назначения";CB016570331RU
+644791;prosta-cream;sent;parcel-on-a-place;"2016-12-07 09:59:00";644791A;Отправлен;644791-644791A_655;"Прибыло в город назначения";CB016570455RU
+657053;joint-cream;sent;parcel-on-a-place;"2016-12-08 10:00:00";657053A;Отправлен;657053-657053A_670;"Прибыло в город назначения";32024862

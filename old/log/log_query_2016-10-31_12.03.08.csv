@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+600672;vari-cream-com;sent;parcel-on-a-place;"2016-10-31 10:12:18";600672A;Отправлен;600672-600672A_578;Невручение;32024592

@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+438491;prosta-cream;sent;delivered;"2016-06-29 12:20:00";438491A;Отправлен;438491-438491A_281;Вручение;CB014107996RU
+444660;cream-masthopaty;sent;delivered;"2016-07-02 09:39:00";444660A;Отправлен;444660-444660A_291;Вручение;CB016538764RU

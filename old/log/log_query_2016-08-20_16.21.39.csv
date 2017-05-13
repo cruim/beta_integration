@@ -1,0 +1,13 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+493620;vari-cream-com;sent;parcel-on-a-place;"2016-08-20 12:40:47";493620A;Отправлен;493620-493620A_404;Невручение;32022468
+496024;gemor-cream;sent;parcel-on-a-place;"2016-08-20 09:38:00";496024A;Отправлен;496024-496024A_403;"Прибыло в город назначения";CB016557202RU
+496277;vari-cream-com;sent;parcel-on-a-place;"2016-08-20 09:38:00";496277A;Отправлен;496277-496277A_403;"Прибыло в город назначения";CB016557366RU
+495195;joint-cream;sent;parcel-on-a-place;"2016-08-20 09:37:00";495195A;Отправлен;495195-495195A_403;"Прибыло в город назначения";CB016557953RU
+493354;cellulite-cream;sent;parcel-on-a-place;"2016-08-20 09:40:00";493354A;Отправлен;493354-493354A_415;"Прибыло в город назначения";CB016558741RU
+504707;vari-cream-com;sent;delivered;"2016-08-20 13:22:14";504707A;Отправлен;504707-504707A_423;Вручение;32022803
+505418;joint-cream;sent;delivered;"2016-08-20 14:52:38";505418A;Отправлен;505418-505418A_423;Вручение;32022829
+509298;joint-cream;sent;parcel-on-a-place;"2016-08-20 13:42:20";509298A;Отправлен;509298-509298A_431;Невручение;32023026
+512087;gemor-cream;sent;delivered;"2016-08-20 13:45:14";512087A;Отправлен;512087-512087A_437;Вручение;32023116
+512896;joint-cream;sent;parcel-on-a-place;"2016-08-20 13:20:16";512896A;Отправлен;512896-512896A_437;Невручение;32023139
+510870;joint-cream;sent;delivered;"2016-08-20 13:36:40";510870C;Отправлен;510870-510870C_437;Вручение;32023108
+512170;joint-cream;sent;delivered;"2016-08-20 12:35:55";512170A;Отправлен;512170-512170A_437;Вручение;32023118

@@ -1,0 +1,10 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+470284;wrinkles-cream;sent;injob;"2016-07-20 09:50:16";470284A;Отправлен;470284-470284A_347;Возврат;32021758
+469693;wrinkles-cream;sent;injob;"2016-07-20 09:47:49";469693A;Отправлен;469693-469693A_347;Возврат;32021739
+469116;joint-cream;sent;injob;"2016-07-20 09:33:37";469116A;Отправлен;469116-469116A_347;Возврат;32021720
+471222;psorias-cream;sent;injob;"2016-07-20 09:37:47";471222A;Отправлен;471222-471222A_353;Возврат;32021799
+468759;wrinkles-cream;sent;injob;"2016-07-20 09:49:56";468759A;Отправлен;468759-468759A_353;Возврат;32021791
+472018;joint-cream;sent;delivered;"2016-07-20 09:02:29";472018A;Отправлен;472018-472018A_353;Вручение;32021822
+472075;vari-cream-com;sent;injob;"2016-07-20 09:32:32";472075A;Отправлен;472075-472075A_353;Возврат;32021827
+472041;vari-cream-com;sent;injob;"2016-07-20 09:41:58";472041A;Отправлен;472041-472041A_353;Возврат;32021823
+471740;psorias-cream;sent;injob;"2016-07-20 09:37:40";471740A;Отправлен;471740-471740A_353;Возврат;32021817

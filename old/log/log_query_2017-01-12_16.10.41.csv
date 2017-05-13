@@ -1,0 +1,8 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+702340;vari-cream-com;sent;delivered;"2017-01-12 15:49:56";702340A;Отправлен;702340-702340A_719;Вручение;32025059
+702141;wrinkles-cream;sent;parcel-on-a-place;"2017-01-12 13:18:20";702141A;Отправлен;702141-702141A_719;Невручение;32025058
+707623;vari-cream-com;sent;delivered;"2017-01-12 12:44:32";707623C;Отправлен;707623-707623C_722;Вручение;32025092
+705951;wrinkles-cream;sent;delivered;"2017-01-12 12:28:59";705951A;Отправлен;705951-705951A_722;Вручение;32025087
+706439;joint-cream;sent;delivered;"2017-01-12 15:57:10";706439A;Отправлен;706439-706439A_722;Вручение;32025090
+708453;joint-cream;sent;delivered;"2017-01-12 14:51:51";708453A;Отправлен;708453-708453A_726;Вручение;32025100
+710751;gemor-cream;sent;delivered;"2017-01-12 15:56:26";710751A;Отправлен;710751-710751A_729;Вручение;32025105

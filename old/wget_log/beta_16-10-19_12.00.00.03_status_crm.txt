@@ -1,0 +1,153 @@
+array(10) {
+  ["order_id"]=>
+  string(6) "591513"
+  ["order_site"]=>
+  string(11) "joint-cream"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(17) "parcel-on-a-place"
+  ["date_time"]=>
+  string(19) "2016-10-19 07:16:41"
+  ["order_number"]=>
+  string(7) "591513A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "591513-591513A_563"
+  ["state"]=>
+  string(20) "Невручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024526"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "591513"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_arrival"]=>
+    string(10) "2016-10-19"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "591513"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_arrival"]=>
+  string(10) "2016-10-19"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(591513)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "592027"
+  ["order_site"]=>
+  string(13) "psorias-cream"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(17) "parcel-on-a-place"
+  ["date_time"]=>
+  string(19) "2016-10-19 09:25:44"
+  ["order_number"]=>
+  string(7) "592027A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "592027-592027A_566"
+  ["state"]=>
+  string(20) "Невручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024535"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "592027"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_arrival"]=>
+    string(10) "2016-10-19"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "592027"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_arrival"]=>
+  string(10) "2016-10-19"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(592027)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "591744"
+  ["order_site"]=>
+  string(12) "prosta-cream"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(17) "parcel-on-a-place"
+  ["date_time"]=>
+  string(19) "2016-10-19 09:58:37"
+  ["order_number"]=>
+  string(7) "591744A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "591744-591744A_566"
+  ["state"]=>
+  string(20) "Невручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024529"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "591744"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_arrival"]=>
+    string(10) "2016-10-19"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "591744"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_arrival"]=>
+  string(10) "2016-10-19"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(591744)
+}

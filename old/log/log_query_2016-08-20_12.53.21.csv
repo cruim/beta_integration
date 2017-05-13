@@ -1,0 +1,11 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+504922;gemor-cream;sent;delivered;"2016-08-20 11:47:59";504922A;Отправлен;504922-504922A_423;Вручение;32022808
+512287;vari-cream-com;sent;delivered;"2016-08-20 11:05:55";512287A;Отправлен;512287-512287A_437;Вручение;32023123
+512136;vari-cream-com;sent;delivered;"2016-08-20 11:01:09";512136A;Отправлен;512136-512136A_437;Вручение;32023117
+512265;joint-cream;sent;delivered;"2016-08-20 10:31:08";512265A;Отправлен;512265-512265A_437;Вручение;32023122
+512874;cellulite-cream;sent;parcel-on-a-place;"2016-08-20 10:03:47";512874A;Отправлен;512874-512874A_437;Невручение;32023137
+511927;vari-cream-com;sent;parcel-on-a-place;"2016-08-20 09:09:49";511927A;Отправлен;511927-511927A_437;Невручение;32023112
+512935;joint-cream;sent;parcel-on-a-place;"2016-08-20 10:15:04";512935C;Отправлен;512935-512935C_437;Невручение;32023141
+512374;wrinkles-cream;sent;parcel-on-a-place;"2016-08-20 11:28:02";512374A;Отправлен;512374-512374A_437;Невручение;32023126
+512329;vari-cream-com;sent;parcel-on-a-place;"2016-08-20 09:26:29";512329A;Отправлен;512329-512329A_437;Невручение;32023124
+512363;psorias-cream;sent;parcel-on-a-place;"2016-08-20 09:49:54";512363A;Отправлен;512363-512363A_437;Невручение;32023125

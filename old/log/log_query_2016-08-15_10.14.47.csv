@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+503769;prosta-cream;sent;parcel-on-a-place;"2016-08-15 08:52:44";503769A;Отправлен;503769-503769A_420;Невручение;32022768

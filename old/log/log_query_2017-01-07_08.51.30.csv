@@ -1,0 +1,12 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+691413;wrinkles-cream;sent;parcel-on-a-place;"2017-01-06 11:46:20";691413A;Отправлен;691413-691413A_710;"Прибыло в город назначения";14083506831685
+697216;wrinkles-cream;sent;delivered;"2017-01-06 14:10:32";697216A;Отправлен;697216-697216A_714;Вручение;32024986
+694646;vari-cream-com;sent;delivered;"2017-01-06 18:34:59";694646A;Отправлен;694646-694646A_713;Вручение;32024933
+695519;gemor-cream;sent;delivered;"2017-01-06 14:15:16";695519A;Отправлен;695519-695519A_713;Вручение;32024948
+694890;wrinkles-cream;sent;delivered;"2017-01-06 16:36:50";694890A;Отправлен;694890-694890A_713;Вручение;32024939
+693252;wrinkles-cream;sent;parcel-on-a-place;"2017-01-06 11:43:26";693252A;Отправлен;693252-693252A_713;Невручение;32024930
+695433;prosta-cream;sent;parcel-on-a-place;"2017-01-06 11:17:34";695433A;Отправлен;695433-695433A_713;Невручение;32024947
+694690;psorias-cream;sent;parcel-on-a-place;"2017-01-06 11:27:53";694690A;Отправлен;694690-694690A_713;Невручение;32024934
+697528;psorias-cream;sent;parcel-on-a-place;"2017-01-06 10:56:05";697528A;Отправлен;697528-697528A_714;Невручение;32024989
+696463;vari-cream-com;sent;parcel-on-a-place;"2017-01-06 11:44:00";696463A;Отправлен;696463-696463A_714;Невручение;32024983
+698697;gemor-cream;sent;parcel-on-a-place;"2017-01-06 12:06:19";698697A;Отправлен;698697-698697A_717;Невручение;32024997

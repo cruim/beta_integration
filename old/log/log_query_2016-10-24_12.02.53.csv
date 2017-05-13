@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+593206;psorias-cream;sent;parcel-on-a-place;"2016-10-24 07:20:15";593206A;Отправлен;593206-593206A_569;Невручение;32024543

@@ -1,0 +1,7 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+632434;fungus-cream;sent;delivered;"2016-11-19 17:15:11";632434A;Отправлен;632434-632434A_627;Вручение;32024801
+633280;psorias-cream;sent;delivered;"2016-11-19 11:33:51";633280C;Отправлен;633280-633280C_630;Вручение;32024809
+635019;gemor-cream;sent;delivered;"2016-11-19 13:11:01";635019A;Отправлен;635019-635019A_633;Вручение;32024817
+634072;joint-cream;sent;delivered;"2016-11-19 15:04:58";634072A;Отправлен;634072-634072A_633;Вручение;32024813
+634903;psorias-cream;sent;parcel-on-a-place;"2016-11-19 11:09:42";634903A;Отправлен;634903-634903A_633;Невручение;32024815
+634071;joint-cream;sent;delivered;"2016-11-19 16:39:57";634071A;Отправлен;634071-634071A_633;Вручение;32024812

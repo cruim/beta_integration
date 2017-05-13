@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+691117;gemor-cream;sent;delivered;"2017-01-14 10:20:37";691117A;Отправлен;691117-691117A_708;Вручение;32024887

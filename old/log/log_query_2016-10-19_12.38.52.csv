@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+591513;joint-cream;sent;parcel-on-a-place;"2016-10-19 07:16:41";591513A;Отправлен;591513-591513A_563;Невручение;32024526
+592027;psorias-cream;sent;parcel-on-a-place;"2016-10-19 09:25:44";592027A;Отправлен;592027-592027A_566;Невручение;32024535
+591744;prosta-cream;sent;parcel-on-a-place;"2016-10-19 09:58:37";591744A;Отправлен;591744-591744A_566;Невручение;32024529

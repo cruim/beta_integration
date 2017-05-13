@@ -1,0 +1,1773 @@
+array(2) {
+  ["accounts_lk"]=>
+  string(3) "280"
+  ["accounts_pass"]=>
+  string(10) "r8/KY9-+Cl"
+}
+array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "551630-551630A_500"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('551630-551630A_500', '1', '2016-09-27 10:06:00', '3', 'Прибыло в город назначения', 'CB016565800RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '551630-551630A_500' AND `date_time`  = '2016-09-27 10:06:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "545628-545628A_500"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('545628-545628A_500', '1', '2016-09-26 17:12:00', '3', 'Прибыло в город назначения', 'CB016565892RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '545628-545628A_500' AND `date_time`  = '2016-09-26 17:12:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "549660-549660A_500"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('549660-549660A_500', '1', '2016-09-27 15:32:00', '2', 'Магистральная доставка', 'CB016566028RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '549660-549660A_500' AND `date_time`  = '2016-09-27 15:32:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "550303-550303A_500"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('550303-550303A_500', '1', '2016-09-27 10:38:00', '3', 'Прибыло в город назначения', 'CB016565813RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '550303-550303A_500' AND `date_time`  = '2016-09-27 10:38:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "551113-551113A_500"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('551113-551113A_500', '1', '2016-09-27 09:10:00', '3', 'Прибыло в город назначения', 'CB016565875RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '551113-551113A_500' AND `date_time`  = '2016-09-27 09:10:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "549551-549551A_500"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('549551-549551A_500', '1', '2016-09-27 15:32:00', '2', 'Магистральная доставка', 'CB016566164RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '549551-549551A_500' AND `date_time`  = '2016-09-27 15:32:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "550250-550250A_500"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('550250-550250A_500', '1', '2016-10-17 12:41:00', '2', 'Магистральная доставка', 'CB016565950RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '550250-550250A_500' AND `date_time`  = '2016-10-17 12:41:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "550382-550382A_500"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('550382-550382A_500', '1', '2016-09-27 08:58:00', '2', 'Магистральная доставка', 'CB016565795RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '550382-550382A_500' AND `date_time`  = '2016-09-27 08:58:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "561302-561302A_515"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('561302-561302A_515', '1', '2016-10-05 18:26:00', '3', 'Прибыло в город назначения', 'CB016566748RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '561302-561302A_515' AND `date_time`  = '2016-10-05 18:26:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "561689-561689A_515"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('561689-561689A_515', '1', '2016-10-06 15:32:00', '2', 'Магистральная доставка', 'CB016566703RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '561689-561689A_515' AND `date_time`  = '2016-10-06 15:32:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "559764-559764A_516"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('559764-559764A_516', '8', '2016-10-12 16:45:07', '5', 'Невручение', '32024175' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '559764-559764A_516' AND `date_time`  = '2016-10-12 16:45:07' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "560126-560126A_515"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('560126-560126A_515', '1', '2016-10-11 16:27:00', '2', 'Магистральная доставка', 'CB016566717RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '560126-560126A_515' AND `date_time`  = '2016-10-11 16:27:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "560289-560289A_515"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('560289-560289A_515', '1', '2016-10-05 13:16:00', '2', 'Магистральная доставка', 'CB016566796RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '560289-560289A_515' AND `date_time`  = '2016-10-05 13:16:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "561618-561618A_516"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('561618-561618A_516', '8', '2016-10-06 15:21:05', '5', 'Невручение', '32024234' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '561618-561618A_516' AND `date_time`  = '2016-10-06 15:21:05' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "559178-559178A_515"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('559178-559178A_515', '1', '2016-10-07 16:11:00', '2', 'Магистральная доставка', 'CB016566677RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '559178-559178A_515' AND `date_time`  = '2016-10-07 16:11:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "559898-559898A_515"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('559898-559898A_515', '1', '2016-10-06 15:32:00', '2', 'Магистральная доставка', 'CB016566685RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '559898-559898A_515' AND `date_time`  = '2016-10-06 15:32:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "562001-562001A_516"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('562001-562001A_516', '8', '2016-10-17 15:32:17', '5', 'Невручение', '32024246' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '562001-562001A_516' AND `date_time`  = '2016-10-17 15:32:17' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "560148-560148A_515"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('560148-560148A_515', '1', '2016-10-06 10:52:00', '3', 'Прибыло в город назначения', 'CB016566840RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '560148-560148A_515' AND `date_time`  = '2016-10-06 10:52:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "566356-566356A_529"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('566356-566356A_529', '8', '2016-10-12 16:45:07', '5', 'Невручение', '32024314' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '566356-566356A_529' AND `date_time`  = '2016-10-12 16:45:07' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "571547-571547A_535"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('571547-571547A_535', '1', '2016-10-12 09:57:00', '2', 'Магистральная доставка', 'CB016567261RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '571547-571547A_535' AND `date_time`  = '2016-10-12 09:57:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "569197-569197A_535"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('569197-569197A_535', '1', '2016-10-12 09:11:00', '3', 'Прибыло в город назначения', 'CB016567346RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '569197-569197A_535' AND `date_time`  = '2016-10-12 09:11:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "569517-569517A_536"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('569517-569517A_536', '8', '2016-10-14 16:36:01', '5', 'Невручение', '32024363' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '569517-569517A_536' AND `date_time`  = '2016-10-14 16:36:01' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "568372-568372A_536"
+}
+<pre>string(238) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('568372-568372A_536', '8', '2016-10-13 15:00:39', '1', 'Передано в доставку', '32024330' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '568372-568372A_536' AND `date_time`  = '2016-10-13 15:00:39' AND `state_code` = '1'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "568155-568155A_535"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('568155-568155A_535', '1', '2016-10-12 09:11:00', '3', 'Прибыло в город назначения', 'CB016567403RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '568155-568155A_535' AND `date_time`  = '2016-10-12 09:11:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "569904-569904A_535"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('569904-569904A_535', '1', '2016-10-12 08:47:00', '2', 'Магистральная доставка', 'CB016567350RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '569904-569904A_535' AND `date_time`  = '2016-10-12 08:47:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "568603-568603A_536"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('568603-568603A_536', '8', '2016-10-14 16:44:46', '5', 'Невручение', '32024334' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '568603-568603A_536' AND `date_time`  = '2016-10-14 16:44:46' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "570279-570279A_535"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('570279-570279A_535', '1', '2016-10-13 17:57:00', '3', 'Прибыло в город назначения', 'CB016567363RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '570279-570279A_535' AND `date_time`  = '2016-10-13 17:57:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "569246-569246A_536"
+}
+<pre>string(216) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('569246-569246A_536', '8', '2016-10-10 17:23:53', '6', 'Возврат', '32024357' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '569246-569246A_536' AND `date_time`  = '2016-10-10 17:23:53' AND `state_code` = '6'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "569193-569193A_536"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('569193-569193A_536', '8', '2016-10-14 16:44:46', '5', 'Невручение', '32024354' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '569193-569193A_536' AND `date_time`  = '2016-10-14 16:44:46' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "569223-569223A_536"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('569223-569223A_536', '8', '2016-10-14 16:44:46', '5', 'Невручение', '32024355' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '569223-569223A_536' AND `date_time`  = '2016-10-14 16:44:46' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "569847-569847A_535"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('569847-569847A_535', '1', '2016-10-12 10:08:00', '3', 'Прибыло в город назначения', 'CB016567394RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '569847-569847A_535' AND `date_time`  = '2016-10-12 10:08:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "568415-568415A_536"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('568415-568415A_536', '8', '2016-10-18 09:00:58', '2', 'Магистральная доставка', '32024331' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '568415-568415A_536' AND `date_time`  = '2016-10-18 09:00:58' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "568162-568162A_535"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('568162-568162A_535', '1', '2016-10-12 08:30:00', '3', 'Прибыло в город назначения', 'CB016567329RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '568162-568162A_535' AND `date_time`  = '2016-10-12 08:30:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "570026-570026A_535"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('570026-570026A_535', '1', '2016-10-12 08:43:00', '2', 'Магистральная доставка', 'CB016567385RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '570026-570026A_535' AND `date_time`  = '2016-10-12 08:43:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "568890-568890A_536"
+}
+<pre>string(216) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('568890-568890A_536', '8', '2016-10-10 17:23:53', '6', 'Возврат', '32024340' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '568890-568890A_536' AND `date_time`  = '2016-10-10 17:23:53' AND `state_code` = '6'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "569054-569054A_536"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('569054-569054A_536', '8', '2016-10-14 16:44:46', '5', 'Невручение', '32024347' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '569054-569054A_536' AND `date_time`  = '2016-10-14 16:44:46' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "572151-572151A_539"
+}
+<pre>string(216) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('572151-572151A_539', '8', '2016-10-10 17:23:53', '6', 'Возврат', '32024386' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '572151-572151A_539' AND `date_time`  = '2016-10-10 17:23:53' AND `state_code` = '6'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "572057-572057A_539"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('572057-572057A_539', '8', '2016-10-17 17:14:45', '5', 'Невручение', '32024383' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '572057-572057A_539' AND `date_time`  = '2016-10-17 17:14:45' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "573152-573152A_542"
+}
+<pre>string(216) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('573152-573152A_542', '8', '2016-10-10 17:23:53', '6', 'Возврат', '32024404' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '573152-573152A_542' AND `date_time`  = '2016-10-10 17:23:53' AND `state_code` = '6'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "572981-572981A_541"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('572981-572981A_541', '1', '2016-10-15 12:31:00', '2', 'Магистральная доставка', 'CB016567519RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '572981-572981A_541' AND `date_time`  = '2016-10-15 12:31:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "573452-573452A_542"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('573452-573452A_542', '8', '2016-10-06 12:21:45', '5', 'Невручение', '32024413' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '573452-573452A_542' AND `date_time`  = '2016-10-06 12:21:45' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "573705-573705A_542"
+}
+<pre>string(216) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('573705-573705A_542', '8', '2016-10-10 17:23:53', '6', 'Возврат', '32024416' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '573705-573705A_542' AND `date_time`  = '2016-10-10 17:23:53' AND `state_code` = '6'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "569877-569877A_541"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('569877-569877A_541', '1', '2016-10-15 12:31:00', '2', 'Магистральная доставка', 'CB016567505RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '569877-569877A_541' AND `date_time`  = '2016-10-15 12:31:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "571049-571049A_541"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('571049-571049A_541', '1', '2016-10-15 12:30:00', '2', 'Магистральная доставка', 'CB016567540RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '571049-571049A_541' AND `date_time`  = '2016-10-15 12:30:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "572754-572754A_541"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('572754-572754A_541', '1', '2016-10-15 12:30:00', '2', 'Магистральная доставка', 'CB016567522RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '572754-572754A_541' AND `date_time`  = '2016-10-15 12:30:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "573669-573669A_541"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('573669-573669A_541', '1', '2016-10-15 12:38:00', '2', 'Магистральная доставка', 'CB016567496RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '573669-573669A_541' AND `date_time`  = '2016-10-15 12:38:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "573049-573049A_541"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('573049-573049A_541', '1', '2016-10-15 12:36:00', '2', 'Магистральная доставка', 'CB016567567RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '573049-573049A_541' AND `date_time`  = '2016-10-15 12:36:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "570168-570168A_541"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('570168-570168A_541', '1', '2016-10-15 12:38:00', '2', 'Магистральная доставка', 'CB016567553RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '570168-570168A_541' AND `date_time`  = '2016-10-15 12:38:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "573788-573788A_541"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('573788-573788A_541', '1', '2016-10-15 12:37:00', '2', 'Магистральная доставка', 'CB016567536RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '573788-573788A_541' AND `date_time`  = '2016-10-15 12:37:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "575529-575529A_544"
+}
+<pre>string(216) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('575529-575529A_544', '8', '2016-10-10 17:23:53', '6', 'Возврат', '32024436' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '575529-575529A_544' AND `date_time`  = '2016-10-10 17:23:53' AND `state_code` = '6'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "575806-575806A_544"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('575806-575806A_544', '8', '2016-10-18 09:20:53', '2', 'Магистральная доставка', '32024438' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '575806-575806A_544' AND `date_time`  = '2016-10-18 09:20:53' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "574677-574677A_546"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('574677-574677A_546', '1', '2016-10-15 12:44:00', '2', 'Магистральная доставка', 'CB016567624RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '574677-574677A_546' AND `date_time`  = '2016-10-15 12:44:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "575483-575483A_546"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('575483-575483A_546', '1', '2016-10-15 12:36:00', '2', 'Магистральная доставка', 'CB016567598RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '575483-575483A_546' AND `date_time`  = '2016-10-15 12:36:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "576626-576626A_547"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('576626-576626A_547', '8', '2016-10-13 17:30:02', '5', 'Невручение', '32024441' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '576626-576626A_547' AND `date_time`  = '2016-10-13 17:30:02' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "574168-574168A_546"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('574168-574168A_546', '1', '2016-10-15 12:46:00', '2', 'Магистральная доставка', 'CB016567584RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '574168-574168A_546' AND `date_time`  = '2016-10-15 12:46:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "576807-576807A_547"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('576807-576807A_547', '8', '2016-10-14 12:16:16', '5', 'Невручение', '32024445' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '576807-576807A_547' AND `date_time`  = '2016-10-14 12:16:16' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "574444-574444A_546"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('574444-574444A_546', '1', '2016-10-15 12:37:00', '2', 'Магистральная доставка', 'CB016567607RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '574444-574444A_546' AND `date_time`  = '2016-10-15 12:37:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "575454-575454A_546"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('575454-575454A_546', '1', '2016-10-15 12:41:00', '2', 'Магистральная доставка', 'CB016567615RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '575454-575454A_546' AND `date_time`  = '2016-10-15 12:41:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "576677-576677A_547"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('576677-576677A_547', '8', '2016-10-08 09:59:22', '5', 'Невручение', '32024442' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '576677-576677A_547' AND `date_time`  = '2016-10-08 09:59:22' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "574390-574390A_546"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('574390-574390A_546', '1', '2016-10-15 12:48:00', '2', 'Магистральная доставка', 'CB016567575RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '574390-574390A_546' AND `date_time`  = '2016-10-15 12:48:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "572508-572508A_546"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('572508-572508A_546', '1', '2016-10-15 12:39:00', '2', 'Магистральная доставка', 'CB016567638RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '572508-572508A_546' AND `date_time`  = '2016-10-15 12:39:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "578685-578685A_551"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('578685-578685A_551', '8', '2016-10-15 10:36:37', '5', 'Невручение', '32024465' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '578685-578685A_551' AND `date_time`  = '2016-10-15 10:36:37' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "577439-577439A_551"
+}
+<pre>string(238) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('577439-577439A_551', '8', '2016-10-12 02:46:22', '1', 'Передано в доставку', '32024463' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '577439-577439A_551' AND `date_time`  = '2016-10-12 02:46:22' AND `state_code` = '1'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "574761-574761A_551"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('574761-574761A_551', '8', '2016-10-11 19:23:20', '5', 'Невручение', '32024447' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '574761-574761A_551' AND `date_time`  = '2016-10-11 19:23:20' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "576420-576420A_551"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('576420-576420A_551', '8', '2016-10-11 13:45:59', '5', 'Невручение', '32024449' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '576420-576420A_551' AND `date_time`  = '2016-10-11 13:45:59' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "577825-577825A_551"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('577825-577825A_551', '8', '2016-10-12 16:18:03', '5', 'Невручение', '32024451' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '577825-577825A_551' AND `date_time`  = '2016-10-12 16:18:03' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "586202-586202A_555"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('586202-586202A_555', '8', '2016-10-14 12:27:00', '5', 'Невручение', '32024489' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '586202-586202A_555' AND `date_time`  = '2016-10-14 12:27:00' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "585728-585728C_555"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('585728-585728C_555', '8', '2016-10-18 08:47:16', '2', 'Магистральная доставка', '32024484' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '585728-585728C_555' AND `date_time`  = '2016-10-18 08:47:16' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "585797-585797A_555"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('585797-585797A_555', '8', '2016-10-18 09:43:53', '2', 'Магистральная доставка', '32024485' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '585797-585797A_555' AND `date_time`  = '2016-10-18 09:43:53' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "583398-583398A_555"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('583398-583398A_555', '8', '2016-10-17 16:45:54', '5', 'Невручение', '32024477' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '583398-583398A_555' AND `date_time`  = '2016-10-17 16:45:54' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "587959-587959A_560"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('587959-587959A_560', '8', '2016-10-15 10:47:35', '5', 'Невручение', '32024499' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '587959-587959A_560' AND `date_time`  = '2016-10-15 10:47:35' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "587909-587909A_560"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('587909-587909A_560', '8', '2016-10-18 09:21:06', '2', 'Магистральная доставка', '32024498' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '587909-587909A_560' AND `date_time`  = '2016-10-18 09:21:06' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "583839-583839A_560"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('583839-583839A_560', '8', '2016-10-18 08:25:10', '2', 'Магистральная доставка', '32024493' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '583839-583839A_560' AND `date_time`  = '2016-10-18 08:25:10' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "522122-522122A_560"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('522122-522122A_560', '8', '2016-10-15 10:33:52', '5', 'Невручение', '32024491' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '522122-522122A_560' AND `date_time`  = '2016-10-15 10:33:52' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "586951-586951A_560"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('586951-586951A_560', '8', '2016-10-17 17:08:17', '5', 'Невручение', '32024494' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '586951-586951A_560' AND `date_time`  = '2016-10-17 17:08:17' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "570834-570834A_560"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('570834-570834A_560', '8', '2016-10-18 08:35:25', '2', 'Магистральная доставка', '32024492' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '570834-570834A_560' AND `date_time`  = '2016-10-18 08:35:25' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "587296-587296A_560"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('587296-587296A_560', '8', '2016-10-18 07:03:23', '2', 'Магистральная доставка', '32024495' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '587296-587296A_560' AND `date_time`  = '2016-10-18 07:03:23' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "589895-589895A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('589895-589895A_563', '8', '2016-10-18 08:34:10', '2', 'Магистральная доставка', '32024510' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '589895-589895A_563' AND `date_time`  = '2016-10-18 08:34:10' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "591513-591513A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('591513-591513A_563', '8', '2016-10-18 08:08:23', '2', 'Магистральная доставка', '32024526' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '591513-591513A_563' AND `date_time`  = '2016-10-18 08:08:23' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "588189-588189A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('588189-588189A_563', '8', '2016-10-18 09:47:18', '2', 'Магистральная доставка', '32024503' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '588189-588189A_563' AND `date_time`  = '2016-10-18 09:47:18' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590796-590796A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('590796-590796A_563', '8', '2016-10-18 09:33:51', '2', 'Магистральная доставка', '32024519' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590796-590796A_563' AND `date_time`  = '2016-10-18 09:33:51' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590058-590058A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('590058-590058A_563', '8', '2016-10-18 08:34:46', '2', 'Магистральная доставка', '32024512' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590058-590058A_563' AND `date_time`  = '2016-10-18 08:34:46' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "588975-588975A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('588975-588975A_563', '8', '2016-10-18 08:46:46', '2', 'Магистральная доставка', '32024505' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '588975-588975A_563' AND `date_time`  = '2016-10-18 08:46:46' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590910-590910A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('590910-590910A_563', '8', '2016-10-18 08:28:46', '2', 'Магистральная доставка', '32024521' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590910-590910A_563' AND `date_time`  = '2016-10-18 08:28:46' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "573091-573091A_563"
+}
+<pre>string(238) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('573091-573091A_563', '8', '2016-10-18 02:52:23', '1', 'Передано в доставку', '32024501' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '573091-573091A_563' AND `date_time`  = '2016-10-18 02:52:23' AND `state_code` = '1'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590228-590228A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('590228-590228A_563', '8', '2016-10-18 09:51:47', '2', 'Магистральная доставка', '32024514' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590228-590228A_563' AND `date_time`  = '2016-10-18 09:51:47' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "570564-570564A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('570564-570564A_563', '8', '2016-10-18 08:18:13', '2', 'Магистральная доставка', '32024500' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '570564-570564A_563' AND `date_time`  = '2016-10-18 08:18:13' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "589428-589428A_563"
+}
+<pre>string(238) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('589428-589428A_563', '8', '2016-10-18 02:39:22', '1', 'Передано в доставку', '32024507' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '589428-589428A_563' AND `date_time`  = '2016-10-18 02:39:22' AND `state_code` = '1'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "591165-591165A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('591165-591165A_563', '8', '2016-10-18 08:35:29', '2', 'Магистральная доставка', '32024523' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '591165-591165A_563' AND `date_time`  = '2016-10-18 08:35:29' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "586895-586895A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('586895-586895A_563', '8', '2016-10-18 08:25:13', '2', 'Магистральная доставка', '32024502' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '586895-586895A_563' AND `date_time`  = '2016-10-18 08:25:13' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590617-590617A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('590617-590617A_563', '8', '2016-10-18 09:18:49', '2', 'Магистральная доставка', '32024516' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590617-590617A_563' AND `date_time`  = '2016-10-18 09:18:49' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "589782-589782A_563"
+}
+<pre>string(238) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('589782-589782A_563', '8', '2016-10-18 09:53:19', '1', 'Передано в доставку', '32024509' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '589782-589782A_563' AND `date_time`  = '2016-10-18 09:53:19' AND `state_code` = '1'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "591482-591482A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('591482-591482A_563', '8', '2016-10-18 08:14:28', '2', 'Магистральная доставка', '32024525' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '591482-591482A_563' AND `date_time`  = '2016-10-18 08:14:28' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590712-590712A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('590712-590712A_563', '8', '2016-10-18 07:29:06', '2', 'Магистральная доставка', '32024518' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590712-590712A_563' AND `date_time`  = '2016-10-18 07:29:06' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "589897-589897A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('589897-589897A_563', '8', '2016-10-18 07:01:10', '2', 'Магистральная доставка', '32024511' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '589897-589897A_563' AND `date_time`  = '2016-10-18 07:01:10' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "588959-588959A_563"
+}
+<pre>string(238) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('588959-588959A_563', '8', '2016-10-18 02:42:07', '1', 'Передано в доставку', '32024504' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '588959-588959A_563' AND `date_time`  = '2016-10-18 02:42:07' AND `state_code` = '1'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590853-590853A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('590853-590853A_563', '8', '2016-10-18 09:53:07', '2', 'Магистральная доставка', '32024520' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590853-590853A_563' AND `date_time`  = '2016-10-18 09:53:07' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590185-590185A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('590185-590185A_563', '8', '2016-10-18 07:29:12', '2', 'Магистральная доставка', '32024513' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590185-590185A_563' AND `date_time`  = '2016-10-18 07:29:12' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "589238-589238A_563"
+}
+<pre>string(222) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('589238-589238A_563', '8', '2016-10-18 09:31:31', '5', 'Невручение', '32024506' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '589238-589238A_563' AND `date_time`  = '2016-10-18 09:31:31' AND `state_code` = '5'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "591073-591073A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('591073-591073A_563', '8', '2016-10-18 08:50:42', '2', 'Магистральная доставка', '32024522' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '591073-591073A_563' AND `date_time`  = '2016-10-18 08:50:42' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590531-590531A_563"
+}
+<pre>string(238) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('590531-590531A_563', '8', '2016-10-18 09:08:09', '1', 'Передано в доставку', '32024515' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590531-590531A_563' AND `date_time`  = '2016-10-18 09:08:09' AND `state_code` = '1'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "589541-589541A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('589541-589541A_563', '8', '2016-10-18 09:30:59', '2', 'Магистральная доставка', '32024508' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '589541-589541A_563' AND `date_time`  = '2016-10-18 09:30:59' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "591425-591425C_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('591425-591425C_563', '8', '2016-10-18 08:20:17', '2', 'Магистральная доставка', '32024524' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '591425-591425C_563' AND `date_time`  = '2016-10-18 08:20:17' AND `state_code` = '2'"
+Новый статус < /br>array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590618-590618A_563"
+}
+<pre>string(245) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('590618-590618A_563', '8', '2016-10-18 07:29:24', '2', 'Магистральная доставка', '32024517' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590618-590618A_563' AND `date_time`  = '2016-10-18 07:29:24' AND `state_code` = '2'"
+Новый статус < /br>array(2) {
+  ["accounts_lk"]=>
+  string(3) "267"
+  ["accounts_pass"]=>
+  string(11) "u5/*yf;9O2]"
+}
+array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "482903-482903A_379"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('482903-482903A_379', '1', '2016-08-06 08:47:00', '2', 'Магистральная доставка', 'CB016553245RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '482903-482903A_379' AND `date_time`  = '2016-08-06 08:47:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "489523-489523A_411"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('489523-489523A_411', '1', '2016-08-20 08:38:00', '2', 'Магистральная доставка', 'CB016558534RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '489523-489523A_411' AND `date_time`  = '2016-08-20 08:38:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "514406-514406A_439"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('514406-514406A_439', '1', '2016-08-31 08:57:00', '2', 'Магистральная доставка', 'CB016561309RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '514406-514406A_439' AND `date_time`  = '2016-08-31 08:57:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "517112-517112A_446"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('517112-517112A_446', '1', '2016-09-05 09:40:00', '2', 'Магистральная доставка', 'CB016562321RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '517112-517112A_446' AND `date_time`  = '2016-09-05 09:40:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "518970-518970A_450"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('518970-518970A_450', '1', '2016-09-09 10:12:00', '2', 'Магистральная доставка', 'CB016562397RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '518970-518970A_450' AND `date_time`  = '2016-09-09 10:12:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "521154-521154A_453"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('521154-521154A_453', '1', '2016-09-08 09:27:00', '2', 'Магистральная доставка', 'CB016562732RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '521154-521154A_453' AND `date_time`  = '2016-09-08 09:27:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "524373-524373A_455"
+}
+<pre>string(227) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('524373-524373A_455', '1', '2016-10-13 13:22:19', '5', 'Невручение', 'CB016563185RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '524373-524373A_455' AND `date_time`  = '2016-10-13 13:22:19' AND `state_code` = '5'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "532612-532612A_467"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('532612-532612A_467', '1', '2016-09-12 09:30:00', '3', 'Прибыло в город назначения', 'CB016563551RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '532612-532612A_467' AND `date_time`  = '2016-09-12 09:30:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "534198-534198A_471"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('534198-534198A_471', '1', '2016-09-22 12:27:00', '3', 'Прибыло в город назначения', 'CB016563812RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '534198-534198A_471' AND `date_time`  = '2016-09-22 12:27:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "532778-532778A_471"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('532778-532778A_471', '1', '2016-10-17 12:41:00', '2', 'Магистральная доставка', 'CB016564279RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '532778-532778A_471' AND `date_time`  = '2016-10-17 12:41:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "535522-535522A_471"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('535522-535522A_471', '1', '2016-09-23 15:00:00', '2', 'Магистральная доставка', 'CB016564225RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '535522-535522A_471' AND `date_time`  = '2016-09-23 15:00:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "536502-536502A_477"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('536502-536502A_477', '1', '2016-09-16 11:50:00', '2', 'Магистральная доставка', 'CB016564645RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '536502-536502A_477' AND `date_time`  = '2016-09-16 11:50:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "536621-536621A_477"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('536621-536621A_477', '1', '2016-10-06 10:28:00', '3', 'Прибыло в город назначения', 'CB016564574RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '536621-536621A_477' AND `date_time`  = '2016-10-06 10:28:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "539089-539089A_480"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('539089-539089A_480', '1', '2016-09-15 17:38:00', '3', 'Прибыло в город назначения', 'CB016564716RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '539089-539089A_480' AND `date_time`  = '2016-09-15 17:38:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "538796-538796A_480"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('538796-538796A_480', '1', '2016-10-15 17:28:00', '2', 'Магистральная доставка', 'CB016564662RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '538796-538796A_480' AND `date_time`  = '2016-10-15 17:28:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "540681-540681A_483"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('540681-540681A_483', '1', '2016-09-23 12:42:00', '3', 'Прибыло в город назначения', 'CB016564897RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '540681-540681A_483' AND `date_time`  = '2016-09-23 12:42:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "542661-542661A_486"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('542661-542661A_486', '1', '2016-09-28 15:22:00', '2', 'Магистральная доставка', 'CB016565036RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '542661-542661A_486' AND `date_time`  = '2016-09-28 15:22:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "544317-544317A_486"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('544317-544317A_486', '1', '2016-09-26 11:43:00', '3', 'Прибыло в город назначения', 'CB016564945RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '544317-544317A_486' AND `date_time`  = '2016-09-26 11:43:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "541252-541252A_486"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('541252-541252A_486', '1', '2016-09-23 09:33:00', '2', 'Магистральная доставка', 'CB016565040RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '541252-541252A_486' AND `date_time`  = '2016-09-23 09:33:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "541143-541143A_486"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('541143-541143A_486', '1', '2016-09-24 17:49:00', '3', 'Прибыло в город назначения', 'CB016565124RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '541143-541143A_486' AND `date_time`  = '2016-09-24 17:49:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "540812-540812A_486"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('540812-540812A_486', '1', '2016-09-23 11:38:00', '3', 'Прибыло в город назначения', 'CB016565155RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '540812-540812A_486' AND `date_time`  = '2016-09-23 11:38:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "543733-543733A_489"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('543733-543733A_489', '1', '2016-09-23 15:00:00', '2', 'Магистральная доставка', 'CB016565331RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '543733-543733A_489' AND `date_time`  = '2016-09-23 15:00:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "545671-545671A_493"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('545671-545671A_493', '1', '2016-09-23 11:19:00', '3', 'Прибыло в город назначения', 'CB016565535RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '545671-545671A_493' AND `date_time`  = '2016-09-23 11:19:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "545208-545208A_493"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('545208-545208A_493', '1', '2016-09-26 09:07:00', '2', 'Магистральная доставка', 'CB016565447RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '545208-545208A_493' AND `date_time`  = '2016-09-26 09:07:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "547114-547114A_498"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('547114-547114A_498', '1', '2016-09-27 08:26:00', '3', 'Прибыло в город назначения', 'CB016565711RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '547114-547114A_498' AND `date_time`  = '2016-09-27 08:26:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "549191-549191A_498"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('549191-549191A_498', '1', '2016-09-27 10:06:00', '3', 'Прибыло в город назначения', 'CB016565739RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '549191-549191A_498' AND `date_time`  = '2016-09-27 10:06:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "546563-546563A_498"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('546563-546563A_498', '1', '2016-09-26 11:37:00', '2', 'Магистральная доставка', 'CB016565699RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '546563-546563A_498' AND `date_time`  = '2016-09-26 11:37:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "554220-554220A_503"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('554220-554220A_503', '1', '2016-09-29 07:21:00', '2', 'Магистральная доставка', 'CB016566270RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '554220-554220A_503' AND `date_time`  = '2016-09-29 07:21:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "550116-550116A_503"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('550116-550116A_503', '1', '2016-09-28 17:22:00', '2', 'Магистральная доставка', 'CB016566252RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '550116-550116A_503' AND `date_time`  = '2016-09-28 17:22:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "552978-552978A_503"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('552978-552978A_503', '1', '2016-09-28 17:27:00', '2', 'Магистральная доставка', 'CB016566249RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '552978-552978A_503' AND `date_time`  = '2016-09-28 17:27:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "553086-553086A_503"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('553086-553086A_503', '1', '2016-09-29 08:47:00', '2', 'Магистральная доставка', 'CB016566221RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '553086-553086A_503' AND `date_time`  = '2016-09-29 08:47:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "552924-552924A_503"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('552924-552924A_503', '1', '2016-09-28 17:18:00', '2', 'Магистральная доставка', 'CB016566345RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '552924-552924A_503' AND `date_time`  = '2016-09-28 17:18:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "553037-553037A_503"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('553037-553037A_503', '1', '2016-09-28 17:22:00', '2', 'Магистральная доставка', 'CB016566408RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '553037-553037A_503' AND `date_time`  = '2016-09-28 17:22:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "553104-553104A_503"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('553104-553104A_503', '1', '2016-09-28 17:22:00', '2', 'Магистральная доставка', 'CB016566306RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '553104-553104A_503' AND `date_time`  = '2016-09-28 17:22:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "547175-547175A_503"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('547175-547175A_503', '1', '2016-09-28 17:17:00', '2', 'Магистральная доставка', 'CB016566385RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '547175-547175A_503' AND `date_time`  = '2016-09-28 17:17:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "556729-556729A_508"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('556729-556729A_508', '1', '2016-09-29 08:47:00', '2', 'Магистральная доставка', 'CB016566500RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '556729-556729A_508' AND `date_time`  = '2016-09-29 08:47:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "554212-554212A_508"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('554212-554212A_508', '1', '2016-09-28 17:23:00', '2', 'Магистральная доставка', 'CB016566473RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '554212-554212A_508' AND `date_time`  = '2016-09-28 17:23:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "556902-556902A_508"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('556902-556902A_508', '1', '2016-09-28 17:18:00', '2', 'Магистральная доставка', 'CB016566456RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '556902-556902A_508' AND `date_time`  = '2016-09-28 17:18:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "557082-557082A_511"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('557082-557082A_511', '1', '2016-10-05 17:32:00', '3', 'Прибыло в город назначения', 'CB016566663RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '557082-557082A_511' AND `date_time`  = '2016-10-05 17:32:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "558642-558642A_511"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('558642-558642A_511', '1', '2016-10-06 10:57:00', '3', 'Прибыло в город назначения', 'CB016566629RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '558642-558642A_511' AND `date_time`  = '2016-10-06 10:57:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "557832-557832A_511"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('557832-557832A_511', '1', '2016-10-06 09:00:00', '2', 'Магистральная доставка', 'CB016566646RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '557832-557832A_511' AND `date_time`  = '2016-10-06 09:00:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "562291-562291A_519"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('562291-562291A_519', '1', '2016-10-05 11:08:00', '2', 'Магистральная доставка', 'CB016566986RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '562291-562291A_519' AND `date_time`  = '2016-10-05 11:08:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "560636-560636A_519"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('560636-560636A_519', '1', '2016-10-05 11:09:00', '2', 'Магистральная доставка', 'CB016567068RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '560636-560636A_519' AND `date_time`  = '2016-10-05 11:09:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "565326-565326A_528"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('565326-565326A_528', '1', '2016-10-06 09:19:00', '2', 'Магистральная доставка', 'CB016567195RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '565326-565326A_528' AND `date_time`  = '2016-10-06 09:19:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "564388-564388A_532"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('564388-564388A_532', '1', '2016-10-15 10:18:00', '2', 'Магистральная доставка', 'CB016567235RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '564388-564388A_532' AND `date_time`  = '2016-10-15 10:18:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "566093-566093A_532"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('566093-566093A_532', '1', '2016-10-15 09:08:00', '2', 'Магистральная доставка', 'CB016567227RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '566093-566093A_532' AND `date_time`  = '2016-10-15 09:08:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "566947-566947C_532"
+}
+<pre>string(256) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('566947-566947C_532', '1', '2016-10-15 12:09:00', '3', 'Прибыло в город назначения', 'CB016567258RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '566947-566947C_532' AND `date_time`  = '2016-10-15 12:09:00' AND `state_code` = '3'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "555008-555008A_531"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('555008-555008A_531', '1', '2016-10-15 08:51:00', '2', 'Магистральная доставка', 'CB016567244RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '555008-555008A_531' AND `date_time`  = '2016-10-15 08:51:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "566191-566191A_532"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('566191-566191A_532', '1', '2016-10-14 17:03:00', '2', 'Магистральная доставка', 'CB016567213RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '566191-566191A_532' AND `date_time`  = '2016-10-14 17:03:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "572249-572249A_538"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('572249-572249A_538', '1', '2016-10-12 07:50:00', '2', 'Магистральная доставка', 'CB016567451RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '572249-572249A_538' AND `date_time`  = '2016-10-12 07:50:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "571851-571851A_538"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('571851-571851A_538', '1', '2016-10-12 09:02:00', '2', 'Магистральная доставка', 'CB016567479RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '571851-571851A_538' AND `date_time`  = '2016-10-12 09:02:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "572800-572800A_538"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('572800-572800A_538', '1', '2016-10-12 08:44:00', '2', 'Магистральная доставка', 'CB016567425RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '572800-572800A_538' AND `date_time`  = '2016-10-12 08:44:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "569180-569180A_538"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('569180-569180A_538', '1', '2016-10-12 06:54:00', '2', 'Магистральная доставка', 'CB016567465RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '569180-569180A_538' AND `date_time`  = '2016-10-12 06:54:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "578517-578517A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('578517-578517A_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567641RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '578517-578517A_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "577443-577443C_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('577443-577443C_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567791RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '577443-577443C_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "578971-578971A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('578971-578971A_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567669RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '578971-578971A_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "577570-577570A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('577570-577570A_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567805RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '577570-577570A_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "579326-579326A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('579326-579326A_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567672RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '579326-579326A_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "575069-575069A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('575069-575069A_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567743RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '575069-575069A_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "577882-577882A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('577882-577882A_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567686RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '577882-577882A_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "581453-581453A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('581453-581453A_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567765RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '581453-581453A_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "576664-576664A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('576664-576664A_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567757RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '576664-576664A_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "578280-578280A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('578280-578280A_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567774RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '578280-578280A_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "577401-577401A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('577401-577401A_550', '1', '2016-10-12 19:06:00', '2', 'Магистральная доставка', 'CB016567831RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '577401-577401A_550' AND `date_time`  = '2016-10-12 19:06:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "578704-578704A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('578704-578704A_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567726RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '578704-578704A_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "579003-579003A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('579003-579003A_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567709RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '579003-579003A_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "574914-574914A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('574914-574914A_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567655RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '574914-574914A_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "577728-577728A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('577728-577728A_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567712RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '577728-577728A_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "579856-579856A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('579856-579856A_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567730RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '579856-579856A_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "575778-575778A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('575778-575778A_550', '1', '2016-10-12 19:06:00', '2', 'Магистральная доставка', 'CB016567828RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '575778-575778A_550' AND `date_time`  = '2016-10-12 19:06:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "578251-578251A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('578251-578251A_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567788RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '578251-578251A_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "581954-581954A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('581954-581954A_550', '1', '2016-10-12 19:06:00', '2', 'Магистральная доставка', 'CB016567814RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '581954-581954A_550' AND `date_time`  = '2016-10-12 19:06:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "577072-577072A_550"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('577072-577072A_550', '1', '2016-10-12 20:31:25', '2', 'Магистральная доставка', 'CB016567690RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '577072-577072A_550' AND `date_time`  = '2016-10-12 20:31:25' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "573033-573033A_553"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('573033-573033A_553', '1', '2016-10-13 06:10:00', '2', 'Магистральная доставка', 'CB016567862RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '573033-573033A_553' AND `date_time`  = '2016-10-13 06:10:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "583311-583311A_553"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('583311-583311A_553', '1', '2016-10-13 06:10:00', '2', 'Магистральная доставка', 'CB016567859RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '583311-583311A_553' AND `date_time`  = '2016-10-13 06:10:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "582028-582028C_553"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('582028-582028C_553', '1', '2016-10-13 06:10:00', '2', 'Магистральная доставка', 'CB016567876RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '582028-582028C_553' AND `date_time`  = '2016-10-13 06:10:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "582864-582864A_553"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('582864-582864A_553', '1', '2016-10-13 06:10:00', '2', 'Магистральная доставка', 'CB016567845RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '582864-582864A_553' AND `date_time`  = '2016-10-13 06:10:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "585834-585834A_557"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('585834-585834A_557', '1', '2016-10-15 01:31:00', '2', 'Магистральная доставка', 'CB016567955RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '585834-585834A_557' AND `date_time`  = '2016-10-15 01:31:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "582449-582449A_557"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('582449-582449A_557', '1', '2016-10-15 01:31:00', '2', 'Магистральная доставка', 'CB016567880RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '582449-582449A_557' AND `date_time`  = '2016-10-15 01:31:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "586180-586180A_557"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('586180-586180A_557', '1', '2016-10-15 01:31:00', '2', 'Магистральная доставка', 'CB016567902RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '586180-586180A_557' AND `date_time`  = '2016-10-15 01:31:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "584822-584822A_557"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('584822-584822A_557', '1', '2016-10-15 01:31:00', '2', 'Магистральная доставка', 'CB016567916RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '584822-584822A_557' AND `date_time`  = '2016-10-15 01:31:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "585579-585579A_557"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('585579-585579A_557', '1', '2016-10-15 01:31:00', '2', 'Магистральная доставка', 'CB016567947RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '585579-585579A_557' AND `date_time`  = '2016-10-15 01:31:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "586058-586058A_557"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('586058-586058A_557', '1', '2016-10-15 01:31:00', '2', 'Магистральная доставка', 'CB016567893RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '586058-586058A_557' AND `date_time`  = '2016-10-15 01:31:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "577528-577528A_557"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('577528-577528A_557', '1', '2016-10-15 01:31:00', '2', 'Магистральная доставка', 'CB016567920RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '577528-577528A_557' AND `date_time`  = '2016-10-15 01:31:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "586455-586455A_557"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('586455-586455A_557', '1', '2016-10-15 01:31:00', '2', 'Магистральная доставка', 'CB016567978RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '586455-586455A_557' AND `date_time`  = '2016-10-15 01:31:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "583564-583564A_557"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('583564-583564A_557', '1', '2016-10-15 01:31:00', '2', 'Магистральная доставка', 'CB016567964RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '583564-583564A_557' AND `date_time`  = '2016-10-15 01:31:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "585014-585014A_557"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('585014-585014A_557', '1', '2016-10-15 01:31:00', '2', 'Магистральная доставка', 'CB016567933RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '585014-585014A_557' AND `date_time`  = '2016-10-15 01:31:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "586591-586591A_559"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('586591-586591A_559', '1', '2016-10-18 00:48:00', '2', 'Магистральная доставка', 'CB016568015RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '586591-586591A_559' AND `date_time`  = '2016-10-18 00:48:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "587337-587337A_559"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('587337-587337A_559', '1', '2016-10-18 00:48:00', '2', 'Магистральная доставка', 'CB016568001RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '587337-587337A_559' AND `date_time`  = '2016-10-18 00:48:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "587472-587472A_559"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('587472-587472A_559', '1', '2016-10-18 00:48:00', '2', 'Магистральная доставка', 'CB016567981RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '587472-587472A_559' AND `date_time`  = '2016-10-18 00:48:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "586695-586695A_559"
+}
+<pre>string(250) " INSERT INTO tracking (`shipping_order_order_id`, `delivery_type`, `date_time`, `state_code`, `state`, `barcode`)
+        VALUES ('586695-586695A_559', '1', '2016-10-18 00:49:00', '2', 'Магистральная доставка', 'CB016567995RU' ) "
+</pre>string(155) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '586695-586695A_559' AND `date_time`  = '2016-10-18 00:49:00' AND `state_code` = '2'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "588689-588689A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('588689-588689A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '588689-588689A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590951-590951A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('590951-590951A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590951-590951A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "587446-587446A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('587446-587446A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '587446-587446A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590102-590102A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('590102-590102A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590102-590102A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "588980-588980A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('588980-588980A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '588980-588980A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "588124-588124A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('588124-588124A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '588124-588124A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590173-590173A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('590173-590173A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590173-590173A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "589429-589429A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('589429-589429A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '589429-589429A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "588489-588489A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('588489-588489A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '588489-588489A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590569-590569A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('590569-590569A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590569-590569A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "586845-586845A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('586845-586845A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '586845-586845A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "589730-589730A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('589730-589730A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '589730-589730A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "588653-588653A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('588653-588653A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '588653-588653A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590860-590860C_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('590860-590860C_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590860-590860C_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "589863-589863A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('589863-589863A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '589863-589863A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "588778-588778A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('588778-588778A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '588778-588778A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590138-590138A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('590138-590138A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590138-590138A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "589118-589118A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('589118-589118A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '589118-589118A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "588280-588280A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('588280-588280A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '588280-588280A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590352-590352A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('590352-590352A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590352-590352A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "589697-589697A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('589697-589697A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '589697-589697A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "588608-588608A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('588608-588608A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '588608-588608A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "590788-590788A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('590788-590788A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '590788-590788A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "587120-587120A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('587120-587120A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '587120-587120A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />array(1) {
+  ["shipping_order_order_id"]=>
+  string(18) "589731-589731A_562"
+}
+<pre>string(185) " INSERT INTO tracking (`shipping_order_order_id`, `state_code`, `state`)
+        VALUES ('589731-589731A_562', '0', 'Заказ не найден или еще не отгружен' ) "
+</pre>string(140) " SELECT * FROM tracking_all 
+        WHERE `shipping_order_order_id` = '589731-589731A_562' AND `date_time`  is NULL  AND `state_code` = '0'"
+Повтор <br />

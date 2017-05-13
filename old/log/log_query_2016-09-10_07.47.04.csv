@@ -1,0 +1,18 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+458399;vari-cream-com;parcel-on-a-place;delivered;"2016-09-09 21:23:00";458399A;"Товар в точке получения";458399-458399A_321;Вручение;CB016545442RU
+486461;joint-cream;parcel-on-a-place;delivered;"2016-09-08 15:59:00";486461A;"Товар в точке получения";486461-486461A_390;Вручение;CB016555436RU
+497115;joint-cream;parcel-on-a-place;delivered;"2016-09-09 22:12:00";497115A;"Товар в точке получения";497115-497115A_402;Вручение;CB016557834RU
+500571;psorias-cream;injob;delivered;"2016-09-09 21:11:00";500571A;"Требует доработки оператора";500571-500571A_414;Вручение;CB016558755RU
+510608;vari-cream-com;parcel-on-a-place;delivered;"2016-09-08 17:51:00";510608A;"Товар в точке получения";510608-510608A_433;Вручение;CB016560855RU
+513753;joint-cream;parcel-on-a-place;delivered;"2016-09-08 13:17:00";513753A;"Товар в точке получения";513753-513753A_439;Вручение;CB016561431RU
+513125;joint-cream;parcel-on-a-place;delivered;"2016-09-09 13:12:00";513125A;"Товар в точке получения";513125-513125A_439;Вручение;CB016561215RU
+516367;prosta-cream;parcel-on-a-place;delivered;"2016-09-09 17:27:00";516367A;"Товар в точке получения";516367-516367A_443;Вручение;CB016561961RU
+517924;joint-cream;parcel-on-a-place;delivered;"2016-09-09 18:20:00";517924A;"Товар в точке получения";517924-517924A_446;Вручение;CB016562335RU
+518586;vari-cream-com;parcel-on-a-place;delivered;"2016-09-09 16:51:00";518586A;"Товар в точке получения";518586-518586A_450;Вручение;CB016562542RU
+519462;joint-cream;parcel-on-a-place;delivered;"2016-09-09 17:26:00";519462A;"Товар в точке получения";519462-519462A_450;Вручение;CB016562471RU
+519034;fungus-cream;parcel-on-a-place;delivered;"2016-09-09 09:21:00";519034A;"Товар в точке получения";519034-519034A_450;Вручение;CB016562595RU
+523515;joint-cream;parcel-on-a-place;delivered;"2016-09-09 17:47:00";523515A;"Товар в точке получения";523515-523515A_455;Вручение;CB016563123RU
+524115;vari-cream-com;parcel-on-a-place;delivered;"2016-09-09 16:51:00";524115A;"Товар в точке получения";524115-524115A_455;Вручение;CB016562967RU
+524657;psorias-cream;parcel-on-a-place;delivered;"2016-09-08 14:35:00";524657A;"Товар в точке получения";524657-524657A_455;Вручение;CB016562975RU
+522884;vari-cream-com;parcel-on-a-place;delivered;"2016-09-09 14:38:00";522884A;"Товар в точке получения";522884-522884A_455;Вручение;CB016562794RU
+535589;joint-cream;sent;delivered;"2016-09-09 21:19:31";535589A;Отправлен;535589-535589A_481;Вручение;32023859

@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+453898;fungus-cream;parcel-on-a-place;delivered;"2016-07-22 23:34:00";453898A;"Товар в точке получения";453898-453898A_321;Вручение;CB016545765RU
+473728;psorias-cream;sent;delivered;"2016-07-23 11:54:54";473728A;Отправлен;473728-473728A_360;Вручение;32021881

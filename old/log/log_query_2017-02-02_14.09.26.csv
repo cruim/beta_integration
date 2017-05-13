@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+707923;joint-cream;parcel-on-a-place;delivered;"2017-02-01 18:23:00";707923A;"Товар в точке получения";707923-707923A_728;Вручение;CB016572791RU
+716416;psorias-cream;parcel-on-a-place;delivered;"2017-02-02 09:35:00";716416A;"Товар в точке получения";716416-716416A_737;Вручение;CB018024135RU
+719060;gemor-cream;parcel-on-a-place;delivered;"2017-02-01 13:12:00";719060A;"Товар в точке получения";719060-719060A_737;Вручение;CB018024104RU

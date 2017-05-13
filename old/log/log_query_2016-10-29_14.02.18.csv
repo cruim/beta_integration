@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+606206;joint-cream;sent;delivered;"2016-10-29 12:32:51";606206A;Отправлен;606206-606206A_590;Вручение;32024620
+605458;joint-cream;sent;parcel-on-a-place;"2016-10-29 10:00:00";605458A;Отправлен;605458-605458A_590;"Прибыло в город назначения";32024617

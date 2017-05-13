@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+500038;vari-cream-com;sent;delivered;"2016-08-14 12:41:13";500038A;Отправлен;500038-500038A_412;Вручение;32022649
+500921;prosta-cream;sent;parcel-on-a-place;"2016-08-14 14:56:41";500921A;Отправлен;500921-500921A_420;Невручение;32022730
+503352;gemor-cream;sent;parcel-on-a-place;"2016-08-14 14:35:07";503352A;Отправлен;503352-503352A_420;Невручение;32022760

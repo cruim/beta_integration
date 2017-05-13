@@ -1,0 +1,8 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+452498;gemor-cream;parcel-on-a-place;delivered;"2016-07-21 12:20:00";452498A;"Товар в точке получения";452498-452498A_307;Вручение;CB016542392RU
+455128;gemor-cream;parcel-on-a-place;delivered;"2016-07-21 08:42:00";455128A;"Товар в точке получения";455128-455128A_310;Вручение;CB016542772RU
+460175;vari-cream-com;sent;parcel-on-a-place;"2016-07-21 12:54:00";460175A;Отправлен;460175-460175A_326;Невручение;CB016546142RU
+465037;vari-cream-com;parcel-on-a-place;delivered;"2016-07-21 13:22:00";465037A;"Товар в точке получения";465037-465037A_334;Вручение;CB016547386RU
+464733;joint-cream;parcel-on-a-place;delivered;"2016-07-21 10:49:00";464733A;"Товар в точке получения";464733-464733A_334;Вручение;CB016547338RU
+470814;gemor-cream;parcel-on-a-place;delivered;"2016-07-21 13:35:18";470814A;"Товар в точке получения";470814-470814A_347;Вручение;32021772
+469933;wrinkles-cream;injob;delivered;"2016-07-20 23:00:00";469933A;"Требует доработки оператора";469933-469933A_347;Вручение;32021745

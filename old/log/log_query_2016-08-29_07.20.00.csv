@@ -1,0 +1,15 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+477618;psorias-cream;parcel-on-a-place;delivered;"2016-08-26 23:00:00";477618A;"Товар в точке получения";477618-477618A_366;Вручение;CB016552315RU
+494328;joint-cream;parcel-on-a-place;delivered;"2016-08-26 19:25:00";494328A;"Товар в точке получения";494328-494328A_402;Вручение;CB016557471RU
+500660;psorias-cream;parcel-on-a-place;delivered;"2016-08-26 13:48:00";500660A;"Товар в точке получения";500660-500660A_415;Вручение;CB016558786RU
+502655;joint-cream;parcel-on-a-place;delivered;"2016-08-26 14:29:00";502655A;"Товар в точке получения";502655-502655A_418;Вручение;CB016559415RU
+505169;psorias-cream;sent;parcel-on-a-place;"2016-08-26 08:54:00";505169A;Отправлен;505169-505169A_422;"Прибыло в город назначения";CB016560025RU
+505852;joint-cream;parcel-on-a-place;delivered;"2016-08-26 14:53:00";505852A;"Товар в точке получения";505852-505852A_422;Вручение;CB016559937RU
+508092;vari-cream-com;parcel-on-a-place;delivered;"2016-08-26 15:11:00";508092A;"Товар в точке получения";508092-508092A_426;Вручение;CB016560277RU
+505377;vari-cream-com;parcel-on-a-place;delivered;"2016-08-26 21:24:00";505377C;"Товар в точке получения";505377-505377C_425;Вручение;CB016560294RU
+503399;vari-cream-com;parcel-on-a-place;delivered;"2016-08-26 15:39:00";503399A;"Товар в точке получения";503399-503399A_425;Вручение;CB016560422RU
+509510;joint-cream;sent;parcel-on-a-place;"2016-08-26 08:39:00";509510A;Отправлен;509510-509510A_430;"Прибыло в город назначения";CB016560705RU
+509369;joint-cream;sent;parcel-on-a-place;"2016-08-26 12:59:00";509369A;Отправлен;509369-509369A_430;"Прибыло в город назначения";CB016560657RU
+509122;osteochondrosis-cream;sent;parcel-on-a-place;"2016-08-26 09:02:00";509122A;Отправлен;509122-509122A_430;"Прибыло в город назначения";CB016560665RU
+508809;joint-cream;sent;delivered;"2016-08-26 17:04:00";508809A;Отправлен;508809-508809A_430;Вручение;CB016560802RU
+509195;joint-cream;sent;delivered;"2016-08-26 13:24:00";509195A;Отправлен;509195-509195A_430;Вручение;CB016560674RU

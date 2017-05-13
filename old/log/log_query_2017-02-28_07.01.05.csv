@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+757302;vari-cream-com;parcel-on-a-place;delivered;"2017-02-27 15:55:00";757302A;"Товар в точке получения";757302-757302A_773;Вручение;CB018025475RU

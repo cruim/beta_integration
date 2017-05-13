@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+691265;joint-cream;sent;delivered;"2017-01-16 17:29:41";691265A;Отправлен;691265-691265A_708;Вручение;32024922
+705974;wrinkles-cream;sent;delivered;"2017-01-16 16:39:05";705974A;Отправлен;705974-705974A_732;Вручение;32025106
+711895;psorias-cream;sent;delivered;"2017-01-16 15:53:46";711895C;Отправлен;711895-711895C_732;Вручение;32025108

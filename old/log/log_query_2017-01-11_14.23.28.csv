@@ -1,0 +1,6 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+701083;wrinkles-cream;sent;delivered;"2017-01-11 12:58:10";701083A;Отправлен;701083-701083A_719;Вручение;32025045
+698449;fungus-cream;sent;delivered;"2017-01-11 11:11:11";698449A;Отправлен;698449-698449A_719;Вручение;32025008
+701613;joint-cream;sent;delivered;"2017-01-11 12:41:04";701613A;Отправлен;701613-701613A_719;Вручение;32025052
+701151;joint-cream;sent;parcel-on-a-place;"2017-01-11 09:12:36";701151A;Отправлен;701151-701151A_719;Невручение;32025046
+703576;wrinkles-cream;sent;delivered;"2017-01-11 11:03:46";703576A;Отправлен;703576-703576A_722;Вручение;32025071

@@ -1,0 +1,8 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+484330;prosta-cream;sent;delivered;"2016-08-03 10:46:29";484330A;Отправлен;484330-484330A_386;Вручение;32022197
+483857;vari-cream-com;sent;delivered;"2016-08-03 09:53:06";483857A;Отправлен;483857-483857A_386;Вручение;32022184
+487908;joint-cream;sent;delivered;"2016-08-03 10:11:26";487908A;Отправлен;487908-487908A_386;Вручение;32022291
+487447;vari-cream-com;sent;delivered;"2016-08-03 11:05:16";487447A;Отправлен;487447-487447A_386;Вручение;32022273
+486057;joint-cream;parcel-on-a-place;delivered;"2016-08-03 11:43:38";486057A;"Товар в точке получения";486057-486057A_386;Вручение;32022234
+485475;joint-cream;sent;delivered;"2016-08-03 10:17:22";485475A;Отправлен;485475-485475A_386;Вручение;32022226
+485221;vari-cream-com;sent;parcel-on-a-place;"2016-08-03 09:11:06";485221A;Отправлен;485221-485221A_386;Невручение;32022217

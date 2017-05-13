@@ -1,0 +1,15 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+622087;fungus-cream;parcel-on-a-place;delivered;"2016-12-01 17:54:00";622087A;"Товар в точке получения";622087-622087A_618;Вручение;CB016569744RU
+629055;gemor-cream;parcel-on-a-place;delivered;"2016-12-01 12:00:00";629055A;"Товар в точке получения";629055-629055A_621;Вручение;CB016569850RU
+632016;joint-cream;sent;parcel-on-a-place;"2016-12-01 11:59:00";632016A;Отправлен;632016-632016A_632;"Прибыло в город назначения";CB016570040RU
+634049;prosta-cream;sent;delivered;"2016-12-01 13:29:00";634049A;Отправлен;634049-634049A_632;Вручение;CB016570022RU
+636215;vari-cream-com;sent;parcel-on-a-place;"2016-12-01 09:02:00";636215A;Отправлен;636215-636215A_636;"Прибыло в город назначения";CB016570115RU
+635693;prosta-cream;sent;parcel-on-a-place;"2016-12-01 09:24:00";635693A;Отправлен;635693-635693A_636;"Прибыло в город назначения";CB016570098RU
+636323;prosta-cream;sent;parcel-on-a-place;"2016-12-01 09:55:00";636323A;Отправлен;636323-636323A_636;"Прибыло в город назначения";CB016570075RU
+637688;fungus-cream;sent;parcel-on-a-place;"2016-12-01 12:03:00";637688A;Отправлен;637688-637688A_636;"Прибыло в город назначения";CB016570084RU
+640570;joint-cream;sent;parcel-on-a-place;"2016-12-01 10:15:00";640570A;Отправлен;640570-640570A_647;"Прибыло в город назначения";CB016570226RU
+637340;gemor-cream;sent;parcel-on-a-place;"2016-12-01 11:08:00";637340A;Отправлен;637340-637340A_647;"Прибыло в город назначения";CB016570209RU
+637364;gemor-cream;sent;parcel-on-a-place;"2016-12-01 08:46:00";637364A;Отправлен;637364-637364A_647;"Прибыло в город назначения";CB016570155RU
+638730;joint-cream;sent;parcel-on-a-place;"2016-12-01 08:56:00";638730A;Отправлен;638730-638730A_647;"Прибыло в город назначения";CB016570141RU
+638713;gemor-cream;sent;parcel-on-a-place;"2016-12-01 10:24:00";638713A;Отправлен;638713-638713A_647;"Прибыло в город назначения";CB016570230RU
+638727;vari-cream-com;sent;delivered;"2016-12-01 14:52:00";638727A;Отправлен;638727-638727A_647;Вручение;CB016570212RU

@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+693981;vari-cream-com;sent;delivered;"2017-01-11 08:58:34";693981A;Отправлен;693981-693981A_714;Вручение;32024971

@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+726227;joint-cream;parcel-on-a-place;delivered;"2017-02-11 15:57:00";726227A;"Товар в точке получения";726227-726227A_746;Вручение;CB018024529RU
+731065;joint-cream;parcel-on-a-place;delivered;"2017-02-11 14:53:00";731065A;"Товар в точке получения";731065-731065A_746;Вручение;CB018024532RU
+725313;vari-cream-com;parcel-on-a-place;delivered;"2017-02-11 14:53:00";725313A;"Товар в точке получения";725313-725313A_746;Вручение;CB018024435RU

@@ -1,0 +1,5 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+626288;prosta-cream;sent;delivered;"2016-11-15 13:19:43";626288C;Отправлен;626288-626288C_622;Вручение;32024767
+626341;prosta-cream;sent;parcel-on-a-place;"2016-11-15 15:16:56";626341A;Отправлен;626341-626341A_622;Невручение;32024768
+627719;psorias-cream;sent;delivered;"2016-11-15 13:01:51";627719A;Отправлен;627719-627719A_622;Вручение;32024773
+629770;vari-cream-com;sent;delivered;"2016-11-15 15:15:29";629770A;Отправлен;629770-629770A_622;Вручение;32024776

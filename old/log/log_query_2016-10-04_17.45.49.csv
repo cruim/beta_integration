@@ -1,0 +1,5 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+569740;joint-cream;sent;delivered;"2016-10-04 13:05:29";569740A;Отправлен;569740-569740A_536;Вручение;32024373
+569709;vari-cream-com;sent;delivered;"2016-10-04 14:52:26";569709A;Отправлен;569709-569709A_536;Вручение;32024372
+569394;joint-cream;sent;parcel-on-a-place;"2016-10-04 12:55:48";569394A;Отправлен;569394-569394A_536;Невручение;32024359
+569520;gemor-cream;sent;parcel-on-a-place;"2016-10-04 12:43:01";569520A;Отправлен;569520-569520A_536;Невручение;32024364

@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+569522;joint-cream;sent;parcel-on-a-place;"2016-10-06 08:56:18";569522A;Отправлен;569522-569522A_536;Невручение;32024366
+573152;joint-cream;sent;parcel-on-a-place;"2016-10-06 09:09:39";573152A;Отправлен;573152-573152A_542;Невручение;32024404

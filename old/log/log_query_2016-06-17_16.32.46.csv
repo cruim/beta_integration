@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+411689;cream-masthopaty;sent;delivered;"2016-06-16 17:36:00";411689A;Отправлен;411689-411689A_248;Вручение;CB014102000RU
+422926;psorias-cream;sent;delivered;"2016-06-16 16:52:00";422926A;Отправлен;422926-422926A_257;Вручение;CB014102821RU

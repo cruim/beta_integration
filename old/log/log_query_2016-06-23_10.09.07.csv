@@ -1,0 +1,6 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+418046;gemor-cream;parcel-on-a-place;delivered;"2016-06-22 21:49:00";418046A;"Товар в точке получения";418046-418046A_241;Вручение;CB014101199RU
+416255;wrinkles-cream;parcel-on-a-place;delivered;"2016-06-22 22:40:00";416255A;"Товар в точке получения";416255-416255A_241;Вручение;CB014101463RU
+423093;psorias-cream;parcel-on-a-place;delivered;"2016-06-22 22:54:00";423093A;"Товар в точке получения";423093-423093A_256;Вручение;CB014102795RU
+427157;vari-cream-com;parcel-on-a-place;delivered;"2016-06-22 23:30:00";427157A;"Товар в точке получения";427157-427157A_265;Вручение;CB014104310RU
+428110;psorias-cream;parcel-on-a-place;delivered;"2016-06-22 22:15:00";428110A;"Товар в точке получения";428110-428110A_268;Вручение;CB014105085RU

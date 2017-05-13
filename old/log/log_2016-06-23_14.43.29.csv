@@ -1,0 +1,5 @@
+id;status;api_mark;date_of_delivery;statusCode;success;set_order_id
+428849;delivered;from_BetaPost_API;2016-06-23;200;1;428849
+426441;parcel-on-a-place;from_BetaPost_API;2016-06-23;200;1;426441
+432685;parcel-on-a-place;from_BetaPost_API;2016-06-23;200;1;432685
+433266;delivered;from_BetaPost_API;2016-06-22;200;1;433266

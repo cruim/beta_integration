@@ -1,0 +1,13 @@
+id;status;api_mark;date_of_delivery;statusCode;success;set_order_id
+430322;delivered;from_BetaPost_API;2016-07-05;200;1;430322
+429929;delivered;from_BetaPost_API;2016-07-05;200;1;429929
+429342;delivered;from_BetaPost_API;2016-07-05;200;1;429342
+435360;delivered;from_BetaPost_API;2016-07-05;200;1;435360
+440959;delivered;from_BetaPost_API;2016-07-05;200;1;440959
+439655;delivered;from_BetaPost_API;2016-07-05;200;1;439655
+442819;delivered;from_BetaPost_API;2016-07-05;200;1;442819
+442889;delivered;from_BetaPost_API;2016-07-05;200;1;442889
+444084;delivered;from_BetaPost_API;2016-07-05;200;1;444084
+444012;delivered;from_BetaPost_API;2016-07-05;200;1;444012
+443941;delivered;from_BetaPost_API;2016-07-05;200;1;443941
+444583;delivered;from_BetaPost_API;2016-07-05;200;1;444583

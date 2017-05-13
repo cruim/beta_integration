@@ -1,0 +1,11 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+728354;joint-cream;parcel-on-a-place;delivered;"2017-02-22 17:27:00";728354A;"Товар в точке получения";728354-728354A_746;Вручение;CB018024550RU
+750752;gemor-cream;parcel-on-a-place;delivered;"2017-02-22 18:26:00";750752A;"Товар в точке получения";750752-750752A_767;Вручение;CB018025405RU
+761759;joint-cream;parcel-on-a-place;delivered;"2017-02-22 17:03:00";761759A;"Товар в точке получения";761759-761759A_776;Вручение;CB018025538RU
+762367;gemor-cream;sent;parcel-on-a-place;"2017-02-22 11:37:00";762367A;Отправлен;762367-762367A_776;"Прибыло в город назначения";CB018025665RU
+755828;gemor-cream;sent;parcel-on-a-place;"2017-02-22 15:03:00";755828A;Отправлен;755828-755828A_776;"Прибыло в город назначения";CB018025555RU
+760144;wrinkles-cream;sent;parcel-on-a-place;"2017-02-22 09:37:00";760144A;Отправлен;760144-760144A_776;"Прибыло в город назначения";CB018025612RU
+759633;gemor-cream;sent;parcel-on-a-place;"2017-02-22 09:29:00";759633A;Отправлен;759633-759633A_776;"Прибыло в город назначения";CB018025541RU
+728930;joint-cream;sent;parcel-on-a-place;"2017-02-22 09:29:00";728930A;Отправлен;728930-728930A_776;"Прибыло в город назначения";CB018025643RU
+761605;joint-cream;sent;parcel-on-a-place;"2017-02-22 09:59:00";761605A;Отправлен;761605-761605A_776;"Прибыло в город назначения";CB018025674RU
+760005;prosta-cream;sent;parcel-on-a-place;"2017-02-22 09:49:00";760005A;Отправлен;760005-760005A_776;"Прибыло в город назначения";CB018025657RU

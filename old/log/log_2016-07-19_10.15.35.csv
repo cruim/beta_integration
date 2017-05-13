@@ -1,0 +1,17 @@
+id;status;api_mark;date_of_arrival;statusCode;success;set_order_id
+459959;parcel-on-a-place;from_BetaPost_API;2016-07-18;200;1;459959
+454894;parcel-on-a-place;from_BetaPost_API;2016-07-18;200;1;454894
+460340;delivered;from_BetaPost_API;2016-07-18;200;1;460340
+467878;injob;from_BetaPost_API;200;1;467878
+467761;injob;from_BetaPost_API;200;1;467761
+467674;injob;from_BetaPost_API;200;1;467674
+470942;delivered;from_BetaPost_API;2016-07-19;200;1;470942
+469025;delivered;from_BetaPost_API;2016-07-19;200;1;469025
+470246;injob;from_BetaPost_API;200;1;470246
+470198;injob;from_BetaPost_API;200;1;470198
+469510;injob;from_BetaPost_API;200;1;469510
+469012;injob;from_BetaPost_API;200;1;469012
+468712;injob;from_BetaPost_API;200;1;468712
+468669;injob;from_BetaPost_API;200;1;468669
+468182;injob;from_BetaPost_API;200;1;468182
+468129;injob;from_BetaPost_API;200;1;468129

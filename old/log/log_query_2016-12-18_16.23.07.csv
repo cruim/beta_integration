@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+675041;joint-cream;sent;delivered;"2016-12-18 13:26:14";675041A;Отправлен;675041-675041A_691;Вручение;32024874

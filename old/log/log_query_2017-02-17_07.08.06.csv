@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+747795;wrinkles-cream;parcel-on-a-place;delivered;"2017-02-16 11:15:00";747795A;"Товар в точке получения";747795-747795A_762;Вручение;CB018025060RU
+754951;vari-cream-com;parcel-on-a-place;delivered;"2017-02-16 13:49:00";754951A;"Товар в точке получения";754951-754951A_767;Вручение;CB018025250RU

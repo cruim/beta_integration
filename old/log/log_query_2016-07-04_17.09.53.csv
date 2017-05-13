@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+445277;joint-cream;sent;delivered;"2016-07-02 12:10:00";445277A;Отправлен;445277-445277A_294;Вручение;CB016541220RU
+446991;joint-cream;sent;parcel-on-a-place;"2016-07-02 09:58:00";446991A;Отправлен;446991-446991A_300;Невручение;CB016540670RU

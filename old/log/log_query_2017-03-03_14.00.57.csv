@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+726392;joint-cream;parcel-on-a-place;delivered;"2017-03-03 09:26:00";726392A;"Товар в точке получения";726392-726392A_746;Вручение;CB018024515RU
+761693;zdorov-cream;parcel-on-a-place;delivered;"2017-03-02 18:11:00";761693A;"Товар в точке получения";761693-761693A_776;Вручение;CB018025586RU

@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+421386;wrinkles-cream;sent;delivered;"2016-06-14 18:16:00";421386A;Отправлен;421386-421386A_257;Вручение;CB014103186RU
+420458;prosta-cream;sent;delivered;"2016-06-14 17:42:00";420458A;Отправлен;420458-420458A_260;Вручение;CB014103742RU

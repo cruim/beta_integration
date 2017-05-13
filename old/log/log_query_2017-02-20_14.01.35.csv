@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+702584;joint-cream;parcel-on-a-place;delivered;"2017-02-18 15:31:00";702584A;"Товар в точке получения";702584-702584A_723;Вручение;CB016572195RU

@@ -1,0 +1,5 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+413386;cream-masthopaty;sent;delivered;"2016-06-13 09:05:00";413386A;Отправлен;413386-413386A_248;Вручение;CB014102163RU
+414710;cream-masthopaty;sent;delivered;"2016-06-13 09:06:00";414710A;Отправлен;414710-414710A_248;Вручение;CB014101931RU
+415432;gemor-cream;sent;delivered;"2016-06-13 09:03:00";415432A;Отправлен;415432-415432A_242;Вручение;CB014101565RU
+424277;vari-cream-com;sent;parcel-on-a-place;"2016-06-13 11:40:00";424277A;Отправлен;424277-424277A_259;Невручение;CB014104031RU

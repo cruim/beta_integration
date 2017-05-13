@@ -1,0 +1,51 @@
+array(10) {
+  ["order_id"]=>
+  string(6) "600447"
+  ["order_site"]=>
+  string(14) "vari-cream-com"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(17) "parcel-on-a-place"
+  ["date_time"]=>
+  string(19) "2016-10-26 06:43:02"
+  ["order_number"]=>
+  string(7) "600447A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "600447-600447A_578"
+  ["state"]=>
+  string(20) "Невручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024591"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "600447"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_arrival"]=>
+    string(10) "2016-10-26"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "600447"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_arrival"]=>
+  string(10) "2016-10-26"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(600447)
+}

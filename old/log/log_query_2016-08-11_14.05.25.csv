@@ -1,0 +1,6 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+495593;vari-cream-com;sent;parcel-on-a-place;"2016-08-11 11:39:57";495593A;Отправлен;495593-495593A_404;Невручение;32022504
+494304;joint-cream;sent;parcel-on-a-place;"2016-08-11 11:19:46";494304A;Отправлен;494304-494304A_404;Невручение;32022480
+496888;joint-cream;sent;delivered;"2016-08-11 10:19:32";496888A;Отправлен;496888-496888A_404;Вручение;32022535
+496465;joint-cream;sent;delivered;"2016-08-11 10:38:04";496465A;Отправлен;496465-496465A_404;Вручение;32022526
+496403;vari-cream-com;sent;delivered;"2016-08-11 10:11:35";496403A;Отправлен;496403-496403A_404;Вручение;32022524

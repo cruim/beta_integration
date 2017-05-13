@@ -1,0 +1,6 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+534783;joint-cream;parcel-on-a-place;delivered;"2016-10-13 16:56:00";534783A;"Товар в точке получения";534783-534783A_471;Вручение;CB016563865RU
+534438;joint-cream;parcel-on-a-place;delivered;"2016-10-14 17:37:00";534438A;"Товар в точке получения";534438-534438A_471;Вручение;CB016564058RU
+537531;cellulite-cream;parcel-on-a-place;delivered;"2016-10-14 12:44:00";537531A;"Товар в точке получения";537531-537531A_477;Вручение;CB016564557RU
+559768;psorias-cream;parcel-on-a-place;delivered;"2016-10-14 12:21:00";559768A;"Товар в точке получения";559768-559768A_515;Вручение;CB016566941RU
+568505;gemor-cream;parcel-on-a-place;delivered;"2016-10-14 13:40:00";568505A;"Товар в точке получения";568505-568505A_535;Вручение;CB016567292RU

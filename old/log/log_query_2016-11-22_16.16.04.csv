@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+625506;psorias-cream;sent;parcel-on-a-place;"2016-11-22 10:11:00";625506A;Отправлен;625506-625506A_621;"Прибыло в город назначения";CB016569789RU
+638979;vari-cream-com;parcel-on-a-place;delivered;"2016-11-22 15:12:48";638979C;"Товар в точке получения";638979-638979C_637;Вручение;32024827

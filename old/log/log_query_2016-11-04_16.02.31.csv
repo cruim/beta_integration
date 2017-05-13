@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+598321;wrinkles-cream;parcel-on-a-place;delivered;"2016-11-03 16:25:00";598321A;"Товар в точке получения";598321-598321A_577;Вручение;CB016568491RU
+603000;gemor-cream;sent;parcel-on-a-place;"2016-11-03 09:19:00";603000A;Отправлен;603000-603000A_585;"Прибыло в город назначения";CB016568616RU

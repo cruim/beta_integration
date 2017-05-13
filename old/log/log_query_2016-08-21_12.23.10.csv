@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+509979;joint-cream;sent;parcel-on-a-place;"2016-08-21 11:17:58";509979A;Отправлен;509979-509979A_431;Невручение;32023043

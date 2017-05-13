@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+673927;prosta-cream;sent;parcel-on-a-place;"2017-01-05 08:43:27";673927A;Отправлен;673927-673927A_690;"Прибыло в город назначения";CB016571487RU
+691183;zdorov-cream;sent;parcel-on-a-place;"2017-01-05 15:06:51";691183A;Отправлен;691183-691183A_708;Невручение;32024888

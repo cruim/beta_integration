@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+456322;gemor-cream;sent;injob;"2016-07-14 09:31:38";456322A;Отправлен;456322-456322A_325;Возврат;32021406
+463989;vari-cream-com;sent;injob;"2016-07-14 09:47:54";463989A;Отправлен;463989-463989A_332;Возврат;32021531

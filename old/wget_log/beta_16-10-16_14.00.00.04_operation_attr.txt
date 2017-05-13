@@ -1,0 +1,15 @@
+<!--error--><br />
+<b>Warning</b>:  mysqli::real_connect() [<a href='mysqli.real-connect'>mysqli.real-connect</a>]: [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ (trying to connect via tcp://127.0.0.1:3306) in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>25</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  mysqli::real_connect() [<a href='mysqli.real-connect'>mysqli.real-connect</a>]: (HY000/2002): Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>25</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: invalid object or resource mysqli
+ in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>26</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: invalid object or resource mysqli
+ in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>37</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Fatal error</b>:  Call to a member function fetch_assoc() on a non-object in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>39</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script>

@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+523446;wrinkles-cream;parcel-on-a-place;delivered;"2016-09-26 10:47:00";523446A;"Товар в точке получения";523446-523446A_455;Вручение;CB016563225RU
+490322;cellulite-cream;parcel-on-a-place;delivered;"2016-09-26 09:04:00";490322A;"Товар в точке получения";490322-490322A_493;Вручение;CB016565464RU
+555419;joint-cream;parcel-on-a-place;delivered;"2016-09-23 23:00:00";555419A;"Товар в точке получения";555419-555419A_506;Вручение;32024068

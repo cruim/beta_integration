@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+431971;psorias-cream;sent;parcel-on-a-place;"2016-06-26 11:37:00";431971A;Отправлен;431971-431971A_273;Невручение;CB014106390RU

@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+704115;fungus-cream;sent;delivered;"2017-01-27 10:41:36";704115A;Отправлен;704115-704115A_722;Вручение;32025076

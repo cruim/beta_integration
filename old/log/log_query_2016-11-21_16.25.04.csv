@@ -1,0 +1,12 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+603238;joint-cream;parcel-on-a-place;injob;"2016-11-21 15:48:09";603238A;"Товар в точке получения";603238-603238A_596;Возврат;32024652
+613815;joint-cream;parcel-on-a-place;injob;"2016-11-21 15:48:09";613815A;"Товар в точке получения";613815-613815A_602;Возврат;32024676
+616545;cellulite-cream;parcel-on-a-place;injob;"2016-11-21 15:48:09";616545A;"Товар в точке получения";616545-616545A_607;Возврат;32024696
+616722;joint-cream;parcel-on-a-place;injob;"2016-11-21 15:48:09";616722A;"Товар в точке получения";616722-616722A_607;Возврат;32024697
+615262;joint-cream;parcel-on-a-place;injob;"2016-11-21 15:48:09";615262A;"Товар в точке получения";615262-615262A_607;Возврат;32024686
+619496;joint-cream;parcel-on-a-place;delivered;"2016-11-19 13:33:00";619496A;"Товар в точке получения";619496-619496A_606;Вручение;CB016569245RU
+624850;vari-cream-com;parcel-on-a-place;delivered;"2016-11-21 12:22:00";624850C;"Товар в точке получения";624850-624850C_618;Вручение;CB016569713RU
+629404;joint-cream;parcel-on-a-place;injob;"2016-11-21 15:48:09";629404A;"Товар в точке получения";629404-629404A_624;Возврат;32024779
+631328;prosta-cream;sent;parcel-on-a-place;"2016-11-21 15:54:23";631328A;Отправлен;631328-631328A_627;Невручение;32024792
+619732;joint-cream;parcel-on-a-place;injob;"2016-11-21 15:48:09";619732A;"Товар в точке получения";619732-619732A_627;Возврат;32024791
+632433;gemor-cream;sent;delivered;"2016-11-18 23:00:00";632433A;Отправлен;632433-632433A_630;Вручение;32024803

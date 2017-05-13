@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+678107;psorias-cream;parcel-on-a-place;delivered;"2017-01-27 14:27:00";678107A;"Товар в точке получения";678107-678107A_693;Вручение;CB016571836RU

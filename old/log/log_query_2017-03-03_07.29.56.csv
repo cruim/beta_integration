@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+703681;fungus-cream;parcel-on-a-place;delivered;"2017-03-02 17:05:00";703681A;"Товар в точке получения";703681-703681A_723;Вручение;CB016572655RU

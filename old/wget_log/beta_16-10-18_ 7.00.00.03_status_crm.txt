@@ -1,0 +1,204 @@
+array(10) {
+  ["order_id"]=>
+  string(6) "533715"
+  ["order_site"]=>
+  string(14) "vari-cream-com"
+  ["mapping_order_status_from"]=>
+  string(17) "parcel-on-a-place"
+  ["mapping_order_status_to"]=>
+  string(9) "delivered"
+  ["date_time"]=>
+  string(19) "2016-10-14 14:58:00"
+  ["order_number"]=>
+  string(7) "533715A"
+  ["order_status_name"]=>
+  string(43) "Товар в точке получения"
+  ["shipping_order_order_id"]=>
+  string(18) "533715-533715A_471"
+  ["state"]=>
+  string(16) "Вручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(13) "CB016563945RU"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "533715"
+  ["status"]=>
+  string(9) "delivered"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_delivery"]=>
+    string(10) "2016-10-14"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "533715"
+  ["status"]=>
+  string(9) "delivered"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_delivery"]=>
+  string(10) "2016-10-14"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(533715)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "570124"
+  ["order_site"]=>
+  string(14) "vari-cream-com"
+  ["mapping_order_status_from"]=>
+  string(17) "parcel-on-a-place"
+  ["mapping_order_status_to"]=>
+  string(9) "delivered"
+  ["date_time"]=>
+  string(19) "2016-10-17 14:22:00"
+  ["order_number"]=>
+  string(7) "570124A"
+  ["order_status_name"]=>
+  string(43) "Товар в точке получения"
+  ["shipping_order_order_id"]=>
+  string(18) "570124-570124A_535"
+  ["state"]=>
+  string(16) "Вручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(13) "CB016567289RU"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "570124"
+  ["status"]=>
+  string(9) "delivered"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_delivery"]=>
+    string(10) "2016-10-17"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "570124"
+  ["status"]=>
+  string(9) "delivered"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_delivery"]=>
+  string(10) "2016-10-17"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(570124)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "569161"
+  ["order_site"]=>
+  string(11) "gemor-cream"
+  ["mapping_order_status_from"]=>
+  string(17) "parcel-on-a-place"
+  ["mapping_order_status_to"]=>
+  string(9) "delivered"
+  ["date_time"]=>
+  string(19) "2016-10-17 14:16:00"
+  ["order_number"]=>
+  string(7) "569161A"
+  ["order_status_name"]=>
+  string(43) "Товар в точке получения"
+  ["shipping_order_order_id"]=>
+  string(18) "569161-569161A_535"
+  ["state"]=>
+  string(16) "Вручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(13) "CB016567377RU"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "569161"
+  ["status"]=>
+  string(9) "delivered"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_delivery"]=>
+    string(10) "2016-10-17"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "569161"
+  ["status"]=>
+  string(9) "delivered"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_delivery"]=>
+  string(10) "2016-10-17"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(569161)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "583398"
+  ["order_site"]=>
+  string(14) "vari-cream-com"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(17) "parcel-on-a-place"
+  ["date_time"]=>
+  string(19) "2016-10-17 16:45:54"
+  ["order_number"]=>
+  string(7) "583398A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "583398-583398A_555"
+  ["state"]=>
+  string(20) "Невручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024477"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "583398"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_arrival"]=>
+    string(10) "2016-10-17"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "583398"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_arrival"]=>
+  string(10) "2016-10-17"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(583398)
+}

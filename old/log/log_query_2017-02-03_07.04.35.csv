@@ -1,0 +1,7 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+702608;joint-cream;parcel-on-a-place;delivered;"2017-02-02 17:28:00";702608A;"Товар в точке получения";702608-702608A_723;Вручение;CB016572244RU
+706184;vari-cream-com;parcel-on-a-place;delivered;"2017-02-02 12:35:00";706184A;"Товар в точке получения";706184-706184A_723;Вручение;CB016572672RU
+711365;joint-cream;parcel-on-a-place;delivered;"2017-02-02 12:35:00";711365C;"Товар в точке получения";711365-711365C_728;Вручение;CB016572831RU
+712879;wrinkles-cream;parcel-on-a-place;delivered;"2017-02-02 16:09:00";712879A;"Товар в точке получения";712879-712879A_734;Вручение;CB018023934RU
+716382;joint-cream;parcel-on-a-place;delivered;"2017-02-02 17:25:00";716382A;"Товар в точке получения";716382-716382A_737;Вручение;CB018023996RU
+715662;joint-cream;parcel-on-a-place;delivered;"2017-02-02 15:02:00";715662A;"Товар в точке получения";715662-715662A_737;Вручение;CB018024078RU

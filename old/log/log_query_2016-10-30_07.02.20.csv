@@ -1,0 +1,5 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+588280;vari-cream-com;sent;delivered;"2016-10-29 15:45:00";588280A;Отправлен;588280-588280A_562;Вручение;CB016568179RU
+605102;joint-cream;sent;delivered;"2016-10-29 18:00:00";605102A;Отправлен;605102-605102A_590;Вручение;32024615
+605621;joint-cream;sent;delivered;"2016-10-29 16:39:39";605621A;Отправлен;605621-605621A_590;Вручение;32024618
+606303;vari-cream-com;sent;parcel-on-a-place;"2016-10-29 19:03:27";606303A;Отправлен;606303-606303A_590;Невручение;32024621

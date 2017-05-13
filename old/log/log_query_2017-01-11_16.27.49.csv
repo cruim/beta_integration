@@ -1,0 +1,12 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+691210;prosta-cream;sent;delivered;"2017-01-11 13:37:23";691210C;Отправлен;691210-691210C_708;Вручение;32024919
+697059;psorias-cream;sent;delivered;"2017-01-10 23:00:00";697059A;Отправлен;697059-697059A_714;Вручение;32024985
+695201;prosta-cream;sent;delivered;"2017-01-10 23:00:00";695201A;Отправлен;695201-695201A_713;Вручение;32024943
+693814;joint-cream;sent;delivered;"2017-01-10 23:00:00";693814A;Отправлен;693814-693814A_714;Вручение;32024967
+694405;joint-cream;sent;delivered;"2017-01-11 15:25:42";694405A;Отправлен;694405-694405A_713;Вручение;32024931
+695413;gemor-cream;sent;delivered;"2017-01-10 23:00:00";695413A;Отправлен;695413-695413A_713;Вручение;32024945
+694565;prosta-cream;sent;delivered;"2017-01-11 13:34:35";694565A;Отправлен;694565-694565A_713;Вручение;32024932
+698632;psorias-cream;sent;parcel-on-a-place;"2017-01-11 15:05:43";698632A;Отправлен;698632-698632A_717;Невручение;32024996
+701036;joint-cream;sent;delivered;"2017-01-10 23:00:00";701036A;Отправлен;701036-701036A_719;Вручение;32025044
+698743;joint-cream;sent;delivered;"2017-01-11 13:51:35";698743A;Отправлен;698743-698743A_719;Вручение;32025010
+701688;joint-cream;sent;delivered;"2017-01-10 23:00:00";701688A;Отправлен;701688-701688A_719;Вручение;32025053

@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+573389;joint-cream;sent;delivered;"2016-10-10 14:26:50";573389A;Отправлен;573389-573389A_542;Вручение;32024412
+575497;joint-cream;sent;delivered;"2016-10-10 12:14:39";575497A;Отправлен;575497-575497A_544;Вручение;32024435
+576720;joint-cream;sent;delivered;"2016-10-10 13:41:26";576720A;Отправлен;576720-576720A_547;Вручение;32024443

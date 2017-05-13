@@ -1,0 +1,1 @@
+"c:\Program Files (x86)\GnuWin32\bin\wget.exe" "http://localsite/beta_post/step4_arm.php"

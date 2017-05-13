@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+541828;psorias-cream;sent;parcel-on-a-place;"2016-09-27 09:26:00";541828A;Отправлен;541828-541828A_486;"Прибыло в город назначения";CB016565138RU
+548580;prosta-cream;sent;parcel-on-a-place;"2016-09-27 09:26:00";548580A;Отправлен;548580-548580A_498;"Прибыло в город назначения";CB016565773RU
+560106;fungus-cream;sent;parcel-on-a-place;"2016-09-27 10:48:07";560106A;Отправлен;560106-560106A_516;Невручение;32024186

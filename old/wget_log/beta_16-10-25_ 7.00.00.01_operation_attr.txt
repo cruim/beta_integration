@@ -1,0 +1,287 @@
+Забираем статусы у 267 кабнета<br /><br /><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script>string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596184-596184A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596220-596220A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596466-596466A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596486-596486A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596590-596590A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596610-596610A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596616-596616A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596642-596642A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596648-596648A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596656-596656A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596668-596668A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596673-596673A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596685-596685A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596706-596706A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596707-596707A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596711-596711A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596716-596716A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596718-596718A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596745-596745A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596751-596751A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596764-596764A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596771-596771A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596794-596794A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596821-596821A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596827-596827A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596829-596829A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596837-596837A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596838-596838A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596864-596864A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596867-596867A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596869-596869A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596871-596871A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596883-596883A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596893-596893A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596898-596898A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596901-596901A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596913-596913A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596936-596936A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596937-596937A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596938-596938A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596944-596944A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596951-596951A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596959-596959A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596965-596965A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596974-596974A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596987-596987A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '596988-596988A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597000-597000A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597040-597040A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597055-597055A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597058-597058A_575'"
+<br /><!--error--><br />
+<b>Warning</b>:  XMLReader::XML() [<a href='xmlreader.xml'>xmlreader.xml</a>]: Empty string supplied as input in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>85</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  XMLReader::read() [<a href='xmlreader.read'>xmlreader.read</a>]: Load Data before trying to read in <b>Z:\home\localsite\www\beta_post\update_operation_attr.php</b> on line <b>89</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script>string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597071-597071C_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597080-597080A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597103-597103A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597113-597113A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597115-597115A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597123-597123A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597130-597130A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597134-597134A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597147-597147A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597157-597157A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597165-597165A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597169-597169A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597183-597183A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597184-597184A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597189-597189A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597204-597204A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597206-597206A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597208-597208A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597209-597209A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597212-597212A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597223-597223A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597247-597247A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597253-597253A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597267-597267A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597287-597287A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597296-597296A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597309-597309A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597311-597311A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597317-597317A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597324-597324A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597342-597342A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597346-597346A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597352-597352A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597353-597353A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597355-597355A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597406-597406A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597417-597417A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597421-597421A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597426-597426A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597444-597444A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597452-597452A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597468-597468A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597474-597474A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597480-597480A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597483-597483A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597508-597508A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597535-597535A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597538-597538A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597547-597547A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597549-597549A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597559-597559A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597565-597565A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597568-597568A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597578-597578A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597583-597583A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597598-597598A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597609-597609A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597610-597610A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597616-597616A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597623-597623A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597654-597654A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597663-597663A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597675-597675A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597677-597677A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597686-597686A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597695-597695A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597736-597736A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597737-597737A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597749-597749A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597768-597768A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597781-597781A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597811-597811A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597837-597837A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597838-597838A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597861-597861A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597874-597874A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597875-597875A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597883-597883A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597892-597892A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597896-597896A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597897-597897A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597909-597909A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597915-597915A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597922-597922A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597940-597940A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597954-597954A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597959-597959A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597961-597961A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597963-597963A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597981-597981A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597984-597984A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597985-597985A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597987-597987A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '597997-597997A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598006-598006A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598016-598016A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598019-598019A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598024-598024A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598026-598026A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598037-598037A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598042-598042A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598049-598049A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598075-598075A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598080-598080A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598086-598086A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598095-598095A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598114-598114A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598116-598116A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598164-598164A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598169-598169A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598175-598175A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598184-598184A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598200-598200A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598203-598203A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598207-598207A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598218-598218A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598246-598246A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598252-598252A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598253-598253A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598268-598268A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598308-598308A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598310-598310A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598312-598312A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598317-598317A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598326-598326A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598332-598332A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598338-598338A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598340-598340A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598349-598349A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598358-598358A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598384-598384A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598388-598388A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598399-598399A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598401-598401A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598404-598404A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598415-598415A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598423-598423A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598434-598434A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598435-598435A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598445-598445A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598447-598447A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598454-598454A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598457-598457A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598466-598466A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598474-598474A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598487-598487A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598492-598492A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598505-598505A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598513-598513A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598519-598519A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598522-598522A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598548-598548A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598552-598552A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598564-598564A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598565-598565A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598580-598580A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598599-598599A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598617-598617A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598622-598622A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598627-598627A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598634-598634A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598656-598656A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598680-598680A_575'"
+<br />string(154) " UPDATE `shipping_order` SET ordrow_state = '2', ordrow_state_descrip = 'В производстве' WHERE shipping_order_order_id = '598711-598711A_575'

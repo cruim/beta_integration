@@ -1,0 +1,6 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+556489;joint-cream;parcel-on-a-place;delivered;"2016-09-29 16:13:32";556489A;"Товар в точке получения";556489-556489A_509;Вручение;32024098
+562276;vari-cream-com;parcel-on-a-place;delivered;"2016-09-29 17:25:13";562276A;"Товар в точке получения";562276-562276A_517;Вручение;32024253
+557715;joint-cream;parcel-on-a-place;delivered;"2016-09-29 18:00:00";557715A;"Товар в точке получения";557715-557715A_516;Вручение;32024154
+563269;gemor-cream;parcel-on-a-place;delivered;"2016-09-29 17:23:39";563269A;"Товар в точке получения";563269-563269A_520;Вручение;32024283
+563371;cream-masthopaty;sent;delivered;"2016-09-29 18:55:46";563371A;Отправлен;563371-563371A_524;Вручение;32024291

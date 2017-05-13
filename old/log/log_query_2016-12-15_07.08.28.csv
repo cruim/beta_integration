@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+659730;joint-cream;sent;parcel-on-a-place;"2016-12-14 17:45:00";659730A;Отправлен;659730-659730A_673;"Прибыло в город назначения";CB016570795RU

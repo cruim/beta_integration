@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+420614;wrinkles-cream;sent;delivered;"2016-06-14 14:09:00";420614A;Отправлен;420614-420614A_254;Вручение;CB014102353RU
+420265;vari-cream-com;sent;delivered;"2016-06-14 19:06:00";420265A;Отправлен;420265-420265A_254;Вручение;CB014102225RU
+424709;joint-cream;sent;parcel-on-a-place;"2016-06-15 10:50:00";424709A;Отправлен;424709-424709A_262;Невручение;CB014104456RU

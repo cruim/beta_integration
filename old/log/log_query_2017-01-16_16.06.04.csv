@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+704235;joint-cream;sent;parcel-on-a-place;"2017-01-16 10:46:37";704235A;Отправлен;704235-704235A_722;Невручение;32025078
+703872;joint-cream;sent;delivered;"2017-01-14 23:00:00";703872A;Отправлен;703872-703872A_722;Вручение;32025072
+703021;joint-cream;sent;delivered;"2017-01-16 11:30:59";703021A;Отправлен;703021-703021A_722;Вручение;32025068

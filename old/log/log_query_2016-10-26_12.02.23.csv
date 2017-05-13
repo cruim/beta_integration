@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+600354;joint-cream;sent;parcel-on-a-place;"2016-10-26 09:52:58";600354A;Отправлен;600354-600354A_578;Невручение;32024588
+600145;psorias-cream;sent;parcel-on-a-place;"2016-10-26 09:52:37";600145A;Отправлен;600145-600145A_578;Невручение;32024585
+601117;fungus-cream;sent;delivered;"2016-10-26 10:06:36";601117A;Отправлен;601117-601117A_580;Вручение;32024597

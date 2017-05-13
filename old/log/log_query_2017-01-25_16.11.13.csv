@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+726632;osteochondrosis-cream;sent;delivered;"2017-01-25 15:12:48";726632C;Отправлен;726632-726632C_748;Вручение;32025113

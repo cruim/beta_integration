@@ -1,0 +1,816 @@
+array(10) {
+  ["order_id"]=>
+  string(6) "579159"
+  ["order_site"]=>
+  string(14) "wrinkles-cream"
+  ["mapping_order_status_from"]=>
+  string(17) "parcel-on-a-place"
+  ["mapping_order_status_to"]=>
+  string(9) "delivered"
+  ["date_time"]=>
+  string(19) "2016-10-15 12:25:14"
+  ["order_number"]=>
+  string(7) "579159A"
+  ["order_status_name"]=>
+  string(43) "Товар в точке получения"
+  ["shipping_order_order_id"]=>
+  string(18) "579159-579159A_551"
+  ["state"]=>
+  string(16) "Вручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024467"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "579159"
+  ["status"]=>
+  string(9) "delivered"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_delivery"]=>
+    string(10) "2016-10-15"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "579159"
+  ["status"]=>
+  string(9) "delivered"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_delivery"]=>
+  string(10) "2016-10-15"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(579159)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "579767"
+  ["order_site"]=>
+  string(14) "wrinkles-cream"
+  ["mapping_order_status_from"]=>
+  string(17) "parcel-on-a-place"
+  ["mapping_order_status_to"]=>
+  string(9) "delivered"
+  ["date_time"]=>
+  string(19) "2016-10-14 16:28:59"
+  ["order_number"]=>
+  string(7) "579767A"
+  ["order_status_name"]=>
+  string(43) "Товар в точке получения"
+  ["shipping_order_order_id"]=>
+  string(18) "579767-579767A_551"
+  ["state"]=>
+  string(16) "Вручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024468"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "579767"
+  ["status"]=>
+  string(9) "delivered"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_delivery"]=>
+    string(10) "2016-10-14"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "579767"
+  ["status"]=>
+  string(9) "delivered"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_delivery"]=>
+  string(10) "2016-10-14"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(579767)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "585847"
+  ["order_site"]=>
+  string(14) "vari-cream-com"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(9) "delivered"
+  ["date_time"]=>
+  string(19) "2016-10-14 16:34:51"
+  ["order_number"]=>
+  string(7) "585847A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "585847-585847A_555"
+  ["state"]=>
+  string(16) "Вручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024486"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "585847"
+  ["status"]=>
+  string(9) "delivered"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_delivery"]=>
+    string(10) "2016-10-14"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "585847"
+  ["status"]=>
+  string(9) "delivered"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_delivery"]=>
+  string(10) "2016-10-14"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(585847)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "586202"
+  ["order_site"]=>
+  string(12) "fungus-cream"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(17) "parcel-on-a-place"
+  ["date_time"]=>
+  string(19) "2016-10-14 12:27:00"
+  ["order_number"]=>
+  string(7) "586202A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "586202-586202A_555"
+  ["state"]=>
+  string(20) "Невручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024489"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "586202"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_arrival"]=>
+    string(10) "2016-10-14"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "586202"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_arrival"]=>
+  string(10) "2016-10-14"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(586202)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "585703"
+  ["order_site"]=>
+  string(14) "vari-cream-com"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(9) "delivered"
+  ["date_time"]=>
+  string(19) "2016-10-15 13:56:13"
+  ["order_number"]=>
+  string(7) "585703A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "585703-585703A_555"
+  ["state"]=>
+  string(16) "Вручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024482"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "585703"
+  ["status"]=>
+  string(9) "delivered"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_delivery"]=>
+    string(10) "2016-10-15"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "585703"
+  ["status"]=>
+  string(9) "delivered"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_delivery"]=>
+  string(10) "2016-10-15"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(585703)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "585377"
+  ["order_site"]=>
+  string(11) "gemor-cream"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(9) "delivered"
+  ["date_time"]=>
+  string(19) "2016-10-14 13:11:56"
+  ["order_number"]=>
+  string(7) "585377A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "585377-585377A_555"
+  ["state"]=>
+  string(16) "Вручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024479"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "585377"
+  ["status"]=>
+  string(9) "delivered"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_delivery"]=>
+    string(10) "2016-10-14"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "585377"
+  ["status"]=>
+  string(9) "delivered"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_delivery"]=>
+  string(10) "2016-10-14"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(585377)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "585942"
+  ["order_site"]=>
+  string(13) "psorias-cream"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(9) "delivered"
+  ["date_time"]=>
+  string(19) "2016-10-14 13:06:35"
+  ["order_number"]=>
+  string(7) "585942A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "585942-585942A_555"
+  ["state"]=>
+  string(16) "Вручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024487"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "585942"
+  ["status"]=>
+  string(9) "delivered"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_delivery"]=>
+    string(10) "2016-10-14"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "585942"
+  ["status"]=>
+  string(9) "delivered"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_delivery"]=>
+  string(10) "2016-10-14"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(585942)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "585725"
+  ["order_site"]=>
+  string(11) "joint-cream"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(9) "delivered"
+  ["date_time"]=>
+  string(19) "2016-10-14 14:34:09"
+  ["order_number"]=>
+  string(7) "585725A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "585725-585725A_555"
+  ["state"]=>
+  string(16) "Вручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024483"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "585725"
+  ["status"]=>
+  string(9) "delivered"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_delivery"]=>
+    string(10) "2016-10-14"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "585725"
+  ["status"]=>
+  string(9) "delivered"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_delivery"]=>
+  string(10) "2016-10-14"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(585725)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "585506"
+  ["order_site"]=>
+  string(12) "prosta-cream"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(9) "delivered"
+  ["date_time"]=>
+  string(19) "2016-10-14 12:54:08"
+  ["order_number"]=>
+  string(7) "585506A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "585506-585506A_555"
+  ["state"]=>
+  string(16) "Вручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024480"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "585506"
+  ["status"]=>
+  string(9) "delivered"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_delivery"]=>
+    string(10) "2016-10-14"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "585506"
+  ["status"]=>
+  string(9) "delivered"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_delivery"]=>
+  string(10) "2016-10-14"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(585506)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "586005"
+  ["order_site"]=>
+  string(12) "prosta-cream"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(9) "delivered"
+  ["date_time"]=>
+  string(19) "2016-10-14 14:19:53"
+  ["order_number"]=>
+  string(7) "586005A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "586005-586005A_555"
+  ["state"]=>
+  string(16) "Вручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024488"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "586005"
+  ["status"]=>
+  string(9) "delivered"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_delivery"]=>
+    string(10) "2016-10-14"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "586005"
+  ["status"]=>
+  string(9) "delivered"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_delivery"]=>
+  string(10) "2016-10-14"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(586005)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "584800"
+  ["order_site"]=>
+  string(11) "joint-cream"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(9) "delivered"
+  ["date_time"]=>
+  string(19) "2016-10-14 12:46:38"
+  ["order_number"]=>
+  string(7) "584800A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "584800-584800A_555"
+  ["state"]=>
+  string(16) "Вручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024478"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "584800"
+  ["status"]=>
+  string(9) "delivered"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_delivery"]=>
+    string(10) "2016-10-14"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "584800"
+  ["status"]=>
+  string(9) "delivered"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_delivery"]=>
+  string(10) "2016-10-14"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(584800)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "583839"
+  ["order_site"]=>
+  string(12) "fungus-cream"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(17) "parcel-on-a-place"
+  ["date_time"]=>
+  string(19) "2016-10-15 10:23:45"
+  ["order_number"]=>
+  string(7) "583839A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "583839-583839A_560"
+  ["state"]=>
+  string(20) "Невручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024493"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "583839"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_arrival"]=>
+    string(10) "2016-10-15"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "583839"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_arrival"]=>
+  string(10) "2016-10-15"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(583839)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "587959"
+  ["order_site"]=>
+  string(11) "gemor-cream"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(17) "parcel-on-a-place"
+  ["date_time"]=>
+  string(19) "2016-10-15 10:47:35"
+  ["order_number"]=>
+  string(7) "587959A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "587959-587959A_560"
+  ["state"]=>
+  string(20) "Невручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024499"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "587959"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_arrival"]=>
+    string(10) "2016-10-15"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "587959"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_arrival"]=>
+  string(10) "2016-10-15"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(587959)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "522122"
+  ["order_site"]=>
+  string(14) "vari-cream-com"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(17) "parcel-on-a-place"
+  ["date_time"]=>
+  string(19) "2016-10-15 10:33:52"
+  ["order_number"]=>
+  string(7) "522122A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "522122-522122A_560"
+  ["state"]=>
+  string(20) "Невручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024491"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "522122"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_arrival"]=>
+    string(10) "2016-10-15"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "522122"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_arrival"]=>
+  string(10) "2016-10-15"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(522122)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "586951"
+  ["order_site"]=>
+  string(11) "joint-cream"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(17) "parcel-on-a-place"
+  ["date_time"]=>
+  string(19) "2016-10-15 18:30:45"
+  ["order_number"]=>
+  string(7) "586951A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "586951-586951A_560"
+  ["state"]=>
+  string(20) "Невручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024494"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "586951"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_arrival"]=>
+    string(10) "2016-10-15"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "586951"
+  ["status"]=>
+  string(17) "parcel-on-a-place"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_arrival"]=>
+  string(10) "2016-10-15"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(586951)
+}
+array(10) {
+  ["order_id"]=>
+  string(6) "587514"
+  ["order_site"]=>
+  string(13) "psorias-cream"
+  ["mapping_order_status_from"]=>
+  string(4) "sent"
+  ["mapping_order_status_to"]=>
+  string(9) "delivered"
+  ["date_time"]=>
+  string(19) "2016-10-15 15:36:59"
+  ["order_number"]=>
+  string(7) "587514A"
+  ["order_status_name"]=>
+  string(18) "Отправлен"
+  ["shipping_order_order_id"]=>
+  string(18) "587514-587514A_560"
+  ["state"]=>
+  string(16) "Вручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024496"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "587514"
+  ["status"]=>
+  string(9) "delivered"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_delivery"]=>
+    string(10) "2016-10-15"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "587514"
+  ["status"]=>
+  string(9) "delivered"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_delivery"]=>
+  string(10) "2016-10-15"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(587514)
+}

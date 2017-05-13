@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+700859;psorias-cream;sent;parcel-on-a-place;"2017-01-08 15:16:44";700859A;Отправлен;700859-700859A_719;Невручение;32025042

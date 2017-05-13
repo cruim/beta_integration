@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+440515;joint-cream;parcel-on-a-place;delivered;"2016-07-06 21:19:00";440515A;"Товар в точке получения";440515-440515A_280;Вручение;CB016537450RU
+441076;psorias-cream;parcel-on-a-place;delivered;"2016-07-06 22:14:00";441076A;"Товар в точке получения";441076-441076A_283;Вручение;CB016538322RU

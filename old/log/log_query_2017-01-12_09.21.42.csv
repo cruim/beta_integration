@@ -1,0 +1,12 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+691108;joint-cream;sent;parcel-on-a-place;"2017-01-11 18:12:56";691108A;Отправлен;691108-691108A_708;Невручение;32024916
+689371;joint-cream;sent;parcel-on-a-place;"2017-01-11 18:12:43";689371A;Отправлен;689371-689371A_708;Невручение;32024903
+691238;fungus-cream;sent;parcel-on-a-place;"2017-01-11 18:08:32";691238A;Отправлен;691238-691238A_708;Невручение;32024920
+691109;joint-cream;sent;parcel-on-a-place;"2017-01-11 18:13:51";691109A;Отправлен;691109-691109A_708;Невручение;32024917
+694776;joint-cream;parcel-on-a-place;delivered;"2017-01-11 18:00:00";694776A;"Товар в точке получения";694776-694776A_713;Вручение;32024938
+694772;gemor-cream;sent;delivered;"2017-01-11 16:29:42";694772A;Отправлен;694772-694772A_713;Вручение;32024937
+701321;fungus-cream;sent;parcel-on-a-place;"2017-01-11 16:58:44";701321A;Отправлен;701321-701321A_719;Невручение;32025049
+701284;psorias-cream;sent;delivered;"2017-01-11 13:32:55";701284A;Отправлен;701284-701284A_719;Вручение;32025048
+701972;wrinkles-cream;sent;parcel-on-a-place;"2017-01-11 16:28:34";701972A;Отправлен;701972-701972A_719;Невручение;32025056
+704065;wrinkles-cream;sent;delivered;"2017-01-11 16:49:17";704065A;Отправлен;704065-704065A_722;Вручение;32025075
+704819;psorias-cream;sent;parcel-on-a-place;"2017-01-11 19:01:33";704819A;Отправлен;704819-704819A_722;Невручение;32025079

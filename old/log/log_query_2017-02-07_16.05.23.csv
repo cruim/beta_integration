@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+716800;joint-cream;parcel-on-a-place;delivered;"2017-02-06 18:10:00";716800A;"Товар в точке получения";716800-716800A_744;Вручение;CB018024360RU

@@ -1,0 +1,7 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+454682;joint-cream;parcel-on-a-place;delivered;"2016-07-18 14:42:00";454682A;"Товар в точке получения";454682-454682A_310;Вручение;CB016542905RU
+458056;joint-cream;parcel-on-a-place;delivered;"2016-07-16 12:44:00";458056A;"Товар в точке получения";458056-458056A_316;Вручение;CB016544447RU
+459374;joint-cream;parcel-on-a-place;delivered;"2016-07-18 17:01:00";459374A;"Товар в точке получения";459374-459374A_319;Вручение;CB016545005RU
+459300;joint-cream;parcel-on-a-place;delivered;"2016-07-18 16:40:00";459300A;"Товар в точке получения";459300-459300A_319;Вручение;CB016544827RU
+458978;joint-cream;parcel-on-a-place;delivered;"2016-07-18 18:36:00";458978A;"Товар в точке получения";458978-458978A_319;Вручение;CB016545031RU
+457564;gemor-cream;parcel-on-a-place;delivered;"2016-07-18 17:01:00";457564A;"Товар в точке получения";457564-457564A_319;Вручение;CB016545181RU

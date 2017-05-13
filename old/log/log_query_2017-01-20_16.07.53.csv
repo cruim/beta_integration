@@ -1,0 +1,5 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+690480;psorias-cream;parcel-on-a-place;injob;"2017-01-20 14:13:21";690480A;"Товар в точке получения";690480-690480A_708;Возврат;32024883
+701151;joint-cream;parcel-on-a-place;injob;"2017-01-20 14:13:21";701151A;"Товар в точке получения";701151-701151A_719;Возврат;32025046
+702141;wrinkles-cream;parcel-on-a-place;injob;"2017-01-20 14:13:21";702141A;"Товар в точке получения";702141-702141A_719;Возврат;32025058
+709310;vari-cream-com;sent;parcel-on-a-place;"2017-01-20 12:45:38";709310A;Отправлен;709310-709310A_726;Невручение;32025101

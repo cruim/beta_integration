@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+418961;psorias-cream;sent;delivered;"2016-06-10 18:09:00";418961C;Отправлен;418961-418961C_250;Вручение;CB014101707RU
+417428;psorias-cream;sent;parcel-on-a-place;"2016-06-13 10:50:00";417428A;Отправлен;417428-417428A_251;Невручение;CB014102027RU

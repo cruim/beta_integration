@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+593801;vari-cream-com;sent;delivered;"2016-10-23 14:16:03";593801A;Отправлен;593801-593801A_569;Вручение;32024546
+593214;prosta-cream;sent;delivered;"2016-10-23 16:11:40";593214A;Отправлен;593214-593214A_569;Вручение;32024544
+591703;joint-cream;sent;delivered;"2016-10-23 14:05:42";591703A;Отправлен;591703-591703A_569;Вручение;32024540

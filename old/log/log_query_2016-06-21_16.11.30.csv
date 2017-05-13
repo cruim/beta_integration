@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+423943;wrinkles-cream;sent;delivered;"2016-06-21 08:48:00";423943A;Отправлен;423943-423943A_260;Вручение;CB014103637RU

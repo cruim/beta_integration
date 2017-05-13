@@ -1,0 +1,350 @@
+string(18) "583676-583676A_565"
+object(RetailCrm\Response\ApiResponse)#7 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(583676)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#6 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(587084)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#5 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(590040)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#7 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(591009)
+  }
+}
+<br /><br />array(4) {
+  [0]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "583676"
+    ["shipping_order_order_id"]=>
+    string(18) "583676-583676A_565"
+    ["order_site"]=>
+    string(11) "joint-cream"
+  }
+  [1]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "587084"
+    ["shipping_order_order_id"]=>
+    string(18) "587084-587084A_565"
+    ["order_site"]=>
+    string(14) "vari-cream-com"
+  }
+  [2]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "590040"
+    ["shipping_order_order_id"]=>
+    string(18) "590040-590040A_565"
+    ["order_site"]=>
+    string(11) "gemor-cream"
+  }
+  [3]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "591009"
+    ["shipping_order_order_id"]=>
+    string(18) "591009-591009A_565"
+    ["order_site"]=>
+    string(14) "wrinkles-cream"
+  }
+}
+<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />array(0) {
+}
+string(18) "591067-591067A_566"
+object(RetailCrm\Response\ApiResponse)#6 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(591067)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#5 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(591075)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#7 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(591744)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#6 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(591865)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#5 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(591886)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#7 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(591889)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#6 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(591956)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#5 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(591972)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#7 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(592027)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#6 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(592361)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#5 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(592403)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#7 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(592582)
+  }
+}
+<br />object(RetailCrm\Response\ApiResponse)#6 (2) {
+  ["statusCode":protected]=>
+  int(200)
+  ["response":protected]=>
+  array(2) {
+    ["success"]=>
+    bool(true)
+    ["id"]=>
+    int(592726)
+  }
+}
+<br /><br />array(13) {
+  [0]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "591067"
+    ["shipping_order_order_id"]=>
+    string(18) "591067-591067A_566"
+    ["order_site"]=>
+    string(14) "vari-cream-com"
+  }
+  [1]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "591075"
+    ["shipping_order_order_id"]=>
+    string(18) "591075-591075A_566"
+    ["order_site"]=>
+    string(12) "fungus-cream"
+  }
+  [2]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "591744"
+    ["shipping_order_order_id"]=>
+    string(18) "591744-591744A_566"
+    ["order_site"]=>
+    string(12) "prosta-cream"
+  }
+  [3]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "591865"
+    ["shipping_order_order_id"]=>
+    string(18) "591865-591865A_566"
+    ["order_site"]=>
+    string(11) "joint-cream"
+  }
+  [4]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "591886"
+    ["shipping_order_order_id"]=>
+    string(18) "591886-591886A_566"
+    ["order_site"]=>
+    string(11) "joint-cream"
+  }
+  [5]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "591889"
+    ["shipping_order_order_id"]=>
+    string(18) "591889-591889A_566"
+    ["order_site"]=>
+    string(11) "joint-cream"
+  }
+  [6]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "591956"
+    ["shipping_order_order_id"]=>
+    string(18) "591956-591956A_566"
+    ["order_site"]=>
+    string(12) "prosta-cream"
+  }
+  [7]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "591972"
+    ["shipping_order_order_id"]=>
+    string(18) "591972-591972A_566"
+    ["order_site"]=>
+    string(12) "fungus-cream"
+  }
+  [8]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "592027"
+    ["shipping_order_order_id"]=>
+    string(18) "592027-592027A_566"
+    ["order_site"]=>
+    string(13) "psorias-cream"
+  }
+  [9]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "592361"
+    ["shipping_order_order_id"]=>
+    string(18) "592361-592361A_566"
+    ["order_site"]=>
+    string(11) "joint-cream"
+  }
+  [10]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "592403"
+    ["shipping_order_order_id"]=>
+    string(18) "592403-592403A_566"
+    ["order_site"]=>
+    string(14) "wrinkles-cream"
+  }
+  [11]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "592582"
+    ["shipping_order_order_id"]=>
+    string(18) "592582-592582A_566"
+    ["order_site"]=>
+    string(11) "joint-cream"
+  }
+  [12]=>
+  array(3) {
+    ["order_id"]=>
+    string(6) "592726"
+    ["shipping_order_order_id"]=>
+    string(18) "592726-592726A_566"
+    ["order_site"]=>
+    string(11) "joint-cream"
+  }
+}
+<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />wait 10 sec...<br />array(0) {
+}

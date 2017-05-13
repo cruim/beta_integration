@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+740447;wrinkles-cream;sent;parcel-on-a-place;"2017-02-14 11:18:00";740447A;Отправлен;740447-740447A_759;"Прибыло в город назначения";CB018024798RU
+737981;wrinkles-cream;sent;parcel-on-a-place;"2017-02-14 11:06:00";737981A;Отправлен;737981-737981A_759;"Прибыло в город назначения";CB018024869RU
+750003;fungus-cream;sent;parcel-on-a-place;"2017-02-15 09:57:00";750003A;Отправлен;750003-750003A_765;"Прибыло в город назначения";CB018025161RU

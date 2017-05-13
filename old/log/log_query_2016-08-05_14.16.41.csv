@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+474261;vari-cream-com;parcel-on-a-place;delivered;"2016-08-04 16:23:00";474261A;"Товар в точке получения";474261-474261A_367;Вручение;CB016550650RU
+478852;prosta-cream;sent;parcel-on-a-place;"2016-08-04 16:56:00";478852A;Отправлен;478852-478852A_370;"Прибыло в город назначения";CB016551955RU
+478716;prosta-cream;sent;parcel-on-a-place;"2016-08-05 08:42:00";478716A;Отправлен;478716-478716A_370;"Прибыло в город назначения";CB016552222RU

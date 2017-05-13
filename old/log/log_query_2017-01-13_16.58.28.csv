@@ -1,0 +1,7 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+691239;joint-cream;sent;delivered;"2017-01-13 14:26:47";691239A;Отправлен;691239-691239A_708;Вручение;32024921
+693988;gemor-cream;sent;parcel-on-a-place;"2017-01-13 10:10:52";693988A;Отправлен;693988-693988A_714;Невручение;32024972
+700490;gemor-cream;sent;parcel-on-a-place;"2017-01-13 10:36:21";700490A;Отправлен;700490-700490A_719;Невручение;32025035
+706282;cream-masthopaty;sent;delivered;"2017-01-13 10:53:43";706282A;Отправлен;706282-706282A_726;Вручение;32025095
+708055;joint-cream;sent;delivered;"2017-01-13 15:05:50";708055C;Отправлен;708055-708055C_726;Вручение;32025098
+707672;wrinkles-cream;sent;delivered;"2017-01-12 23:00:00";707672A;Отправлен;707672-707672A_729;Вручение;32025103

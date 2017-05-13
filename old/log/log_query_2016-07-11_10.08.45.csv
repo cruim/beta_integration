@@ -1,0 +1,2 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+454322;vari-cream-com;sent;parcel-on-a-place;"2016-07-10 22:03:00";454322A;Отправлен;454322-454322A_312;Невручение;CB016544169RU

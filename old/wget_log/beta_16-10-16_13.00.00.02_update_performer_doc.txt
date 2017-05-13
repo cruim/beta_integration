@@ -1,0 +1,14 @@
+Забираем документы у 267 кабнета<br /><br /><!--error--><br />
+<b>Warning</b>:  file_put_contents() [<a href='function.file-put-contents'>function.file-put-contents</a>]: Only 24576 of 126940 bytes written, possibly out of free disk space in <b>Z:\home\localsite\www\beta_post\shared_lib.php</b> on line <b>584</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script>Забираем документы у 275 кабнета<br /><br /><!--error--><br />
+<b>Warning</b>:  file_put_contents() [<a href='function.file-put-contents'>function.file-put-contents</a>]: Only 0 of 10229 bytes written, possibly out of free disk space in <b>Z:\home\localsite\www\beta_post\shared_lib.php</b> on line <b>584</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script>Забираем документы у 280 кабнета<br /><br /><!--error--><br />
+<b>Warning</b>:  file_put_contents() [<a href='function.file-put-contents'>function.file-put-contents</a>]: Only 57344 of 108255 bytes written, possibly out of free disk space in <b>Z:\home\localsite\www\beta_post\shared_lib.php</b> on line <b>584</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  mysqli::real_query() [<a href='mysqli.real-query'>mysqli.real-query</a>]: SSL: �������� ������� ���������.
+ in <b>Z:\home\localsite\www\beta_post\update_performer_doc.php</b> on line <b>61</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  mysqli::real_query() [<a href='mysqli.real-query'>mysqli.real-query</a>]: MySQL server has gone away in <b>Z:\home\localsite\www\beta_post\update_performer_doc.php</b> on line <b>61</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script><!--error--><br />
+<b>Warning</b>:  mysqli::real_query() [<a href='mysqli.real-query'>mysqli.real-query</a>]: Error reading result set's header in <b>Z:\home\localsite\www\beta_post\update_performer_doc.php</b> on line <b>61</b><br />
+<script language=JavaScript src='/denwer/errors/phperror_js.php'></script>

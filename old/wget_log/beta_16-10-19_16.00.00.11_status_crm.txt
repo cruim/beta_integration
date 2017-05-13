@@ -1,0 +1,51 @@
+array(10) {
+  ["order_id"]=>
+  string(6) "591956"
+  ["order_site"]=>
+  string(12) "prosta-cream"
+  ["mapping_order_status_from"]=>
+  string(17) "parcel-on-a-place"
+  ["mapping_order_status_to"]=>
+  string(9) "delivered"
+  ["date_time"]=>
+  string(19) "2016-10-19 15:46:33"
+  ["order_number"]=>
+  string(7) "591956A"
+  ["order_status_name"]=>
+  string(43) "Товар в точке получения"
+  ["shipping_order_order_id"]=>
+  string(18) "591956-591956A_566"
+  ["state"]=>
+  string(16) "Вручение"
+  ["order_customFields_nomer_otpravleniya"]=>
+  string(8) "32024533"
+}
+<br />array(3) {
+  ["id"]=>
+  string(6) "591956"
+  ["status"]=>
+  string(9) "delivered"
+  ["customFields"]=>
+  array(2) {
+    ["api_mark"]=>
+    string(17) "from_BetaPost_API"
+    ["date_of_delivery"]=>
+    string(10) "2016-10-19"
+  }
+}
+<br />array(7) {
+  ["id"]=>
+  string(6) "591956"
+  ["status"]=>
+  string(9) "delivered"
+  ["api_mark"]=>
+  string(17) "from_BetaPost_API"
+  ["date_of_delivery"]=>
+  string(10) "2016-10-19"
+  ["statusCode"]=>
+  int(200)
+  ["success"]=>
+  bool(true)
+  ["set_order_id"]=>
+  int(591956)
+}

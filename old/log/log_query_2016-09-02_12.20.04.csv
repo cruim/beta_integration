@@ -1,0 +1,12 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+501088;vari-cream-com;sent;parcel-on-a-place;"2016-09-02 11:05:19";501088A;Отправлен;501088-501088A_457;Невручение;32023412
+524870;vari-cream-com;sent;parcel-on-a-place;"2016-09-02 09:10:24";524870A;Отправлен;524870-524870A_457;Невручение;32023449
+513839;joint-cream;sent;delivered;"2016-09-02 10:53:45";513839A;Отправлен;513839-513839A_460;Вручение;32023506
+528540;joint-cream;sent;delivered;"2016-09-01 23:00:00";528540A;Отправлен;528540-528540A_460;Вручение;32023517
+530481;joint-cream;sent;delivered;"2016-09-02 11:26:17";530481A;Отправлен;530481-530481A_463;Вручение;32023581
+529625;vari-cream-com;sent;delivered;"2016-09-02 11:01:34";529625A;Отправлен;529625-529625A_463;Вручение;32023558
+530929;joint-cream;sent;delivered;"2016-09-02 10:50:56";530929A;Отправлен;530929-530929A_465;Вручение;32023602
+530857;joint-cream;sent;delivered;"2016-09-02 11:18:14";530857A;Отправлен;530857-530857A_465;Вручение;32023601
+531156;vari-cream-com;sent;delivered;"2016-09-02 11:43:27";531156A;Отправлен;531156-531156A_465;Вручение;32023607
+530272;vari-cream-com;sent;delivered;"2016-09-02 11:10:08";530272C;Отправлен;530272-530272C_465;Вручение;32023597
+531087;osteochondrosis-cream;sent;delivered;"2016-09-02 11:17:58";531087A;Отправлен;531087-531087A_465;Вручение;32023604

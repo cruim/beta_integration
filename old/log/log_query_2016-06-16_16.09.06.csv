@@ -1,0 +1,3 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+414235;cream-masthopaty;sent;parcel-on-a-place;"2016-06-16 10:58:00";414235A;Отправлен;414235-414235A_247;Невручение;CB014101888RU
+418397;vari-cream-com;sent;parcel-on-a-place;"2016-06-16 11:28:00";418397A;Отправлен;418397-418397A_256;Невручение;CB014103022RU

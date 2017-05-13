@@ -1,0 +1,4 @@
+order_id;order_site;mapping_order_status_from;mapping_order_status_to;date_time;order_number;order_status_name;shipping_order_order_id;state;order_customFields_nomer_otpravleniya
+639773;cream-masthopaty;sent;parcel-on-a-place;"2016-11-23 08:21:32";639773A;Отправлен;639773-639773A_639;Невручение;32024829
+640216;gemor-cream;sent;parcel-on-a-place;"2016-11-23 09:50:22";640216A;Отправлен;640216-640216A_639;Невручение;32024830
+639295;joint-cream;sent;parcel-on-a-place;"2016-11-23 08:56:39";639295A;Отправлен;639295-639295A_639;Невручение;32024828
