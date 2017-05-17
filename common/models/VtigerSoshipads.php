@@ -56,4 +56,9 @@ class VtigerSoshipads extends \yii\db\ActiveRecord
             'sp_so_country' => 'Sp So Country',
         ];
     }
+
+    public function getPartpost()
+    {
+        return $this->hasOne(Partpost::className(), ['partpost_INDEX' => 'ship_code']);
+    }
 }

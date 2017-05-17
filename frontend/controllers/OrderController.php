@@ -8,6 +8,7 @@ use common\models\VtigerSalesorderSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\helpers\Html;
 
 /**
  * OrderController implements the CRUD actions for VtigerSalesorder model.
@@ -35,14 +36,30 @@ class OrderController extends \common\controllers\OrderController
      */
     public function actionIndex()
     {
+//        \Yii::$app->response->format = \yii\web\Response::FORMAT_XML;
         $searchModel = new VtigerSalesorderSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-        $dataProvider->pagination->pageSize = 50;
+
+        if(Yii::$app->request->get('final_search'))
+        {
+            $dataProvider = $searchModel->finalSearch(Yii::$app->request->queryParams);
+        }
+        if(isset($_GET['all_search']))
+        {
+            $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        }
+        if(isset($_GET['uncorrect_search']))
+        {
+            $dataProvider = $searchModel->uncorrectSearch(Yii::$app->request->queryParams);
+        }
+
+        //$dataProvider->pagination->pageSize = 50;
 
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
+
     }
 
     /**

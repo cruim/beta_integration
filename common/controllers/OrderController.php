@@ -46,6 +46,8 @@ class OrderController extends Controller
         ]);
     }
 
+    
+
     /**
      * Displays a single VtigerSalesorder model.
      * @param integer $id

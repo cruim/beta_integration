@@ -6,7 +6,7 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model common\models\VtigerSalesorder */
 
-$this->title = $model->salesorder_custom;
+$this->title = $model->salesorderid;
 $this->params['breadcrumbs'][] = ['label' => 'Vtiger Salesorders', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

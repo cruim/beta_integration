@@ -148,6 +148,8 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
         return 'vtiger_salesorder';
     }
 
+
+
     /**
      * @inheritdoc
      */
@@ -219,7 +221,7 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
             'sp_porch' => 'Sp Porch',
             'sp_floor' => 'Sp Floor',
             'sp_delivery_service' => 'Sp Delivery Service',
-            'sp_delivery_date' => 'Sp Delivery Date',
+            'sp_delivery_date' => 'Дата доставки',
             'sp_delivery_time' => 'Sp Delivery Time',
             'sp_operator_comment_one' => 'Sp Operator Comment One',
             'sp_client_comment_one' => 'Sp Client Comment One',
@@ -283,7 +285,7 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
             'sp_geo_country' => 'Sp Geo Country',
             'sp_retailcrm_id' => 'Sp Retailcrm ID',
             'sp_operator_comment_two' => 'Sp Operator Comment Two',
-            'repeat_order' => 'Repeat Order',
+            'repeat_order' => 'Повторный заказ',
             'language_landing' => 'Language Landing',
             'order_processing_date' => 'Order Processing Date',
             'doubles' => 'Doubles',
@@ -297,7 +299,7 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
             'sp_age' => 'Sp Age',
             'real_mobile_phone' => 'Контактный телефон',
             'organization_sender' => 'Organization Sender',
-            'fact_payment' => 'Fact Payment',
+            'fact_payment' => 'Оплачено',
             'extcallcenter_id' => 'Extcallcenter ID',
             'last_update_status' => 'Last Update Status',
             'term_of_dialer' => 'Term Of Dialer',
@@ -313,6 +315,11 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
         return $this->hasOne(VtigerSoshipads::className(), ['soshipaddressid' => 'salesorderid']);
     }
 
+    public function getIndex()
+    {
+        return $this->hasMany(VtigerSoshipads::className(), ['soshipaddressid' => 'salesorderid']);
+    }
+
     public function getVtigerCrmentity()
     {
         return $this->hasMany(VtigerCrmentity::className(), ['crmid' => 'salesorderid']);
@@ -326,6 +333,11 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
     public function getInventory()
     {
         return $this->hasMany(VtigerInventoryproductrel::className(), ['id' => 'salesorderid']);
+    }
+    
+    public function getSalesOrdercf()
+    {
+        return $this->hasOne(VtigerSalesordercf::className(), ['salesorderid' => 'salesorderid']);
     }
 
 }

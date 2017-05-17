@@ -121,4 +121,10 @@ a.desc:after {
 th
 {
     text-align: center;
+    background-color: #E6E9FF;
+}
+
+.centr{
+    width: 400px;
+    margin: 0 auto;
 }
