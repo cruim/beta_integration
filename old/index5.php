@@ -185,7 +185,7 @@ curl_close($o_Curl);
                                 $oXMLout->writeAttribute("dev1mail_type", "23"); // 23= Посылка онлайн
 				$oXMLout->writeAttribute("delivery_type", "1");
 				$oXMLout->writeAttribute("order_id",	$shipping_order['shipping_order_order_id']	);
-				$oXMLout->writeAttribute("zip",		$shipping_order['shipping_order_zip']		);
+				$oXMLout->writeAttribute("zip",			$shipping_order['shipping_order_zip']		);
 				$oXMLout->writeAttribute("clnt_name",	$shipping_order['shipping_order_clnt_name']	);
 				$oXMLout->writeAttribute("clnt_phone",	$shipping_order['shipping_order_clnt_phone']    );
 				

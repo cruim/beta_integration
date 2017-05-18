@@ -207,13 +207,13 @@ class VtigerSalesorderSearch extends VtigerSalesorder
 //            ->joinWith('address')
             ->innerJoin('vtiger_soshipads', 'vtiger_salesorder.salesorderid=vtiger_soshipads.soshipaddressid')
             ->leftJoin('integration_betapost.partpost', 'vtiger_soshipads.ship_code=integration_betapost.partpost.partpost_INDEX')
+            ->andWhere(['sp_delivery_service' => "Beta Post"])
             ->andWhere(['NOT',['integration_betapost.partpost.partpost_INDEX' => null]])
             ->andWhere(['NOT',['sp_house' => '']])
             ->andWhere(['NOT',['vtiger_soshipads.ship_street' => '']])
             ->andWhere(['NOT',['vtiger_soshipads.ship_city' => '']])
-            ->andWhere( ['NOT',['vtiger_soshipads.ship_state' => '']])
-            ->andWhere(['NOT',['total' => 330]])
-            ->andWhere(['sp_delivery_service' => "Beta Post"]);
+            ->andWhere(['NOT',['vtiger_soshipads.ship_state' => '']])
+            ->andWhere(['NOT',['total' => 330]]);
 
         // add conditions that should always apply here
 

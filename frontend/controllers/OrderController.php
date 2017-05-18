@@ -9,6 +9,7 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\helpers\Html;
+use XMLWriter;
 
 /**
  * OrderController implements the CRUD actions for VtigerSalesorder model.
@@ -36,6 +37,95 @@ class OrderController extends \common\controllers\OrderController
      */
     public function actionIndex()
     {
+        $data = vtigerSalesorder::getOrderXMLData();
+
+
+        $final_array = array();
+
+        foreach ($data as $val)
+        {
+            $count = 0;
+            for($i = 0; $i < $val['quantity']; $i++)
+            {
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $val['ordrow_id'] = $val['ordrow_id'] . '/' . $count;
+                $final_array[] = $val;
+                $val['ordrow_id'] = $intermediate;
+            }
+        }
+
+//        foreach ($final_array as $final)
+//        {
+//            echo"<pre>";print_r($final);echo"</pre>";
+//        }
+//        echo count($final_array);
+//
+//        exit();
+
+
+
+        $oXMLout = new XMLWriter();
+        $oXMLout->openMemory();
+        $oXMLout->startDocument('1.0' , 'UTF-8' );
+        $oXMLout->setIndent(true);
+        $oXMLout->startElement("request");
+
+        //$oXMLout->writeElement("request", "hello world");
+        $oXMLout->writeAttribute("partner_id", 'lk');
+        $oXMLout->writeAttribute("password", 'pass');
+        $oXMLout->writeAttribute("request_type", "101");
+
+
+        foreach ($final_array as $shipping_order_row) {
+            $oXMLout->startElement("order_row");
+            $oXMLout->writeAttribute("ordrow_id", 	$shipping_order_row['ordrow_id']);
+            $oXMLout->writeAttribute("order_id", 	$shipping_order_row['order_id']);
+            $oXMLout->writeAttribute("good_id", 	$shipping_order_row['good_id']);
+            $oXMLout->writeAttribute("price", 		$shipping_order_row['price']);
+            $oXMLout->writeAttribute("clnt_price", 	$shipping_order_row['clnt_price']);
+            $oXMLout->endElement(); //order_row
+        }
+
+//
+//
+//
+//            foreach ($data as $shipping_order) {
+//                $oXMLout->startElement("order");
+//                //$oXMLout->writeAttribute("dev1mail_type", "16"); // 16= Бандероль 1 класса
+//                $oXMLout->writeAttribute("dev1mail_type", "23"); // 23= Посылка онлайн
+//                $oXMLout->writeAttribute("delivery_type", "1");
+//                $oXMLout->writeAttribute("order_id",	$shipping_order['shipping_order_order_id']	);
+//                $oXMLout->writeAttribute("zip",			$shipping_order['shipping_order_zip']		);
+//                $oXMLout->writeAttribute("clnt_name",	$shipping_order['shipping_order_clnt_name']	);
+//                $oXMLout->writeAttribute("clnt_phone",	$shipping_order['shipping_order_clnt_phone']    );
+//
+//                $oXMLout->startElement("struct_addr");
+//                $oXMLout->writeAttribute("region", 	$shipping_order['shipping_order_region']	);
+//                $oXMLout->writeAttribute("city", 	$shipping_order['shipping_order_city']		);
+//                $oXMLout->writeAttribute("street",	$shipping_order['shipping_order_street']	);
+//                $oXMLout->writeAttribute("house",	$shipping_order['shipping_order_house']		);
+//                $oXMLout->endElement(); //struct_addr
+//                $oXMLout->endElement(); //order
+//            }
+//
+        $oXMLout->endElement(); //request
+
+        $oXMLout->endDocument();
+        echo htmlentities($oXMLout->outputMemory());
+
+
+//        $oXMLout->writeRaw();
+
+    
+
+
+
+
+
+        exit();
+
 //        \Yii::$app->response->format = \yii\web\Response::FORMAT_XML;
         $searchModel = new VtigerSalesorderSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);

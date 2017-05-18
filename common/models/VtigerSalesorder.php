@@ -340,4 +340,53 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
         return $this->hasOne(VtigerSalesordercf::className(), ['salesorderid' => 'salesorderid']);
     }
 
+    public static function getClientXMLData()
+    {
+        return   Yii::$app->getDb()->createCommand(
+            "SELECT CONCAT(salesorderid,'-',salesorderid,'A_',904) as shipping_order_order_id, partpost.partpost_INDEX as shipping_order_zip,
+            CONCAT(sp_full_name,' ',sp_firstname,' ',sp_middle_name) as shipping_order_clnt_name, real_mobile_phone as shipping_order_clnt_phone,
+            vtiger_soshipads.ship_state as shipping_order_region, vtiger_soshipads.ship_city as shipping_order_city,
+            vtiger_soshipads.ship_street as shipping_order_street, CONCAT('д. ',sp_house,' ',sp_housing,', кв. ',sp_flat) as shipping_order_house
+            FROM `vtiger_salesorder`
+            inner join vtiger_soshipads on vtiger_salesorder.salesorderid = vtiger_soshipads.soshipaddressid
+            left join integration_betapost.partpost on vtiger_soshipads.ship_code = partpost.partpost_INDEX
+            where sostatus = 'Отправлять'
+            and partpost_INDEX is not null
+            and sp_house != ''
+            and vtiger_soshipads.ship_street != ''
+            and vtiger_soshipads.ship_city != ''
+            and vtiger_soshipads.ship_state != ''
+            and total > 330"
+        )->queryAll();
+    }
+
+    public static function getOrderXMLData()
+    {
+        return   Yii::$app->getDb()->createCommand(
+            "select concat(salesorderid,'-',salesorderid,'A_904/',shipping_order_row_good_id) as ordrow_id,
+concat(salesorderid,'-',salesorderid,'A') as order_id, 
+integration_betapost.goods_to_products.shipping_order_row_good_id as good_id, 
+case vtiger_products.unit_price
+        when 990 then 990
+        when 0 then 0
+		when 330 then 0
+    end as price,
+round(vtiger_products.unit_price) as clnt_price,vtiger_inventoryproductrel.quantity
+from vtiger_salesorder
+inner join vtiger_inventoryproductrel on vtiger_salesorder.salesorderid = vtiger_inventoryproductrel.id
+inner join vtiger_products on vtiger_inventoryproductrel.productid = vtiger_products.productid
+inner join integration_betapost.goods_to_products on vtiger_products.productid = integration_betapost.goods_to_products.productid
+inner join vtiger_soshipads on vtiger_salesorder.salesorderid = vtiger_soshipads.soshipaddressid
+left join integration_betapost.partpost on vtiger_soshipads.ship_code = partpost.partpost_INDEX
+where sostatus = 'Отправлять'
+and partpost_INDEX is not null
+            and sp_house != ''
+            and vtiger_soshipads.ship_street != ''
+            and vtiger_soshipads.ship_city != ''
+            and vtiger_soshipads.ship_state != ''
+            and total > 330
+order by salesorderid desc
+limit 20"
+        )->queryAll();
+    }
 }
