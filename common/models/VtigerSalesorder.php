@@ -351,6 +351,7 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
             inner join vtiger_soshipads on vtiger_salesorder.salesorderid = vtiger_soshipads.soshipaddressid
             left join integration_betapost.partpost on vtiger_soshipads.ship_code = partpost.partpost_INDEX
             where sostatus = 'Отправлять'
+            and sp_delivery_service = 'Beta Post'
             and partpost_INDEX is not null
             and sp_house != ''
             and vtiger_soshipads.ship_street != ''
@@ -363,30 +364,340 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
     public static function getOrderXMLData()
     {
         return   Yii::$app->getDb()->createCommand(
-            "select concat(salesorderid,'-',salesorderid,'A_904/',shipping_order_row_good_id) as ordrow_id,
-concat(salesorderid,'-',salesorderid,'A') as order_id, 
-integration_betapost.goods_to_products.shipping_order_row_good_id as good_id, 
-case vtiger_products.unit_price
-        when 990 then 990
-        when 0 then 0
-		when 330 then 0
-    end as price,
-round(vtiger_products.unit_price) as clnt_price,vtiger_inventoryproductrel.quantity
-from vtiger_salesorder
-inner join vtiger_inventoryproductrel on vtiger_salesorder.salesorderid = vtiger_inventoryproductrel.id
-inner join vtiger_products on vtiger_inventoryproductrel.productid = vtiger_products.productid
-inner join integration_betapost.goods_to_products on vtiger_products.productid = integration_betapost.goods_to_products.productid
-inner join vtiger_soshipads on vtiger_salesorder.salesorderid = vtiger_soshipads.soshipaddressid
-left join integration_betapost.partpost on vtiger_soshipads.ship_code = partpost.partpost_INDEX
-where sostatus = 'Отправлять'
-and partpost_INDEX is not null
+            "select concat(salesorderid,'-',salesorderid,'A_/',shipping_order_row_good_id) as ordrow_id,
+            concat(salesorderid,'-',salesorderid,'A') as order_id, 
+            integration_betapost.goods_to_products.shipping_order_row_good_id as good_id, 
+            case vtiger_products.unit_price
+            when 990 then 990
+            when 0 then 0
+		    when 330 then 0
+            end as price,
+            round(vtiger_products.unit_price) as clnt_price,vtiger_inventoryproductrel.quantity
+            from vtiger_salesorder
+            inner join vtiger_inventoryproductrel on vtiger_salesorder.salesorderid = vtiger_inventoryproductrel.id
+            inner join vtiger_products on vtiger_inventoryproductrel.productid = vtiger_products.productid
+            inner join integration_betapost.goods_to_products on vtiger_products.productid = integration_betapost.goods_to_products.productid
+            inner join vtiger_soshipads on vtiger_salesorder.salesorderid = vtiger_soshipads.soshipaddressid
+            left join integration_betapost.partpost on vtiger_soshipads.ship_code = partpost.partpost_INDEX
+            where sostatus = 'Отправлять'
+            and sp_delivery_service = 'Beta Post'
+            and partpost_INDEX is not null
             and sp_house != ''
             and vtiger_soshipads.ship_street != ''
             and vtiger_soshipads.ship_city != ''
             and vtiger_soshipads.ship_state != ''
             and total > 330
-order by salesorderid desc
-limit 20"
+order by ordrow_id desc, clnt_price desc"
+            
+            
+//            "select concat(salesorderid,'-',salesorderid,'A_904/',shipping_order_row_good_id) as ordrow_id,
+//            concat(salesorderid,'-',salesorderid,'A') as order_id, 
+//            integration_betapost.goods_to_products.shipping_order_row_good_id as good_id, 
+//            case vtiger_products.unit_price
+//            when 990 then 990
+//            when 0 then 0
+//		    when 330 then 0
+//            end as price,
+//            round(vtiger_products.unit_price) as clnt_price,vtiger_inventoryproductrel.quantity
+//            from vtiger_salesorder
+//            inner join vtiger_inventoryproductrel on vtiger_salesorder.salesorderid = vtiger_inventoryproductrel.id
+//            inner join vtiger_products on vtiger_inventoryproductrel.productid = vtiger_products.productid
+//            inner join integration_betapost.goods_to_products on vtiger_products.productid = integration_betapost.goods_to_products.productid
+//            inner join vtiger_soshipads on vtiger_salesorder.salesorderid = vtiger_soshipads.soshipaddressid
+//            left join integration_betapost.partpost on vtiger_soshipads.ship_code = partpost.partpost_INDEX
+//            where sostatus = 'Отправлять'
+//            and sp_delivery_service = 'Beta Post'
+//            and partpost_INDEX is not null
+//            and sp_house != ''
+//            and vtiger_soshipads.ship_street != ''
+//            and vtiger_soshipads.ship_city != ''
+//            and vtiger_soshipads.ship_state != ''
+//            and total > 330
+//order by salesorderid desc"
+        )->queryAll();
+    }
+
+    public static function getLastDocNumber()
+    {
+        return   Yii::$app->getDb()->createCommand(
+            "SELECT max(shipping_doc_id) as doc
+            FROM integration_betapost.`shipping_doc`"
+        )->queryAll();
+    }
+
+    public static function getErectOffers()
+    {
+        return   Yii::$app->getDb()->createCommand(
+            "SELECT shipping_order_row_good_id 
+            FROM integration_betapost.goods
+            where is_erect = 1"
+        )->queryAll();
+    }
+
+    public static function getNonErectOffers()
+    {
+        return   Yii::$app->getDb()->createCommand(
+            "SELECT shipping_order_row_good_id 
+            FROM integration_betapost.goods
+            where is_erect = 0"
+        )->queryAll();
+    }
+
+    public static function createXMLDoc($lk, $pass)
+    {
+        $order_data = vtigerSalesorder::getOrderXMLData();
+        $client_data = vtigerSalesorder::getClientXMLData();
+        $doc_number = vtigerSalesorder::getLastDocNumber();
+        foreach ($doc_number as $doc)
+        {
+            $actual_doc_number = ($doc['doc']+1);
+        }
+
+        $simple_collection = vtigerSalesorder::getNonErectOffers();
+        $erect_collection = vtigerSalesorder::getErectOffers();
+        foreach ($simple_collection as $value)
+        {
+            $simple_collection_parse[] = ($value['shipping_order_row_good_id']);
+        }
+
+        foreach ($erect_collection as $value)
+        {
+            $erect_collection_parse[] = ($value['shipping_order_row_good_id']);
+        }
+
+
+        $final_array = array();
+        $count = 0;
+        $reg = null;
+        foreach ($order_data as $val)
+        {
+            $ordrow_id = $val['ordrow_id'];
+            $nc=strrpos($ordrow_id,"_");
+            $ordrow_id=substr($ordrow_id,0,$nc+1). $actual_doc_number .substr($ordrow_id,$nc+1);
+            $val['ordrow_id'] = $ordrow_id;
+
+            if($reg != substr_replace($val['ordrow_id'], '', -3))
+            {
+                $count = 0;
+            }
+            if(in_array($val['good_id'],$erect_collection_parse) and $count == 0)
+            {
+                $repo = $val;
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $intermediate = substr_replace($intermediate, '005', -3);
+                $val['ordrow_id'] = $intermediate . '/' . $count;
+
+                $val['price'] = 0;
+                $val['clnt_price'] = 0;
+                $val['good_id'] = '005';
+                $final_array[] = $val;
+
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $intermediate = substr_replace($intermediate, '025', -5);
+                $val['ordrow_id'] = $intermediate . '/' . $count;
+
+                $val['price'] = 0;
+                $val['clnt_price'] = 0;
+                $val['good_id'] = '025';
+                $final_array[] = $val;
+
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $intermediate = substr_replace($intermediate, '026', -5);
+                $val['ordrow_id'] = $intermediate . '/' . $count;
+
+                $val['price'] = 0;
+                $val['clnt_price'] = 0;
+                $val['good_id'] = '026';
+                $final_array[] = $val;
+
+                $val = $repo;
+            }
+            if(in_array($val['good_id'],$simple_collection_parse)  and $count == 0)
+            {
+                $repo = $val;
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $intermediate = substr_replace($intermediate, '003', -3);
+                $val['ordrow_id'] = $intermediate . '/' . $count;
+                $val['good_id'] = '003';
+                $val['price'] = 0;
+                $val['clnt_price'] = 0;
+                $final_array[] = $val;
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $intermediate = substr_replace($intermediate, '005', -5);
+                $val['ordrow_id'] = $intermediate . '/' . $count;
+                $val['good_id'] = '005';
+                $val['price'] = 0;
+                $val['clnt_price'] = 0;
+                $final_array[] = $val;
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $intermediate = substr_replace($intermediate, '006', -5);
+                $val['ordrow_id'] = $intermediate . '/' . $count;
+                $val['good_id'] = '006';
+                $val['price'] = 0;
+                $val['clnt_price'] = 0;
+                $final_array[] = $val;
+                $val = $repo;
+            }
+
+            for($i = 0; $i < $val['quantity']; $i++)
+            {
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $val['ordrow_id'] = $val['ordrow_id'] . '/' . $count;
+                $final_array[] = $val;
+                $val['ordrow_id'] = $intermediate;
+            }
+            $reg = substr_replace($intermediate, '', -3);
+        }
+
+//
+//        foreach ($final_array as $final)
+//        {
+//            echo"<pre>";print_r($final);echo"</pre>";
+//        }
+//        echo count($final_array);
+
+//        exit();
+//
+//
+//
+        $oXMLout = new XMLWriter();
+        $oXMLout->openMemory();
+        $oXMLout->startDocument('1.0' , 'UTF-8' );
+        $oXMLout->setIndent(true);
+        $oXMLout->startElement("request");
+
+        //$oXMLout->writeElement("request", "hello world");
+        $oXMLout->writeAttribute("partner_id", $lk);
+        $oXMLout->writeAttribute("password", $pass);
+        $oXMLout->writeAttribute("request_type", "101");
+//
+//
+        foreach ($final_array as $shipping_order_row) {
+            $oXMLout->startElement("order_row");
+            $oXMLout->writeAttribute("ordrow_id", 	$shipping_order_row['ordrow_id']);
+            $oXMLout->writeAttribute("order_id", 	$shipping_order_row['order_id']);
+            $oXMLout->writeAttribute("good_id", 	$shipping_order_row['good_id']);
+            $oXMLout->writeAttribute("price", 		$shipping_order_row['price']);
+            $oXMLout->writeAttribute("clnt_price", 	$shipping_order_row['clnt_price']);
+            $oXMLout->endElement(); //order_row
+        }
+
+
+
+
+        foreach ($client_data as $shipping_order) {
+            $oXMLout->startElement("order");
+            //$oXMLout->writeAttribute("dev1mail_type", "16"); // 16= Бандероль 1 класса
+            $oXMLout->writeAttribute("dev1mail_type", "23"); // 23= Посылка онлайн
+            $oXMLout->writeAttribute("delivery_type", "1");
+            $oXMLout->writeAttribute("order_id",	$shipping_order['shipping_order_order_id']	);
+            $oXMLout->writeAttribute("zip",			$shipping_order['shipping_order_zip']		);
+            $oXMLout->writeAttribute("clnt_name",	$shipping_order['shipping_order_clnt_name']	);
+            $oXMLout->writeAttribute("clnt_phone",	$shipping_order['shipping_order_clnt_phone']    );
+
+            $oXMLout->startElement("struct_addr");
+            $oXMLout->writeAttribute("region", 	$shipping_order['shipping_order_region']	);
+            $oXMLout->writeAttribute("city", 	$shipping_order['shipping_order_city']		);
+            $oXMLout->writeAttribute("street",	$shipping_order['shipping_order_street']	);
+            $oXMLout->writeAttribute("house",	$shipping_order['shipping_order_house']		);
+            $oXMLout->endElement(); //struct_addr
+            $oXMLout->endElement(); //order
+        }
+
+        $oXMLout->endElement(); //request
+
+        $oXMLout->endDocument();
+        echo htmlentities($oXMLout->outputMemory());
+//
+//
+//        $oXMLout->writeRaw();
+
+        exit();
+    }
+
+    public static function insertIntoIntermediateTable()
+    {
+        $sql = "truncate table integration_betapost.intermediate_beta_post; 
+insert into integration_betapost.intermediate_beta_post
+select vtiger_salesorder.salesorderid, concat(sp_full_name,' ',sp_firstname,' ',sp_middle_name) as fio, total, real_mobile_phone, partpost.partpost_INDEX,
+vtiger_soshipads.ship_state, vtiger_soshipads.ship_city, vtiger_soshipads.ship_street, sp_house, sp_housing, sp_flat,
+concat(vtiger_soshipads.ship_code,', ',vtiger_soshipads.sp_so_country,', ',vtiger_soshipads.ship_state,', ',vtiger_soshipads.ship_city,', ',
+vtiger_soshipads.ship_street, ', д.',sp_house,sp_housing,', кв.',sp_flat,', Район:',area) as full_address,
+vtiger_users.last_name as manager, payment_status,vtiger_salesordercf.cf_1365 as operator_comment,
+ (
+  SELECT
+   GROUP_CONCAT(
+    DISTINCT CONCAT(
+     products.productname,
+     ' ',
+     ROUND(
+      inventoryproductrel.quantity
+     ),
+     ' шт.'
+    ) SEPARATOR ', '
+   )
+FROM
+   vtiger_salesorder salesorder
+  LEFT JOIN vtiger_inventoryproductrel inventoryproductrel ON salesorder.salesorderid = inventoryproductrel.id
+  LEFT JOIN vtiger_products products ON products.productid = inventoryproductrel.productid
+  WHERE
+   vtiger_salesorder.salesorderid = salesorder.salesorderid
+  GROUP BY
+   inventoryproductrel.id
+ ) AS consist,
+fact_payment,repeat_order,sp_delivery_date
+
+from vtiger_salesorder
+inner join vtiger_soshipads on vtiger_salesorder.salesorderid=vtiger_soshipads.soshipaddressid
+left join integration_betapost.partpost on vtiger_soshipads.ship_code=integration_betapost.partpost.partpost_INDEX 
+inner join vtiger_crmentity on vtiger_salesorder.salesorderid = vtiger_crmentity.crmid
+inner join vtiger_users on vtiger_crmentity.smownerid = vtiger_users.id
+inner join vtiger_salesordercf on vtiger_salesorder.salesorderid = vtiger_salesordercf.salesorderid
+inner join vtiger_inventoryproductrel on vtiger_salesorder.salesorderid = vtiger_inventoryproductrel.id
+inner join vtiger_products on vtiger_inventoryproductrel.productid = vtiger_products.productid
+where sostatus = 'Отправлять'
+#and sp_delivery_service = 'Beta Post'
+and integration_betapost.partpost.partpost_INDEX is not NULL
+and sp_house != ''
+and vtiger_soshipads.ship_street != ''
+and vtiger_soshipads.ship_city != ''
+and vtiger_soshipads.ship_state != ''
+and total != 330
+group by vtiger_salesorder.salesorderid";
+
+        \Yii::$app->db->createCommand($sql)->execute();
+    }
+
+    public static function getPostOnlineOrders()
+    {
+        return   Yii::$app->getDb()->createCommand(
+            "SELECT * 
+            FROM integration_betapost.`intermediate_beta_post`
+            INNER JOIN integration_betapost.index_posilka_online on integration_betapost.intermediate_beta_post.partpost_INDEX = integration_betapost.index_posilka_online.post_index"
+        )->queryAll();
+    }
+
+    public static function getFirstClassOrders()
+    {
+        return   Yii::$app->getDb()->createCommand(
+            "SELECT * 
+            FROM integration_betapost.`intermediate_beta_post`
+            LEFT JOIN integration_betapost.index_posilka_online on intermediate_beta_post.partpost_INDEX = integration_betapost.index_posilka_online.post_index
+            where integration_betapost.index_posilka_online.post_index is null"
         )->queryAll();
     }
 }

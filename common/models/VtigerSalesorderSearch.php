@@ -45,8 +45,8 @@ class VtigerSalesorderSearch extends VtigerSalesorder
         $query = VtigerSalesorder::find()
             ->andWhere(['sostatus' => "Отправлять"])
             ->joinWith('address')
-            ->leftJoin('integration_betapost.partpost', 'vtiger_soshipads.ship_code=integration_betapost.partpost.partpost_INDEX')
-            ->andWhere(['sp_delivery_service' => "Beta Post"]);
+            ->leftJoin('integration_betapost.partpost', 'vtiger_soshipads.ship_code=integration_betapost.partpost.partpost_INDEX');
+//            ->andWhere(['sp_delivery_service' => "Beta Post"]);
 
         // add conditions that should always apply here
 

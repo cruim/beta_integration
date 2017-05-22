@@ -10,6 +10,7 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\helpers\Html;
 use XMLWriter;
+use yii\data\ArrayDataProvider;
 
 /**
  * OrderController implements the CRUD actions for VtigerSalesorder model.
@@ -37,61 +38,170 @@ class OrderController extends \common\controllers\OrderController
      */
     public function actionIndex()
     {
-        $data = vtigerSalesorder::getOrderXMLData();
-
-
-        $final_array = array();
-
-        foreach ($data as $val)
-        {
-            $count = 0;
-            for($i = 0; $i < $val['quantity']; $i++)
-            {
-                $count++;
-                $val['count'] = $count;
-                $intermediate = $val['ordrow_id'];
-                $val['ordrow_id'] = $val['ordrow_id'] . '/' . $count;
-                $final_array[] = $val;
-                $val['ordrow_id'] = $intermediate;
-            }
-        }
-
-//        foreach ($final_array as $final)
+//        $order_data = vtigerSalesorder::getOrderXMLData();
+//        $client_data = vtigerSalesorder::getClientXMLData();
+//        foreach ($client_data as $client)
 //        {
-//            echo"<pre>";print_r($final);echo"</pre>";
+//            $array[] = $client;
 //        }
-//        echo count($final_array);
-//
+//        print_r($array);
 //        exit();
-
-
-
-        $oXMLout = new XMLWriter();
-        $oXMLout->openMemory();
-        $oXMLout->startDocument('1.0' , 'UTF-8' );
-        $oXMLout->setIndent(true);
-        $oXMLout->startElement("request");
-
-        //$oXMLout->writeElement("request", "hello world");
-        $oXMLout->writeAttribute("partner_id", 'lk');
-        $oXMLout->writeAttribute("password", 'pass');
-        $oXMLout->writeAttribute("request_type", "101");
-
-
-        foreach ($final_array as $shipping_order_row) {
-            $oXMLout->startElement("order_row");
-            $oXMLout->writeAttribute("ordrow_id", 	$shipping_order_row['ordrow_id']);
-            $oXMLout->writeAttribute("order_id", 	$shipping_order_row['order_id']);
-            $oXMLout->writeAttribute("good_id", 	$shipping_order_row['good_id']);
-            $oXMLout->writeAttribute("price", 		$shipping_order_row['price']);
-            $oXMLout->writeAttribute("clnt_price", 	$shipping_order_row['clnt_price']);
-            $oXMLout->endElement(); //order_row
-        }
-
+//        $doc_number = vtigerSalesorder::getLastDocNumber();
+//        foreach ($doc_number as $doc)
+//        {
+//            $actual_doc_number = ($doc['doc']+1);
+//        }
+//        print_r($actual_doc_number);
+//        exit();
+//
+//        $simple_collection = vtigerSalesorder::getNonErectOffers();
+//        $erect_collection = vtigerSalesorder::getErectOffers();
+//        foreach ($simple_collection as $value)
+//        {
+//            $simple_collection_parse[] = ($value['shipping_order_row_good_id']);
+//        }
+//
+//        foreach ($erect_collection as $value)
+//        {
+//            $erect_collection_parse[] = ($value['shipping_order_row_good_id']);
+//        }
+//        $erect_collection = array('023','024');
+//
+//
+//        $final_array = array();
+//        $count = 0;
+//        $reg = null;
+//        foreach ($order_data as $val)
+//        {
+//            $ordrow_id = $val['ordrow_id'];
+//            $nc=strrpos($ordrow_id,"_");
+//            $ordrow_id=substr($ordrow_id,0,$nc+1). $actual_doc_number .substr($ordrow_id,$nc+1);
+//            $val['ordrow_id'] = $ordrow_id;
+//
+//            if($reg != substr_replace($val['ordrow_id'], '', -3))
+//            {
+//                $count = 0;
+//            }
+//            if(in_array($val['good_id'],$erect_collection) and $count == 0)
+//            {
+//                $repo = $val;
+//                $count++;
+//                $val['count'] = $count;
+//                $intermediate = $val['ordrow_id'];
+//                $intermediate = substr_replace($intermediate, '005', -3);
+//                $val['ordrow_id'] = $intermediate . '/' . $count;
+//
+//                $val['price'] = 0;
+//                $val['clnt_price'] = 0;
+//                $val['good_id'] = '005';
+//                $final_array[] = $val;
+//
+//                $count++;
+//                $val['count'] = $count;
+//                $intermediate = $val['ordrow_id'];
+//                $intermediate = substr_replace($intermediate, '025', -5);
+//                $val['ordrow_id'] = $intermediate . '/' . $count;
+//
+//                $val['price'] = 0;
+//                $val['clnt_price'] = 0;
+//                $val['good_id'] = '025';
+//                $final_array[] = $val;
+//
+//                $count++;
+//                $val['count'] = $count;
+//                $intermediate = $val['ordrow_id'];
+//                $intermediate = substr_replace($intermediate, '026', -5);
+//                $val['ordrow_id'] = $intermediate . '/' . $count;
+//
+//                $val['price'] = 0;
+//                $val['clnt_price'] = 0;
+//                $val['good_id'] = '026';
+//                $final_array[] = $val;
+//
+//                $val = $repo;
+//            }
+//            if(in_array($val['good_id'],$simple_collection_parse)  and $count == 0)
+//            {
+//                $repo = $val;
+//                $count++;
+//                $val['count'] = $count;
+//                $intermediate = $val['ordrow_id'];
+//                $intermediate = substr_replace($intermediate, '003', -3);
+//                $val['ordrow_id'] = $intermediate . '/' . $count;
+//                $val['good_id'] = '003';
+//                $val['price'] = 0;
+//                $val['clnt_price'] = 0;
+//                $final_array[] = $val;
+//                $count++;
+//                $val['count'] = $count;
+//                $intermediate = $val['ordrow_id'];
+//                $intermediate = substr_replace($intermediate, '005', -5);
+//                $val['ordrow_id'] = $intermediate . '/' . $count;
+//                $val['good_id'] = '005';
+//                $val['price'] = 0;
+//                $val['clnt_price'] = 0;
+//                $final_array[] = $val;
+//                $count++;
+//                $val['count'] = $count;
+//                $intermediate = $val['ordrow_id'];
+//                $intermediate = substr_replace($intermediate, '006', -5);
+//                $val['ordrow_id'] = $intermediate . '/' . $count;
+//                $val['good_id'] = '006';
+//                $val['price'] = 0;
+//                $val['clnt_price'] = 0;
+//                $final_array[] = $val;
+//                $val = $repo;
+//            }
+//
+//            for($i = 0; $i < $val['quantity']; $i++)
+//            {
+//                $count++;
+//                $val['count'] = $count;
+//                $intermediate = $val['ordrow_id'];
+//                $val['ordrow_id'] = $val['ordrow_id'] . '/' . $count;
+//                $final_array[] = $val;
+//                $val['ordrow_id'] = $intermediate;
+//            }
+//            $reg = substr_replace($intermediate, '', -3);
+//        }
+//
+////
+////        foreach ($final_array as $final)
+////        {
+////            echo"<pre>";print_r($final);echo"</pre>";
+////        }
+////        echo count($final_array);
+//
+////        exit();
+////
+////
+////
+//        $oXMLout = new XMLWriter();
+//        $oXMLout->openMemory();
+//        $oXMLout->startDocument('1.0' , 'UTF-8' );
+//        $oXMLout->setIndent(true);
+//        $oXMLout->startElement("request");
+//
+//        //$oXMLout->writeElement("request", "hello world");
+//        $oXMLout->writeAttribute("partner_id", 'lk');
+//        $oXMLout->writeAttribute("password", 'pass');
+//        $oXMLout->writeAttribute("request_type", "101");
+////
+////
+//        foreach ($final_array as $shipping_order_row) {
+//            $oXMLout->startElement("order_row");
+//            $oXMLout->writeAttribute("ordrow_id", 	$shipping_order_row['ordrow_id']);
+//            $oXMLout->writeAttribute("order_id", 	$shipping_order_row['order_id']);
+//            $oXMLout->writeAttribute("good_id", 	$shipping_order_row['good_id']);
+//            $oXMLout->writeAttribute("price", 		$shipping_order_row['price']);
+//            $oXMLout->writeAttribute("clnt_price", 	$shipping_order_row['clnt_price']);
+//            $oXMLout->endElement(); //order_row
+//        }
 //
 //
 //
-//            foreach ($data as $shipping_order) {
+//
+//            foreach ($client_data as $shipping_order) {
 //                $oXMLout->startElement("order");
 //                //$oXMLout->writeAttribute("dev1mail_type", "16"); // 16= Бандероль 1 класса
 //                $oXMLout->writeAttribute("dev1mail_type", "23"); // 23= Посылка онлайн
@@ -110,21 +220,15 @@ class OrderController extends \common\controllers\OrderController
 //                $oXMLout->endElement(); //order
 //            }
 //
-        $oXMLout->endElement(); //request
-
-        $oXMLout->endDocument();
-        echo htmlentities($oXMLout->outputMemory());
-
-
-//        $oXMLout->writeRaw();
-
-    
-
-
-
-
-
-        exit();
+//        $oXMLout->endElement(); //request
+//
+//        $oXMLout->endDocument();
+//        echo htmlentities($oXMLout->outputMemory());
+////
+////
+////        $oXMLout->writeRaw();
+//
+//exit();
 
 //        \Yii::$app->response->format = \yii\web\Response::FORMAT_XML;
         $searchModel = new VtigerSalesorderSearch();
@@ -132,7 +236,14 @@ class OrderController extends \common\controllers\OrderController
 
         if(Yii::$app->request->get('final_search'))
         {
+            //вставка в промежуточную таблицу корректных заказов
+            VtigerSalesorder::insertIntoIntermediateTable();
             $dataProvider = $searchModel->finalSearch(Yii::$app->request->queryParams);
+            return $this->render('correct_orders', [
+                'searchModel' => $searchModel,
+                'dataProvider' => $dataProvider,
+            ]);
+
         }
         if(isset($_GET['all_search']))
         {
@@ -143,7 +254,34 @@ class OrderController extends \common\controllers\OrderController
             $dataProvider = $searchModel->uncorrectSearch(Yii::$app->request->queryParams);
         }
 
+        if(isset($_GET['pochta_online']))
+        {
+            $data = VtigerSalesorder::getPostOnlineOrders();
+            $dataProvider = new ArrayDataProvider([
+                'allModels' => $data,
+                'sort' => [
+                ],
+            ]);
+
+            return $this->render('correct_orders',['dataProvider' =>$dataProvider]);
+        }
+
+        if(isset($_GET['first_class']))
+        {
+            $data = VtigerSalesorder::getFirstClassOrders();
+            $dataProvider = new ArrayDataProvider([
+                'allModels' => $data,
+                'sort' => [
+                ],
+            ]);
+
+            return $this->render('correct_orders',['dataProvider' =>$dataProvider]);
+        }
+
+        
+
         //$dataProvider->pagination->pageSize = 50;
+
 
         return $this->render('index', [
             'searchModel' => $searchModel,
