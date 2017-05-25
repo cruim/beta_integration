@@ -377,6 +377,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= Html::a( 'Некорректные Заказы', ['order/index', 'uncorrect_search' => 3],['class' => 'btn btn-danger btn-lg glyphicon glyphicon-thumbs-down']); ?>
     <?= Html::a( 'Почта Онлайн', ['order/index', 'pochta_online' => 4],['class' => 'btn btn-info btn-lg glyphicon glyphicon-envelope']); ?>
     <?= Html::a( 'Бандероль 1 класс', ['order/index', 'first_class' => 5],['class' => 'btn btn-warning btn-lg glyphicon glyphicon-send']); ?>
+
     <!--    <div><br>-->
     <!--        --><?php //$form = ActiveForm::begin(['id' => 'all_search', 'method' => 'GET',]) ?>
     <!--        <input type="hidden" value="1" name="all_search">-->

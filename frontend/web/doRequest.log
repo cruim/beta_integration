@@ -1,56 +1,46 @@
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
-  <error code="-20001" msg="doc/ordrow[@ordrow_id=1105188-1105188A_895895/022/5]ORA-20001: Для позиции заказа не найден товар @good_id=022" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 654 ORA-06512: на  &quot;ANP.FBR&quot;, line 1907 ORA-06512: на  &quot;ANP.FBR&quot;, line 3588 " request_id="129616520"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<request partner_id="267" password="u5/*yf;9O2]" request_type="151"/>
+
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response151" state="0">
+  <good good_id="002" qual_type="1" qnt="1261" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="003" qual_type="1" qnt="1610" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="005" qual_type="1" qnt="1803" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="006" qual_type="1" qnt="2755" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="009" qual_type="1" qnt="149" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="014" qual_type="1" qnt="1893" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="015" qual_type="1" qnt="241" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="016" qual_type="1" qnt="510" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="017" qual_type="1" qnt="125" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="019" qual_type="1" qnt="245" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="020" qual_type="1" qnt="3183" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="021" qual_type="1" qnt="2925" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="022" qual_type="1" qnt="198" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="023" qual_type="1" qnt="1163" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="025" qual_type="1" qnt="681" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="026" qual_type="1" qnt="681" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="027" qual_type="1" qnt="156" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="009 " qual_type="1" qnt="16" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
 </response>
 
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
-  <error code="-20001" msg="doc/ordrow[@ordrow_id=1105188-1105188A_895895/022/5]ORA-20001: Для позиции заказа не найден товар @good_id=022" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 654 ORA-06512: на  &quot;ANP.FBR&quot;, line 1907 ORA-06512: на  &quot;ANP.FBR&quot;, line 3588 " request_id="129616744"/>
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response151" state="0">
+  <good good_id="002" qual_type="1" qnt="1261" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="003" qual_type="1" qnt="1610" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="005" qual_type="1" qnt="1803" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="006" qual_type="1" qnt="2755" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="009" qual_type="1" qnt="149" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="014" qual_type="1" qnt="1893" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="015" qual_type="1" qnt="241" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="016" qual_type="1" qnt="510" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="017" qual_type="1" qnt="125" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="019" qual_type="1" qnt="245" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="020" qual_type="1" qnt="3183" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="021" qual_type="1" qnt="2925" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="022" qual_type="1" qnt="198" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="023" qual_type="1" qnt="1163" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="025" qual_type="1" qnt="681" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="026" qual_type="1" qnt="681" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="027" qual_type="1" qnt="156" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="009 " qual_type="1" qnt="16" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
 </response>
-
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
-  <error code="-20001" msg="doc/ordrow[@ordrow_id=1105188-1105188A_895895/022/5]ORA-20001: Для позиции заказа не найден товар @good_id=022" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 654 ORA-06512: на  &quot;ANP.FBR&quot;, line 1907 ORA-06512: на  &quot;ANP.FBR&quot;, line 3588 " request_id="129616825"/>
-</response>
-
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
-  <error code="-20001" msg="doc/ordrow[@ordrow_id=1105188-1105188A_895895/022/5]ORA-20001: Для позиции заказа не найден товар @good_id=022" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 654 ORA-06512: на  &quot;ANP.FBR&quot;, line 1907 ORA-06512: на  &quot;ANP.FBR&quot;, line 3588 " request_id="129616832"/>
-</response>
-
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
-  <error code="-20001" msg="doc/ordrow[@ordrow_id=1105188-1105188A_895895/022/5]ORA-20001: Для позиции заказа не найден товар @good_id=022" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 654 ORA-06512: на  &quot;ANP.FBR&quot;, line 1907 ORA-06512: на  &quot;ANP.FBR&quot;, line 3588 " request_id="129617415"/>
-</response>
-
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
-
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
-  <error code="-20001" msg="Документ c таким номером уже зарегистрирован /request/doc/@zdoc_id=1113341A-1113341A_895" backtrace="ORA-06512: на  &quot;ANP.ASSERT&quot;, line 11 ORA-06512: на  &quot;ANP.FBR&quot;, line 1890 ORA-06512: на  &quot;ANP.FBR&quot;, line 3588 " request_id="129628920"/>
-</response>
-
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
-  <error code="-20001" msg="Документ c таким номером уже зарегистрирован /request/doc/@zdoc_id=1113341A-1113341A_895" backtrace="ORA-06512: на  &quot;ANP.ASSERT&quot;, line 11 ORA-06512: на  &quot;ANP.FBR&quot;, line 1890 ORA-06512: на  &quot;ANP.FBR&quot;, line 3588 " request_id="129629124"/>
-</response>
-
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
-  <error code="-20001" msg="doc/ordrow[@ordrow_id=1113341-1113341A_896896/003/1]ORA-20001: Для позиции заказа не найдена шапка заказа @order_id=1113341-1113341A_" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 654 ORA-06512: на  &quot;ANP.FBR&quot;, line 1907 ORA-06512: на  &quot;ANP.FBR&quot;, line 3588 " request_id="129629843"/>
-</response>
-
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
-
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
-
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
-  <error code="-20001" msg="doc/ordrow[@ordrow_id=1113341_898/003/1]ORA-20001: Для позиции заказа не найдена шапка заказа @order_id=1113341_898" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 654 ORA-06512: на  &quot;ANP.FBR&quot;, line 1907 ORA-06512: на  &quot;ANP.FBR&quot;, line 3588 " request_id="129632839"/>
-</response>
-
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
-  <error code="-20001" msg="doc/ordrow[@ordrow_id=1113341_898/003/1]ORA-20001: Для позиции заказа не найдена шапка заказа @order_id=1113341_898" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 654 ORA-06512: на  &quot;ANP.FBR&quot;, line 1907 ORA-06512: на  &quot;ANP.FBR&quot;, line 3588 " request_id="129632921"/>
-</response>
-
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
-  <error code="-20001" msg="doc/ordrow[@ordrow_id=1030594_899/003/1]ORA-20001: Для позиции заказа не найдена шапка заказа @order_id=1030594_899" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 654 ORA-06512: на  &quot;ANP.FBR&quot;, line 1907 ORA-06512: на  &quot;ANP.FBR&quot;, line 3588 " request_id="129634294"/>
-</response>
-
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
-
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
-
-<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
 

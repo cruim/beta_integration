@@ -1,0 +1,21 @@
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response151" state="0">
+  <good good_id="002" qual_type="1" qnt="1261" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="003" qual_type="1" qnt="1610" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="005" qual_type="1" qnt="1803" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="006" qual_type="1" qnt="2755" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="009" qual_type="1" qnt="149" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="014" qual_type="1" qnt="1893" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="015" qual_type="1" qnt="241" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="016" qual_type="1" qnt="510" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="017" qual_type="1" qnt="125" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="019" qual_type="1" qnt="245" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="020" qual_type="1" qnt="3183" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="021" qual_type="1" qnt="2925" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="022" qual_type="1" qnt="198" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="023" qual_type="1" qnt="1163" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="025" qual_type="1" qnt="681" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="026" qual_type="1" qnt="681" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="027" qual_type="1" qnt="156" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+  <good good_id="009 " qual_type="1" qnt="16" qnt2="0" qnt3="0" qnt4="0" qnt5="0" qnt6="0" qnt7="0"/>
+</response>
+

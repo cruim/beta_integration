@@ -10,6 +10,7 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\helpers\Html;
 use yii\data\ArrayDataProvider;
+use XMLWriter;
 
 /**
  * OrderController implements the CRUD actions for VtigerSalesorder model.
@@ -37,48 +38,6 @@ class OrderController extends \common\controllers\OrderController
      */
     public function actionIndex()
     {
-        $get_lk = VtigerSalesorder::getLkData();
-        foreach ($get_lk as $lk)
-        {
-            $pass = ($lk['accounts_pass']);
-            $partner_id = ($lk['accounts_lk']);
-            $accounts_url = ($lk['accounts_url']);
-        }
-        $xml = VtigerSalesorder::createXMLDoc($pass,$partner_id);
-
-        VtigerSalesorder::sendXMLData($xml,$accounts_url);
-
-//        $o_Curl = curl_init();
-//
-//        $header = array(
-//            'Content-Type: text/xml'
-//        , 'Content-Length: ' . strlen($xml)
-//        , 'Connection: close'
-//        );
-//
-//        curl_setopt($o_Curl, CURLOPT_URL,               $accounts_url);
-//        curl_setopt($o_Curl, CURLOPT_POST,              1);
-//        curl_setopt($o_Curl, CURLOPT_CONNECTTIMEOUT,    60);
-//        curl_setopt($o_Curl, CURLOPT_HTTPHEADER,        $header);
-//        curl_setopt($o_Curl, CURLOPT_POSTFIELDS,        $xml);
-//
-//        curl_setopt($o_Curl, CURLOPT_HEADER,            0);
-//        curl_setopt($o_Curl, CURLOPT_RETURNTRANSFER,    1);
-//        curl_setopt($o_Curl, CURLOPT_SSL_VERIFYHOST,    0);
-//        curl_setopt($o_Curl, CURLOPT_SSL_VERIFYPEER,    0);
-//        $s_Response = curl_exec($o_Curl);
-//        //var_dump(curl_error($o_Curl));
-//        //var_dump(curl_errno($o_Curl));
-//        $file = 'doRequest.log';
-//        $content = "";
-//        $content .= print_r($s_Response, 1) . chr(13) . chr(10);
-//        file_put_contents($file, $content, FILE_APPEND | LOCK_EX);
-//
-//        return $s_Response;
-
-
-        exit();
-
         $searchModel = new VtigerSalesorderSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
@@ -116,6 +75,35 @@ class OrderController extends \common\controllers\OrderController
 
         if(isset($_GET['first_class']))
         {
+            $data = VtigerSalesorder::getFirstClassOrders();
+            $dataProvider = new ArrayDataProvider([
+                'allModels' => $data,
+                'sort' => [
+                ],
+            ]);
+
+            return $this->render('correct_orders',['dataProvider' =>$dataProvider]);
+        }
+
+        if(isset($_GET['send_orders']))
+        {
+            $get_lk = VtigerSalesorder::getLkData();
+
+            foreach ($get_lk as $lk)
+            {
+                $pass = ($lk['accounts_pass']);
+                $partner_id = ($lk['accounts_lk']);
+                $accounts_url = ($lk['accounts_url']);
+            }
+
+            $xml = VtigerSalesorder::createXMLDoc($pass,$partner_id,$partner_id);
+
+            VtigerSalesorder::sendXMLData($xml,$accounts_url);
+
+            $xml = VtigerSalesorder::createXMLDocFirstClass($pass,$partner_id,$partner_id);
+
+            VtigerSalesorder::sendXMLData($xml,$accounts_url);
+
             $data = VtigerSalesorder::getFirstClassOrders();
             $dataProvider = new ArrayDataProvider([
                 'allModels' => $data,

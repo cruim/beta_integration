@@ -243,9 +243,10 @@ $this->params['breadcrumbs'][] = $this->title;
     ]); ?>
 
 
-    <?= Html::a( ' Все Заказы', ['order/index', 'all_search' => 1],['class' => 'btn btn-primary btn-lg glyphicon glyphicon-search']); ?>
-    <?= Html::a( ' Корректные Заказы', ['order/index', 'final_search' => 2],['class' => 'btn btn-success btn-lg glyphicon glyphicon-thumbs-up']); ?>
-    <?= Html::a( ' Некорректные Заказы', ['order/index', 'uncorrect_search' => 3],['class' => 'btn btn-danger btn-lg glyphicon glyphicon-thumbs-down']); ?>
-    <?= Html::a( ' Почта Онлайн', ['order/index', 'pochta_online' => 4],['class' => 'btn btn-info btn-lg glyphicon glyphicon-envelope']); ?>
-    <?= Html::a( ' Бандероль 1 класс', ['order/index', 'first_class' => 5],['class' => 'btn btn-warning btn-lg glyphicon glyphicon-send']); ?>
+    <?= Html::a( ' Все Заказы', ['order/index', 'all_search' => 1],['class' => 'btn btn-primary btn-md glyphicon glyphicon-search']); ?>
+    <?= Html::a( ' Корректные Заказы', ['order/index', 'final_search' => 2],['class' => 'btn btn-success btn-md glyphicon glyphicon-thumbs-up']); ?>
+    <?= Html::a( ' Некорректные Заказы', ['order/index', 'uncorrect_search' => 3],['class' => 'btn btn-danger btn-md glyphicon glyphicon-thumbs-down']); ?>
+    <?= Html::a( ' Почта Онлайн', ['order/index', 'pochta_online' => 4],['class' => 'btn btn-info btn-md glyphicon glyphicon-envelope']); ?>
+    <?= Html::a( ' Бандероль 1 класс', ['order/index', 'first_class' => 5],['class' => 'btn btn-warning btn-md glyphicon glyphicon-envelope']); ?>
+    <?= Html::a( ' Отправка заказов', ['order/index', 'send_orders' => 6],['class' => 'btn btn-success btn-md glyphicon glyphicon-send']); ?>
 </div>
