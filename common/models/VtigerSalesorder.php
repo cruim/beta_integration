@@ -151,7 +151,6 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
     }
 
 
-
     /**
      * @inheritdoc
      */
@@ -326,7 +325,7 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
     {
         return $this->hasMany(VtigerCrmentity::className(), ['crmid' => 'salesorderid']);
     }
-    
+
     public function getOffer()
     {
         return $this->hasOne(OfferName::className(), ['sp_offer' => 'sp_offer']);
@@ -336,7 +335,7 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
     {
         return $this->hasMany(VtigerInventoryproductrel::className(), ['id' => 'salesorderid']);
     }
-    
+
     public function getSalesOrdercf()
     {
         return $this->hasOne(VtigerSalesordercf::className(), ['salesorderid' => 'salesorderid']);
@@ -349,9 +348,9 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
 
         foreach ($doc_number as $doc)
         {
-            $actual_doc_number = ($doc['doc']+1);
+            $actual_doc_number = ($doc['doc'] + 1);
         }
-        return   Yii::$app->getDb()->createCommand(
+        return Yii::$app->getDb()->createCommand(
             "SELECT CONCAT(salesorderid,'_',{$actual_doc_number}) as shipping_order_order_id, intermediate_beta_post.partpost_INDEX as shipping_order_zip,
             fio as shipping_order_clnt_name, real_mobile_phone as shipping_order_clnt_phone,
             intermediate_beta_post.ship_state as shipping_order_region, intermediate_beta_post.ship_city as shipping_order_city,
@@ -368,19 +367,26 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
 
         foreach ($doc_number as $doc)
         {
-            $actual_doc_number = ($doc['doc']+1);
+            $actual_doc_number = ($doc['doc'] + 1);
         }
-        return   Yii::$app->getDb()->createCommand(
-            "select concat(salesorderid,'_','/',shipping_order_row_good_id) as ordrow_id,
-            concat(salesorderid,'_',{$actual_doc_number}) as order_id, 
+        return Yii::$app->getDb()->createCommand(
+            "select concat(intermediate_beta_post.salesorderid,'_','/',shipping_order_row_good_id) as ordrow_id,
+            concat(intermediate_beta_post.salesorderid,'_',{$actual_doc_number}) as order_id,
             integration_betapost.goods_to_products.shipping_order_row_good_id as good_id, 
-           (case when (vtiger_products.unit_price = 990 and payment_status != 'Оплачен') then 990
-						 when (vtiger_products.unit_price = 990 and payment_status = 'Оплачен') then 1
+            (case when(vtiger_inventoryproductrel.listprice = 99)
+             then 99
+            when(integration_betapost.intermediate_beta_post.repeat_order = 'list') then intermediate_beta_post.total/vtiger_inventoryproductrel.quantity
+           when (vtiger_products.unit_price = 990 and intermediate_beta_post.payment_status != 'Оплачен') then 990
+						 when (vtiger_products.unit_price = 990 and intermediate_beta_post.payment_status = 'Оплачен') then 1
 						else 0 end) as price,
-						(case when (vtiger_products.unit_price = 990 and payment_status = 'Оплачен') then 0
+						(case when(vtiger_inventoryproductrel.listprice = 99)
+             then 99
+          when(integration_betapost.intermediate_beta_post.repeat_order = 'list') then intermediate_beta_post.total/vtiger_inventoryproductrel.quantity
+						 when (vtiger_products.unit_price = 990 and intermediate_beta_post.payment_status = 'Оплачен') then 0
 						else round(vtiger_products.unit_price) end) 
              as clnt_price,vtiger_inventoryproductrel.quantity
             from integration_betapost.intermediate_beta_post
+            inner join vtiger_salesorder on intermediate_beta_post.salesorderid = vtiger_salesorder.salesorderid
             inner join vtiger_inventoryproductrel on intermediate_beta_post.salesorderid = vtiger_inventoryproductrel.id
             inner join vtiger_products on vtiger_inventoryproductrel.productid = vtiger_products.productid
             inner join integration_betapost.goods_to_products on vtiger_products.productid = integration_betapost.goods_to_products.productid
@@ -397,9 +403,9 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
 
         foreach ($doc_number as $doc)
         {
-            $actual_doc_number = ($doc['doc']+1);
+            $actual_doc_number = ($doc['doc'] + 1);
         }
-        return   Yii::$app->getDb()->createCommand(
+        return Yii::$app->getDb()->createCommand(
             "SELECT CONCAT(salesorderid,'_',{$actual_doc_number}) as shipping_order_order_id, intermediate_beta_post.partpost_INDEX as shipping_order_zip,
             fio as shipping_order_clnt_name, real_mobile_phone as shipping_order_clnt_phone,
             intermediate_beta_post.ship_state as shipping_order_region, intermediate_beta_post.ship_city as shipping_order_city,
@@ -417,19 +423,26 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
 
         foreach ($doc_number as $doc)
         {
-            $actual_doc_number = ($doc['doc']+1);
+            $actual_doc_number = ($doc['doc'] + 1);
         }
-        return   Yii::$app->getDb()->createCommand(
-            "select concat(salesorderid,'_','/',shipping_order_row_good_id) as ordrow_id,
-            concat(salesorderid,'_',{$actual_doc_number}) as order_id,
+        return Yii::$app->getDb()->createCommand(
+            "select concat(intermediate_beta_post.salesorderid,'_','/',shipping_order_row_good_id) as ordrow_id,
+            concat(intermediate_beta_post.salesorderid,'_',{$actual_doc_number}) as order_id,
             integration_betapost.goods_to_products.shipping_order_row_good_id as good_id, 
-            (case when (vtiger_products.unit_price = 990 and payment_status != 'Оплачен') then 990
-						 when (vtiger_products.unit_price = 990 and payment_status = 'Оплачен') then 1
+            (case when(vtiger_inventoryproductrel.listprice = 99)
+             then 99
+            when(integration_betapost.intermediate_beta_post.repeat_order = 'list') then intermediate_beta_post.total/vtiger_inventoryproductrel.quantity
+           when (vtiger_products.unit_price = 990 and intermediate_beta_post.payment_status != 'Оплачен') then 990
+						 when (vtiger_products.unit_price = 990 and intermediate_beta_post.payment_status = 'Оплачен') then 1
 						else 0 end) as price,
-						(case when (vtiger_products.unit_price = 990 and payment_status = 'Оплачен') then 0
+						(case when(vtiger_inventoryproductrel.listprice = 99)
+             then 99
+          when(integration_betapost.intermediate_beta_post.repeat_order = 'list') then intermediate_beta_post.total/vtiger_inventoryproductrel.quantity
+						 when (vtiger_products.unit_price = 990 and intermediate_beta_post.payment_status = 'Оплачен') then 0
 						else round(vtiger_products.unit_price) end) 
              as clnt_price,vtiger_inventoryproductrel.quantity
             from integration_betapost.intermediate_beta_post
+inner join vtiger_salesorder on intermediate_beta_post.salesorderid = vtiger_salesorder.salesorderid
             inner join vtiger_inventoryproductrel on intermediate_beta_post.salesorderid = vtiger_inventoryproductrel.id
             inner join vtiger_products on vtiger_inventoryproductrel.productid = vtiger_products.productid
             inner join integration_betapost.goods_to_products on vtiger_products.productid = integration_betapost.goods_to_products.productid
@@ -443,11 +456,13 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
     //получение номера последнего документа
     public static function getLastDocNumber()
     {
-        return   Yii::$app->getDb()->createCommand(
+        return Yii::$app->getDb()->createCommand(
             "SELECT max(shipping_doc_id) as doc
             FROM integration_betapost.`shipping_doc`"
         )->queryAll();
     }
+
+   
 
     //вставка строки в shipping_doc
     public static function insertIntoShippingDoc($partner_id)
@@ -466,9 +481,9 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
 
         foreach ($doc_number as $doc)
         {
-            $actual_doc_number = ($doc['doc']+1);
+            $actual_doc_number = ($doc['doc'] + 1);
         }
-        return   Yii::$app->getDb()->createCommand(
+        return Yii::$app->getDb()->createCommand(
             "SELECT concat(min(salesorderid),'-',max(salesorderid),'_',{$actual_doc_number}) as shipping_doc_zdoc_id
             FROM integration_betapost.`intermediate_beta_post`"
         )->queryAll();
@@ -477,7 +492,7 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
     //список эректильных оферов
     public static function getErectOffers()
     {
-        return   Yii::$app->getDb()->createCommand(
+        return Yii::$app->getDb()->createCommand(
             "SELECT shipping_order_row_good_id 
             FROM integration_betapost.goods
             where is_erect = 1"
@@ -487,15 +502,25 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
     //список обычных оферов
     public static function getNonErectOffers()
     {
-        return   Yii::$app->getDb()->createCommand(
+        return Yii::$app->getDb()->createCommand(
             "SELECT shipping_order_row_good_id 
             FROM integration_betapost.goods
             where is_erect = 0"
         )->queryAll();
     }
 
+    //список эликсиров оферов
+    public static function getElixirOffers()
+    {
+        return Yii::$app->getDb()->createCommand(
+            "SELECT shipping_order_row_good_id 
+            FROM integration_betapost.goods
+            where is_erect = 2"
+        )->queryAll();
+    }
+
     //формирование xml документа, посылка онлайн
-    public static function createXMLDoc($pass,$partner_id)
+    public static function createXMLDoc($pass, $partner_id)
     {
         $order_data = vtigerSalesorder::getOrderXMLData();
         $client_data = vtigerSalesorder::getClientXMLData();
@@ -510,14 +535,15 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
         vtigerSalesorder::insertIntoShippingDoc($partner_id);
 
 
-
         foreach ($doc_number as $doc)
         {
-            $actual_doc_number = ($doc['doc']+1);
+            $actual_doc_number = ($doc['doc'] + 1);
         }
 
         $simple_collection = vtigerSalesorder::getNonErectOffers();
         $erect_collection = vtigerSalesorder::getErectOffers();
+        $elixir_collection = VtigerSalesorder::getElixirOffers();
+
         foreach ($simple_collection as $value)
         {
             $simple_collection_parse[] = ($value['shipping_order_row_good_id']);
@@ -528,33 +554,116 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
             $erect_collection_parse[] = ($value['shipping_order_row_good_id']);
         }
 
+        foreach ($elixir_collection as $value)
+        {
+            $elixir_collection_parse[] = ($value['shipping_order_row_good_id']);
+        }
+
 
         $final_array = array();
         $count = 0;
+        $count2 = 0;
+        $count3 = 0;
+
         $reg = null;
         foreach ($order_data as $val)
         {
+            $inter = $val['good_id'];
+            $clnt_price = $val['clnt_price'];
             $ordrow_id = $val['ordrow_id'];
-            $nc=strrpos($ordrow_id,"_");
-            $ordrow_id=substr($ordrow_id,0,$nc+1). $actual_doc_number .substr($ordrow_id,$nc+1);
+            $nc = strrpos($ordrow_id, "_");
+            $ordrow_id = substr($ordrow_id, 0, $nc + 1) . $actual_doc_number . substr($ordrow_id, $nc + 1);
             $val['ordrow_id'] = $ordrow_id;
 
-            if($reg != substr_replace($val['ordrow_id'], '', -3))
+            if ($reg != substr_replace($val['ordrow_id'], '', -3))
             {
                 $count = 0;
             }
-            if(in_array($val['good_id'],$erect_collection_parse) and $count == 0)
+            if ($reg != substr_replace($val['ordrow_id'], '', -3))
+            {
+                $count2 = 0;
+            }
+            if ($reg != substr_replace($val['ordrow_id'], '', -3))
+            {
+                $count3 = 0;
+            }
+
+            if (in_array($val['good_id'], $elixir_collection_parse) and $count == 0 and $clnt_price != 0)
+            {
+                $some = $val['good_id'];
+                $repo = $val;
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $intermediate = substr_replace($intermediate, '031', -3);
+                $val['ordrow_id'] = $intermediate . '/' . $count;
+
+                $val['price'] = 0;
+                $val['clnt_price'] = 0;
+                $val['good_id'] = '031';
+                $final_array[] = $val;
+
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $intermediate = substr_replace($intermediate, '035', -5);
+                $val['ordrow_id'] = $intermediate . '/' . $count;
+
+                $val['price'] = 0;
+                $val['clnt_price'] = 0;
+                $val['good_id'] = '035';
+                $final_array[] = $val;
+
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                if ($inter == "028")
+                {
+                    $intermediate = substr_replace($intermediate, '032', -5);
+                    $val['ordrow_id'] = $intermediate . '/' . $count;
+
+                    $val['price'] = 0;
+                    $val['clnt_price'] = 0;
+                    $val['good_id'] = '032';
+                    $final_array[] = $val;
+                }
+                if ($inter == "029")
+                {
+                    $intermediate = substr_replace($intermediate, '033', -5);
+                    $val['ordrow_id'] = $intermediate . '/' . $count;
+
+                    $val['price'] = 0;
+                    $val['clnt_price'] = 0;
+                    $val['good_id'] = '033';
+                    $final_array[] = $val;
+                }
+                if ($inter == "030")
+                {
+                    $intermediate = substr_replace($intermediate, '034', -5);
+                    $val['ordrow_id'] = $intermediate . '/' . $count;
+
+                    $val['price'] = 0;
+                    $val['clnt_price'] = 0;
+                    $val['good_id'] = '034';
+                    $final_array[] = $val;
+                }
+
+
+                $val = $repo;
+            }
+
+            if (in_array($val['good_id'], $erect_collection_parse) and $count2 == 0 and $clnt_price != 0)
             {
                 $repo = $val;
                 $count++;
                 $val['count'] = $count;
                 $intermediate = $val['ordrow_id'];
-                $intermediate = substr_replace($intermediate, '005', -3);
+                $intermediate = substr_replace($intermediate, '035', -3);
                 $val['ordrow_id'] = $intermediate . '/' . $count;
 
                 $val['price'] = 0;
                 $val['clnt_price'] = 0;
-                $val['good_id'] = '005';
+                $val['good_id'] = '035';
                 $final_array[] = $val;
 
                 $count++;
@@ -581,7 +690,7 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
 
                 $val = $repo;
             }
-            if(in_array($val['good_id'],$simple_collection_parse)  and $count == 0)
+            if (in_array($val['good_id'], $simple_collection_parse) and $count3 == 0 and $clnt_price != 0)
             {
                 $repo = $val;
                 $count++;
@@ -596,9 +705,9 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
                 $count++;
                 $val['count'] = $count;
                 $intermediate = $val['ordrow_id'];
-                $intermediate = substr_replace($intermediate, '005', -5);
+                $intermediate = substr_replace($intermediate, '035', -5);
                 $val['ordrow_id'] = $intermediate . '/' . $count;
-                $val['good_id'] = '005';
+                $val['good_id'] = '035';
                 $val['price'] = 0;
                 $val['clnt_price'] = 0;
                 $final_array[] = $val;
@@ -614,7 +723,78 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
                 $val = $repo;
             }
 
-            for($i = 0; $i < $val['quantity']; $i++)
+            if (in_array($val['good_id'], $erect_collection_parse) and $count == 0)
+            {
+                $repo = $val;
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $intermediate = substr_replace($intermediate, '035', -3);
+                $val['ordrow_id'] = $intermediate . '/' . $count;
+
+                $val['price'] = 0;
+                $val['clnt_price'] = 0;
+                $val['good_id'] = '035';
+                $final_array[] = $val;
+
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $intermediate = substr_replace($intermediate, '025', -5);
+                $val['ordrow_id'] = $intermediate . '/' . $count;
+
+                $val['price'] = 0;
+                $val['clnt_price'] = 0;
+                $val['good_id'] = '025';
+                $final_array[] = $val;
+
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $intermediate = substr_replace($intermediate, '026', -5);
+                $val['ordrow_id'] = $intermediate . '/' . $count;
+
+                $val['price'] = 0;
+                $val['clnt_price'] = 0;
+                $val['good_id'] = '026';
+                $final_array[] = $val;
+
+                $val = $repo;
+            }
+            if (in_array($val['good_id'], $simple_collection_parse) and $count == 0)
+            {
+                $repo = $val;
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $intermediate = substr_replace($intermediate, '003', -3);
+                $val['ordrow_id'] = $intermediate . '/' . $count;
+                $val['good_id'] = '003';
+                $val['price'] = 0;
+                $val['clnt_price'] = 0;
+                $final_array[] = $val;
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $intermediate = substr_replace($intermediate, '035', -5);
+                $val['ordrow_id'] = $intermediate . '/' . $count;
+                $val['good_id'] = '035';
+                $val['price'] = 0;
+                $val['clnt_price'] = 0;
+                $final_array[] = $val;
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $intermediate = substr_replace($intermediate, '006', -5);
+                $val['ordrow_id'] = $intermediate . '/' . $count;
+                $val['good_id'] = '006';
+                $val['price'] = 0;
+                $val['clnt_price'] = 0;
+                $final_array[] = $val;
+                $val = $repo;
+            }
+
+            for ($i = 0; $i < $val['quantity']; $i++)
             {
                 $count++;
                 $val['count'] = $count;
@@ -629,7 +809,7 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
 
         $oXMLout = new XMLWriter();
         $oXMLout->openMemory();
-        $oXMLout->startDocument('1.0' , 'UTF-8' );
+        $oXMLout->startDocument('1.0', 'UTF-8');
         $oXMLout->setIndent(true);
         $oXMLout->startElement("request");
 
@@ -638,7 +818,7 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
         $oXMLout->writeAttribute("password", $pass);
         $oXMLout->writeAttribute("request_type", "101");
 
-        foreach($shipping_doc as $shipping_docs)
+        foreach ($shipping_doc as $shipping_docs)
         {
             $oXMLout->startElement("doc");
             $oXMLout->writeAttribute("doc_type", "5");
@@ -687,7 +867,7 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
     }
 
     //формирование xml документа для 1 класса
-    public static function createXMLDocFirstClass($pass,$partner_id,$partner_id)
+    public static function createXMLDocFirstClass($pass, $partner_id, $partner_id)
     {
         $order_data = vtigerSalesorder::getOrderXMLDataFirstClass();
         $client_data = vtigerSalesorder::getClientXMLDataFirstClass();
@@ -701,14 +881,14 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
         vtigerSalesorder::insertIntoShippingDoc($partner_id);
 
 
-
         foreach ($doc_number as $doc)
         {
-            $actual_doc_number = ($doc['doc']+1);
+            $actual_doc_number = ($doc['doc'] + 1);
         }
 
         $simple_collection = vtigerSalesorder::getNonErectOffers();
         $erect_collection = vtigerSalesorder::getErectOffers();
+        $elixir_collection = VtigerSalesorder::getElixirOffers();
         foreach ($simple_collection as $value)
         {
             $simple_collection_parse[] = ($value['shipping_order_row_good_id']);
@@ -719,33 +899,116 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
             $erect_collection_parse[] = ($value['shipping_order_row_good_id']);
         }
 
+        foreach ($elixir_collection as $value)
+        {
+            $elixir_collection_parse[] = ($value['shipping_order_row_good_id']);
+        }
+
 
         $final_array = array();
         $count = 0;
+        $count2 = 0;
+        $count3 = 0;
+
         $reg = null;
         foreach ($order_data as $val)
         {
+            $inter = $val['good_id'];
+            $clnt_price = $val['clnt_price'];
             $ordrow_id = $val['ordrow_id'];
-            $nc=strrpos($ordrow_id,"_");
-            $ordrow_id=substr($ordrow_id,0,$nc+1). $actual_doc_number .substr($ordrow_id,$nc+1);
+            $nc = strrpos($ordrow_id, "_");
+            $ordrow_id = substr($ordrow_id, 0, $nc + 1) . $actual_doc_number . substr($ordrow_id, $nc + 1);
             $val['ordrow_id'] = $ordrow_id;
 
-            if($reg != substr_replace($val['ordrow_id'], '', -3))
+            if ($reg != substr_replace($val['ordrow_id'], '', -3))
             {
                 $count = 0;
             }
-            if(in_array($val['good_id'],$erect_collection_parse) and $count == 0)
+            if ($reg != substr_replace($val['ordrow_id'], '', -3))
+            {
+                $count2 = 0;
+            }
+            if ($reg != substr_replace($val['ordrow_id'], '', -3))
+            {
+                $count3 = 0;
+            }
+
+            if (in_array($val['good_id'], $elixir_collection_parse) and $count == 0 and $clnt_price != 0)
+            {
+                $some = $val['good_id'];
+                $repo = $val;
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $intermediate = substr_replace($intermediate, '031', -3);
+                $val['ordrow_id'] = $intermediate . '/' . $count;
+
+                $val['price'] = 0;
+                $val['clnt_price'] = 0;
+                $val['good_id'] = '031';
+                $final_array[] = $val;
+
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                $intermediate = substr_replace($intermediate, '035', -5);
+                $val['ordrow_id'] = $intermediate . '/' . $count;
+
+                $val['price'] = 0;
+                $val['clnt_price'] = 0;
+                $val['good_id'] = '035';
+                $final_array[] = $val;
+
+                $count++;
+                $val['count'] = $count;
+                $intermediate = $val['ordrow_id'];
+                if ($inter == "028")
+                {
+                    $intermediate = substr_replace($intermediate, '032', -5);
+                    $val['ordrow_id'] = $intermediate . '/' . $count;
+
+                    $val['price'] = 0;
+                    $val['clnt_price'] = 0;
+                    $val['good_id'] = '032';
+                    $final_array[] = $val;
+                }
+                if ($inter == "029")
+                {
+                    $intermediate = substr_replace($intermediate, '033', -5);
+                    $val['ordrow_id'] = $intermediate . '/' . $count;
+
+                    $val['price'] = 0;
+                    $val['clnt_price'] = 0;
+                    $val['good_id'] = '033';
+                    $final_array[] = $val;
+                }
+                if ($inter == "030")
+                {
+                    $intermediate = substr_replace($intermediate, '034', -5);
+                    $val['ordrow_id'] = $intermediate . '/' . $count;
+
+                    $val['price'] = 0;
+                    $val['clnt_price'] = 0;
+                    $val['good_id'] = '034';
+                    $final_array[] = $val;
+                }
+
+
+                $val = $repo;
+            }
+
+            if (in_array($val['good_id'], $erect_collection_parse) and $count2 == 0 and $clnt_price != 0)
             {
                 $repo = $val;
                 $count++;
                 $val['count'] = $count;
                 $intermediate = $val['ordrow_id'];
-                $intermediate = substr_replace($intermediate, '005', -3);
+                $intermediate = substr_replace($intermediate, '035', -3);
                 $val['ordrow_id'] = $intermediate . '/' . $count;
 
                 $val['price'] = 0;
                 $val['clnt_price'] = 0;
-                $val['good_id'] = '005';
+                $val['good_id'] = '035';
                 $final_array[] = $val;
 
                 $count++;
@@ -772,7 +1035,7 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
 
                 $val = $repo;
             }
-            if(in_array($val['good_id'],$simple_collection_parse)  and $count == 0)
+            if (in_array($val['good_id'], $simple_collection_parse) and $count3 == 0 and $clnt_price != 0)
             {
                 $repo = $val;
                 $count++;
@@ -787,9 +1050,9 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
                 $count++;
                 $val['count'] = $count;
                 $intermediate = $val['ordrow_id'];
-                $intermediate = substr_replace($intermediate, '005', -5);
+                $intermediate = substr_replace($intermediate, '035', -5);
                 $val['ordrow_id'] = $intermediate . '/' . $count;
-                $val['good_id'] = '005';
+                $val['good_id'] = '035';
                 $val['price'] = 0;
                 $val['clnt_price'] = 0;
                 $final_array[] = $val;
@@ -805,7 +1068,7 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
                 $val = $repo;
             }
 
-            for($i = 0; $i < $val['quantity']; $i++)
+            for ($i = 0; $i < $val['quantity']; $i++)
             {
                 $count++;
                 $val['count'] = $count;
@@ -820,7 +1083,7 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
 
         $oXMLout = new XMLWriter();
         $oXMLout->openMemory();
-        $oXMLout->startDocument('1.0' , 'UTF-8' );
+        $oXMLout->startDocument('1.0', 'UTF-8');
         $oXMLout->setIndent(true);
         $oXMLout->startElement("request");
 
@@ -829,7 +1092,7 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
         $oXMLout->writeAttribute("password", $pass);
         $oXMLout->writeAttribute("request_type", "101");
 
-        foreach($shipping_doc as $shipping_docs)
+        foreach ($shipping_doc as $shipping_docs)
         {
             $oXMLout->startElement("doc");
             $oXMLout->writeAttribute("doc_type", "5");
@@ -932,10 +1195,64 @@ group by vtiger_salesorder.salesorderid";
         \Yii::$app->db->createCommand($sql)->execute();
     }
 
+    //вставка в финальную таблицу
+    public static function insertIntoFinalTable()
+    {
+        $sql = "
+insert into integration_betapost.betapost_send_orders
+select vtiger_salesorder.salesorderid, concat(sp_full_name,' ',sp_firstname,' ',sp_middle_name) as fio, total, real_mobile_phone, partpost.partpost_INDEX,
+vtiger_soshipads.ship_state, vtiger_soshipads.ship_city, vtiger_soshipads.ship_street, sp_house, sp_housing, sp_flat,
+concat(vtiger_soshipads.ship_code,', ',vtiger_soshipads.sp_so_country,', ',vtiger_soshipads.ship_state,', ',vtiger_soshipads.ship_city,', ',
+vtiger_soshipads.ship_street, ', д.',sp_house,sp_housing,', кв.',sp_flat,', Район:',area) as full_address,
+vtiger_users.last_name as manager, payment_status,vtiger_salesordercf.cf_1365 as operator_comment,
+ (
+  SELECT
+   GROUP_CONCAT(
+    DISTINCT CONCAT(
+     products.productname,
+     ' ',
+     ROUND(
+      inventoryproductrel.quantity
+     ),
+     ' шт.'
+    ) SEPARATOR ', '
+   )
+FROM
+   vtiger_salesorder salesorder
+  LEFT JOIN vtiger_inventoryproductrel inventoryproductrel ON salesorder.salesorderid = inventoryproductrel.id
+  LEFT JOIN vtiger_products products ON products.productid = inventoryproductrel.productid
+  WHERE
+   vtiger_salesorder.salesorderid = salesorder.salesorderid
+  GROUP BY
+   inventoryproductrel.id
+ ) AS consist,
+fact_payment,repeat_order,sp_delivery_date
+
+from vtiger_salesorder
+inner join vtiger_soshipads on vtiger_salesorder.salesorderid=vtiger_soshipads.soshipaddressid
+left join integration_betapost.partpost on vtiger_soshipads.ship_code=integration_betapost.partpost.partpost_INDEX 
+inner join vtiger_crmentity on vtiger_salesorder.salesorderid = vtiger_crmentity.crmid
+inner join vtiger_users on vtiger_crmentity.smownerid = vtiger_users.id
+inner join vtiger_salesordercf on vtiger_salesorder.salesorderid = vtiger_salesordercf.salesorderid
+inner join vtiger_inventoryproductrel on vtiger_salesorder.salesorderid = vtiger_inventoryproductrel.id
+inner join vtiger_products on vtiger_inventoryproductrel.productid = vtiger_products.productid
+where sostatus = 'Отправлять'
+and sp_delivery_service = 'Beta Post'
+and integration_betapost.partpost.partpost_INDEX is not NULL
+and sp_house != ''
+and vtiger_soshipads.ship_street != ''
+and vtiger_soshipads.ship_city != ''
+and vtiger_soshipads.ship_state != ''
+and total != 330
+group by vtiger_salesorder.salesorderid";
+
+        \Yii::$app->db->createCommand($sql)->execute();
+    }
+
     //формирование грида для "посылка онлайн"
     public static function getPostOnlineOrders()
     {
-        return   Yii::$app->getDb()->createCommand(
+        return Yii::$app->getDb()->createCommand(
             "SELECT * 
             FROM integration_betapost.`intermediate_beta_post`
             INNER JOIN integration_betapost.index_posilka_online on integration_betapost.intermediate_beta_post.partpost_INDEX = integration_betapost.index_posilka_online.post_index"
@@ -945,7 +1262,7 @@ group by vtiger_salesorder.salesorderid";
     //формирование грида для "1 класс"
     public static function getFirstClassOrders()
     {
-        return   Yii::$app->getDb()->createCommand(
+        return Yii::$app->getDb()->createCommand(
             "SELECT * 
             FROM integration_betapost.`intermediate_beta_post`
             LEFT JOIN integration_betapost.index_posilka_online on intermediate_beta_post.partpost_INDEX = integration_betapost.index_posilka_online.post_index
@@ -955,15 +1272,23 @@ group by vtiger_salesorder.salesorderid";
 
     public static function getLkData()
     {
-        return   Yii::$app->getDb()->createCommand(
+        return Yii::$app->getDb()->createCommand(
             "SELECT * 
             FROM integration_betapost.`accounts` 
             WHERE `accounts_lk` = '267'"
         )->queryAll();
     }
 
+    public function getTestData()
+    {
+        return Yii::$app->getDb()->createCommand(
+            "SELECT salesorderid 
+            FROM integration_betapost.`test_track`"
+        )->queryAll();
+    }
+
     //посылка сформированного xml файла
-    public static function sendXMLData($xml,$accounts_url)
+    public static function sendXMLData($xml, $accounts_url)
     {
         $o_Curl = curl_init();
 
@@ -973,26 +1298,42 @@ group by vtiger_salesorder.salesorderid";
         , 'Connection: close'
         );
 
-        curl_setopt($o_Curl, CURLOPT_URL,               $accounts_url);
-        curl_setopt($o_Curl, CURLOPT_POST,              1);
-        curl_setopt($o_Curl, CURLOPT_CONNECTTIMEOUT,    60);
-        curl_setopt($o_Curl, CURLOPT_HTTPHEADER,        $header);
-        curl_setopt($o_Curl, CURLOPT_POSTFIELDS,        $xml);
+        curl_setopt($o_Curl, CURLOPT_URL, $accounts_url);
+        curl_setopt($o_Curl, CURLOPT_POST, 1);
+        curl_setopt($o_Curl, CURLOPT_CONNECTTIMEOUT, 60);
+        curl_setopt($o_Curl, CURLOPT_HTTPHEADER, $header);
+        curl_setopt($o_Curl, CURLOPT_POSTFIELDS, $xml);
 
-        curl_setopt($o_Curl, CURLOPT_HEADER,            0);
-        curl_setopt($o_Curl, CURLOPT_RETURNTRANSFER,    1);
-        curl_setopt($o_Curl, CURLOPT_SSL_VERIFYHOST,    0);
-        curl_setopt($o_Curl, CURLOPT_SSL_VERIFYPEER,    0);
+        curl_setopt($o_Curl, CURLOPT_HEADER, 0);
+        curl_setopt($o_Curl, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($o_Curl, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($o_Curl, CURLOPT_SSL_VERIFYPEER, 0);
         $s_Response = curl_exec($o_Curl);
 
 //        $magic = ( simplexml_load_string($s_Response,'SimpleXMLElement', LIBXML_NOWARNING));
-////        print_r($magic[7]);
-////        exit();
-//        foreach ($magic as $mg)
+////        print_r($magic);
+//
+//        //foreach ($final_arr as $final)
+//        //{
+//            //echo"<pre>", print_r($magic->doc[0]->order_row[0]->attributes()->parcel_id), "</pre>";
+//        $final = array();
+//        foreach ($magic->doc[0]->parcel as  $item)
 //        {
-//            echo"<pre>";print_r($mg);echo"</pre>";
+////            echo print_r($item->attributes()), '<br/>';
+//            $final[md5($item->attributes()->parcel_id)] = [$item->attributes()->order_id , $item->attributes()->Barcode];
 //        }
-//        exit();
+//        foreach($final as $key => $fn)
+//        {
+////            $order_track[] = [substr($fn[0],0,-11)=>substr($fn[1],0)];
+//            $aa = substr($fn[0],0,-5);
+//            $bb = substr($fn[1],0);
+//            $sql =
+//                "insert into integration_betapost.track_order
+//            values(null,{$aa},{$bb})";
+//            \Yii::$app->db->createCommand($sql)->execute();
+//        }
+
+
         //var_dump(curl_error($o_Curl));
         //var_dump(curl_errno($o_Curl));
         $file = 'doRequest.log';
@@ -1007,7 +1348,7 @@ group by vtiger_salesorder.salesorderid";
     {
         $oXMLout = new XMLWriter();
         $oXMLout->openMemory();
-        $oXMLout->startDocument('1.0' , 'UTF-8' );
+        $oXMLout->startDocument('1.0', 'UTF-8');
         $oXMLout->setIndent(true);
         $oXMLout->startElement("request");
         $oXMLout->writeAttribute("partner_id", "267");
@@ -1027,23 +1368,27 @@ group by vtiger_salesorder.salesorderid";
         file_put_contents($file, $content, FILE_APPEND | LOCK_EX);
 
 //        return $xml;
-        $get_lk = VtigerSalesorder::getLkData();
 
-        foreach ($get_lk as $lk)
-        {
-            $pass = ($lk['accounts_pass']);
-            $partner_id = ($lk['accounts_lk']);
-            $accounts_url = ($lk['accounts_url']);
-        }
-        VtigerSalesorder::sendXMLData($xml,$accounts_url);
     }
 
     //получения списка заказов, для последующего изменения статуса на 'Отправлен'
     public static function getOrdersFromIntermediateTable()
     {
-        return   Yii::$app->getDb()->createCommand(
+        return Yii::$app->getDb()->createCommand(
             "SELECT salesorderid 
             FROM integration_betapost.`intermediate_beta_post`"
         )->queryAll();
     }
+
+    public static function getTrackCodes()
+    {
+        return Yii::$app->getDb()->createCommand(
+            "SELECT `order`,`track` 
+            FROM integration_betapost.`track_order`"
+        )->queryAll();
+    }
+
+   
+
+    
 }

@@ -53,7 +53,7 @@ foreach ($rows_lk as $row_lk) {
             if ($shipping_order_order_id) {
                 //узнаем номер документа исполнителя, в котором содержится наш заказ без трекера
 
-                //$request_xml = doRequest(request_xml_152($shipping_order_order_id, $row_lk['accounts_lk'], $row_lk['accounts_pass']), $row_lk['accounts_lk']);
+//                $request_xml = doRequest(request_xml_152($shipping_order_order_id, $row_lk['accounts_lk'], $row_lk['accounts_pass']), $row_lk['accounts_lk']);
                 //$idoc6_id = get_idoc6_id($request_xml);
                 
                 $request_xml = doRequest(request_xml_154($shipping_order_order_id, $row_lk['accounts_lk'], $row_lk['accounts_pass']), $row_lk['accounts_lk']);

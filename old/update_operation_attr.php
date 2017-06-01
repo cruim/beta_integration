@@ -36,7 +36,7 @@ WHILE ($row_lk = $query_result_lk->fetch_assoc()) {
     $query_str = "SELECT `shipping_order`.* FROM `shipping_order` 
     INNER JOIN `shipping_doc` ON
     `shipping_order`.shipping_doc_id = `shipping_doc`.shipping_doc_id
-    WHERE shipping_order_shipped = 1 AND (ordrow_state is null or (ordrow_state <> 3 AND ordrow_state <> 100))
+    WHERE shipping_order_shipped = 1 AND (ordrow_state is null or (ordrow_state <>  AND ordrow_state <> 100))
     AND `shipping_doc`.`accounts_lk` = '". $row_lk['accounts_lk'] ."' ";
     $query_result = $mysqli_ssl->query($query_str);
 

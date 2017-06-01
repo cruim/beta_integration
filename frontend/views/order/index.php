@@ -83,13 +83,6 @@ $this->params['breadcrumbs'][] = $this->title;
                     return $model->address->ship_street;
                 }
             ],
-            [
-                'header' => 'Регион',
-                'value' => function($model)
-                {
-                    return $model->address->ship_state;
-                }
-            ],
 
             [
                 'header' => 'Дом',
@@ -113,14 +106,6 @@ $this->params['breadcrumbs'][] = $this->title;
                 'value' => function($model)
                 {
                     return $model->sp_flat;
-                }
-            ],
-
-            [
-                'header' => 'Регион',
-                'value' => function($model)
-                {
-                    return $model->address->ship_state;
                 }
             ],
 
@@ -228,6 +213,7 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\CheckboxColumn'],
             ['class' => 'yii\grid\SerialColumn'],
 
+            'salesorder_custom',
             'salesorderid',
 
             [
@@ -372,9 +358,9 @@ $this->params['breadcrumbs'][] = $this->title;
     ]); ?>
 
 
-    <?= Html::a( 'Все Заказы', ['order/index', 'all_search' => 1],['class' => 'btn btn-primary btn-lg glyphicon glyphicon-search']); ?>
-    <?= Html::a( 'Корректные Заказы', ['order/index', 'final_search' => 2],['class' => 'btn btn-success btn-lg glyphicon glyphicon-thumbs-up']); ?>
-    <?= Html::a( 'Некорректные Заказы', ['order/index', 'uncorrect_search' => 3],['class' => 'btn btn-danger btn-lg glyphicon glyphicon-thumbs-down']); ?>
+    <?= Html::a( ' Все Заказы', ['order/index', 'all_search' => 1],['class' => 'btn btn-primary btn-md glyphicon glyphicon-search']); ?>
+    <?= Html::a( ' Корректные Заказы', ['order/index', 'final_search' => 2],['class' => 'btn btn-success btn-md glyphicon glyphicon-thumbs-up']); ?>
+    <?= Html::a( ' Некорректные Заказы', ['order/index', 'uncorrect_search' => 3],['class' => 'btn btn-danger btn-md glyphicon glyphicon-thumbs-down']); ?>
 <!--    <div><br>-->
 <!--        --><?php //$form = ActiveForm::begin(['id' => 'all_search', 'method' => 'GET',]) ?>
 <!--        <input type="hidden" value="1" name="all_search">-->
