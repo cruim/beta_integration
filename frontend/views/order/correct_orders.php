@@ -249,4 +249,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= Html::a( ' Почта Онлайн', ['order/index', 'pochta_online' => 4],['class' => 'btn btn-info btn-md glyphicon glyphicon-envelope']); ?>
     <?= Html::a( ' Бандероль 1 класс', ['order/index', 'first_class' => 5],['class' => 'btn btn-warning btn-md glyphicon glyphicon-envelope']); ?>
     <?= Html::a( ' Отправка заказов', ['order/index', 'send_orders' => 6],['class' => 'btn btn-success btn-md glyphicon glyphicon-send']); ?>
+    <br><br/> <?= Html::a( ' Получение трек-кодов', ['order/index', 'get_track' => 7],['class' => 'btn btn-success btn-md glyphicon glyphicon-import']); ?>
+    <?= Html::a( ' Обновление статусов', ['order/index', 'update_status' => 8],['class' => 'btn btn-info btn-md glyphicon glyphicon-refresh']); ?>
 </div>

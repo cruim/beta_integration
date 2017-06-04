@@ -10,6 +10,7 @@ require_once(Yii::getAlias('@common') . '/vtiger/vtwsclib/Vtiger/WSClient.php');
 
 class VtigerUpdateInfo extends Model
 {
+    //обновляем инфу у только что отправленных заказов
     public function updateInfo()
     {
         $login = "integration.betapost@crm.zdorov.top";
@@ -47,6 +48,7 @@ class VtigerUpdateInfo extends Model
         $vtigerConnector->doInvoke('logout');
     }
 
+    //обновляем статус заказов в crm
     public function updateOrderStatus()
     {
         $login = "integration.betapost@crm.zdorov.top";
@@ -76,6 +78,8 @@ class VtigerUpdateInfo extends Model
             $vtigerConnector->doInvoke('updateOrder', $request);
 
         }
+        //проставляем флаг у заказов, имеющих конечный статус,чтобы не использовать их в следующих проверках
+        OrderStatus::setFlagAfterUpdateStatusInCrm();
         
         $vtigerConnector->doInvoke('logout');
     }

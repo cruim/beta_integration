@@ -94,7 +94,7 @@ class OrderStatus extends Model
 
         $oXMLout->writeAttribute("partner_id", "267");
         $oXMLout->writeAttribute("password", "u5/*yf;9O2]");
-        $oXMLout->writeAttribute("from_date", "2017-05-27");
+        $oXMLout->writeAttribute("from_date", date("Y-m-d"));
         $oXMLout->writeAttribute("doc_type", "6");
         $oXMLout->writeAttribute("request_type", "104");
 
@@ -146,6 +146,8 @@ class OrderStatus extends Model
         {
             $bb[] = ($item->attributes()->idoc_id);
         }
+        
+        
 //                exit();
 
         //получаем трек коды товаров,которые находятся в полученных документах
@@ -208,7 +210,7 @@ class OrderStatus extends Model
                 $beta_order_id = substr($fn[0], 0);
                 $sql =
                     "insert into integration_betapost.test_track
-            values(null,'{$salesorderid}','{$beta_order_id}','{$track_number}')";
+            values(null,'{$salesorderid}','{$beta_order_id}','{$track_number}',null,null)";
                 \Yii::$app->db->createCommand($sql)->execute();
             }
         }
@@ -235,13 +237,25 @@ class OrderStatus extends Model
         \Yii::$app->db->createCommand($sql)->execute();
     }
 
+    //получаем все заказы, у которых статус равен 3,4,6
     public static function getOrdersForUpdateInCrm()
     {
         return Yii::$app->getDb()->createCommand(
             "select salesorderid,state_code.crm_status as order_status
             from integration_betapost.test_track
             inner join integration_betapost.state_code on test_track.order_status = state_code.state_code
-            where order_status in (3,4,6)"
+            where order_status in (3,4,6)
+            and is_status_update_in_crm is null"
         )->queryAll();
+    }
+
+    //ставим метку у заказов,статус которых равен 3,чтобы не использовать их в следующей выборке
+    public static function setFlagAfterUpdateStatusInCrm()
+    {
+        $sql =
+            "update integration_betapost.test_track
+            set is_status_update_in_crm = 1
+            where order_status not in (0,1,2,3)";
+        \Yii::$app->db->createCommand($sql)->execute();
     }
 }

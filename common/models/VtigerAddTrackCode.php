@@ -17,18 +17,13 @@ class VtigerAddTrackCode extends Model
         $vtigerConnector = new \Vtiger_WSClient('http://crm.zdorov.top/webservice.php');
         $vtigerConnector->doLogin($login, $passw);
 
-        $actual_orders = \common\models\VtigerSalesorder::getTrackCodes();
-
-        foreach ($actual_orders as $actual_order)
-        {
-            $orders[] = $actual_order['salesorderid'];
-        }
+        $actual_orders = VtigerAddTrackCode::getTrackCodes();
 
         foreach ($actual_orders as $order)
         {
             $order = array(
-                "salesorderid" => $order['order'],
-                "sp_track_number" => $order['track'],
+                "salesorderid" => $order['salesorderid'],
+                "sp_track_number" => $order['track_number'],
             );
 
             $request = array(
@@ -40,6 +35,14 @@ class VtigerAddTrackCode extends Model
 
         }
         $vtigerConnector->doInvoke('logout');
+    }
+
+    public static function getTrackCodes()
+    {
+        return Yii::$app->getDb()->createCommand(
+            "SELECT * FROM integration_betapost.`test_track`
+            where order_status is null"
+        )->queryAll();
     }
 
 }

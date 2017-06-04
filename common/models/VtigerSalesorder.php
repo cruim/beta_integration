@@ -1172,7 +1172,7 @@ FROM
   GROUP BY
    inventoryproductrel.id
  ) AS consist,
-fact_payment,repeat_order,sp_delivery_date
+fact_payment,repeat_order,sp_delivery_date,null
 
 from vtiger_salesorder
 inner join vtiger_soshipads on vtiger_salesorder.salesorderid=vtiger_soshipads.soshipaddressid
@@ -1310,32 +1310,8 @@ group by vtiger_salesorder.salesorderid";
         curl_setopt($o_Curl, CURLOPT_SSL_VERIFYPEER, 0);
         $s_Response = curl_exec($o_Curl);
 
-//        $magic = ( simplexml_load_string($s_Response,'SimpleXMLElement', LIBXML_NOWARNING));
-////        print_r($magic);
-//
-//        //foreach ($final_arr as $final)
-//        //{
-//            //echo"<pre>", print_r($magic->doc[0]->order_row[0]->attributes()->parcel_id), "</pre>";
-//        $final = array();
-//        foreach ($magic->doc[0]->parcel as  $item)
-//        {
-////            echo print_r($item->attributes()), '<br/>';
-//            $final[md5($item->attributes()->parcel_id)] = [$item->attributes()->order_id , $item->attributes()->Barcode];
-//        }
-//        foreach($final as $key => $fn)
-//        {
-////            $order_track[] = [substr($fn[0],0,-11)=>substr($fn[1],0)];
-//            $aa = substr($fn[0],0,-5);
-//            $bb = substr($fn[1],0);
-//            $sql =
-//                "insert into integration_betapost.track_order
-//            values(null,{$aa},{$bb})";
-//            \Yii::$app->db->createCommand($sql)->execute();
-//        }
 
-
-        //var_dump(curl_error($o_Curl));
-        //var_dump(curl_errno($o_Curl));
+        
         $file = 'doRequest.log';
         $content = "";
         $content .= print_r($s_Response, 1) . chr(13) . chr(10);
@@ -1380,14 +1356,22 @@ group by vtiger_salesorder.salesorderid";
         )->queryAll();
     }
 
-    public static function getTrackCodes()
+    //проверка, вставлялись ли данные сегодня
+    public static function getLastDate()
     {
         return Yii::$app->getDb()->createCommand(
-            "SELECT `order`,`track` 
-            FROM integration_betapost.`track_order`"
+            "SELECT max(DATE(add_time)) as last_date
+            FROM integration_betapost.`betapost_send_orders`"
         )->queryAll();
     }
 
+    public static function insertIntoBetaPostSendOrders()
+    {
+        $sql =
+            "insert into integration_betapost.betapost_send_orders
+            select * from integration_betapost.intermediate_beta_post";
+        \Yii::$app->db->createCommand($sql)->execute();
+    }
    
 
     
