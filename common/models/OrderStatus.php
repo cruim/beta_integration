@@ -5,7 +5,9 @@ use Yii;
 use yii\base\Model;
 use XMLWriter;
 
-ini_set('max_execution_time', 3600);
+ini_set("display_errors", "on");
+ini_set("display_startup_errors", "on");
+ini_set('max_execution_time', 0);
 
 class OrderStatus extends Model
 {
@@ -29,8 +31,8 @@ class OrderStatus extends Model
             $oXMLout->setIndent(true);
             $oXMLout->startElement("request");
 
-            $oXMLout->writeAttribute("partner_id", "267");
-            $oXMLout->writeAttribute("password", "u5/*yf;9O2]");
+            $oXMLout->writeAttribute("partner_id", "868");
+            $oXMLout->writeAttribute("password", "jhi308qr");
             $oXMLout->writeAttribute("request_type", "550");
 
             $oXMLout->startElement("parcel");
@@ -92,8 +94,8 @@ class OrderStatus extends Model
         $oXMLout->setIndent(true);
         $oXMLout->startElement("request");
 
-        $oXMLout->writeAttribute("partner_id", "267");
-        $oXMLout->writeAttribute("password", "u5/*yf;9O2]");
+        $oXMLout->writeAttribute("partner_id", "868");
+        $oXMLout->writeAttribute("password", "jhi308qr");
         $oXMLout->writeAttribute("from_date", date("Y-m-d"));
         $oXMLout->writeAttribute("doc_type", "6");
         $oXMLout->writeAttribute("request_type", "104");
@@ -146,72 +148,75 @@ class OrderStatus extends Model
         {
             $bb[] = ($item->attributes()->idoc_id);
         }
-        
-        
-//                exit();
+
+
+
 
         //получаем трек коды товаров,которые находятся в полученных документах
-        foreach ($bb as $idoc_id)
+        if(count($bb) != 0)
         {
-            $oXMLout = new XMLWriter();
-            $oXMLout->openMemory();
-            $oXMLout->startDocument('1.0', 'UTF-8');
-            $oXMLout->setIndent(true);
-            $oXMLout->startElement("request");
-
-            $oXMLout->writeAttribute("partner_id", "267"); //201  //267  //275  //280
-            $oXMLout->writeAttribute("password", "u5/*yf;9O2]"); //test  //u5/*yf;9O2]  //u5/*yf;9O2]  //r8/KY9-+Cl
-            $oXMLout->writeAttribute("request_type", "105");
-            $oXMLout->writeAttribute("idoc_id", $idoc_id);
-
-            $oXMLout->endElement(); //request
-
-            $oXMLout->endDocument();
-
-            $xml = $oXMLout->outputMemory();
-
-            $file = 'request105.log';
-            $content = "";
-            $content .= print_r($xml, 1) . chr(13) . chr(10);
-            $content .= chr(13) . chr(10);
-            file_put_contents($file, $content, FILE_APPEND | LOCK_EX);
-            $o_Curl = curl_init();
-
-            $header = array(
-                'Content-Type: text/xml'
-            , 'Content-Length: ' . strlen($xml)
-            , 'Connection: close'
-            );
-
-            curl_setopt($o_Curl, CURLOPT_URL, $accounts_url);
-            curl_setopt($o_Curl, CURLOPT_POST, 1);
-            curl_setopt($o_Curl, CURLOPT_CONNECTTIMEOUT, 60);
-            curl_setopt($o_Curl, CURLOPT_HTTPHEADER, $header);
-            curl_setopt($o_Curl, CURLOPT_POSTFIELDS, $xml);
-
-            curl_setopt($o_Curl, CURLOPT_HEADER, 0);
-            curl_setopt($o_Curl, CURLOPT_RETURNTRANSFER, 1);
-            curl_setopt($o_Curl, CURLOPT_SSL_VERIFYHOST, 0);
-            curl_setopt($o_Curl, CURLOPT_SSL_VERIFYPEER, 0);
-
-            $s_Response = curl_exec($o_Curl);
-
-            $magic = (simplexml_load_string($s_Response, 'SimpleXMLElement', LIBXML_NOWARNING));
-
-            $final = array();
-            foreach ($magic->doc[0]->parcel as $item)
+            foreach ($bb as $idoc_id)
             {
-                $final[md5($item->attributes()->parcel_id)] = [$item->attributes()->order_id, $item->attributes()->Barcode];
-            }
-            foreach ($final as $key => $fn)
-            {
-                $salesorderid = substr($fn[0], 0, -5);
-                $track_number = substr($fn[1], 0);
-                $beta_order_id = substr($fn[0], 0);
-                $sql =
-                    "insert into integration_betapost.test_track
-            values(null,'{$salesorderid}','{$beta_order_id}','{$track_number}',null,null)";
-                \Yii::$app->db->createCommand($sql)->execute();
+                $oXMLout = new XMLWriter();
+                $oXMLout->openMemory();
+                $oXMLout->startDocument('1.0', 'UTF-8');
+                $oXMLout->setIndent(true);
+                $oXMLout->startElement("request");
+
+                $oXMLout->writeAttribute("partner_id", "868"); //201  //267  //275  //280
+                $oXMLout->writeAttribute("password", "jhi308qr"); //test  //u5/*yf;9O2]  //u5/*yf;9O2]  //r8/KY9-+Cl
+                $oXMLout->writeAttribute("request_type", "105");
+                $oXMLout->writeAttribute("idoc_id", $idoc_id);
+
+                $oXMLout->endElement(); //request
+
+                $oXMLout->endDocument();
+
+                $xml = $oXMLout->outputMemory();
+
+                $file = 'request105.log';
+                $content = "";
+                $content .= print_r($xml, 1) . chr(13) . chr(10);
+                $content .= chr(13) . chr(10);
+                file_put_contents($file, $content, FILE_APPEND | LOCK_EX);
+                $o_Curl = curl_init();
+
+                $header = array(
+                    'Content-Type: text/xml'
+                , 'Content-Length: ' . strlen($xml)
+                , 'Connection: close'
+                );
+
+                curl_setopt($o_Curl, CURLOPT_URL, $accounts_url);
+                curl_setopt($o_Curl, CURLOPT_POST, 1);
+                curl_setopt($o_Curl, CURLOPT_CONNECTTIMEOUT, 60);
+                curl_setopt($o_Curl, CURLOPT_HTTPHEADER, $header);
+                curl_setopt($o_Curl, CURLOPT_POSTFIELDS, $xml);
+
+                curl_setopt($o_Curl, CURLOPT_HEADER, 0);
+                curl_setopt($o_Curl, CURLOPT_RETURNTRANSFER, 1);
+                curl_setopt($o_Curl, CURLOPT_SSL_VERIFYHOST, 0);
+                curl_setopt($o_Curl, CURLOPT_SSL_VERIFYPEER, 0);
+
+                $s_Response = curl_exec($o_Curl);
+
+                $magic = (simplexml_load_string($s_Response, 'SimpleXMLElement', LIBXML_NOWARNING));
+
+                $final = array();
+                foreach ($magic->doc[0]->parcel as $item)
+                {
+                    $final[md5($item->attributes()->parcel_id)] = [$item->attributes()->order_id, $item->attributes()->Barcode];
+                }
+                foreach ($final as $key => $fn)
+                {
+                    $salesorderid = substr($fn[0], 0, -5);
+                    $track_number = substr($fn[1], 0);
+                    $beta_order_id = substr($fn[0], 0);
+                    $sql =
+                        "insert into integration_betapost.track_and_status_from_beta
+            values(null,'{$salesorderid}','{$beta_order_id}','{$track_number}',null,null,null)";
+                    \Yii::$app->db->createCommand($sql)->execute();
+                }
             }
         }
     }
@@ -221,7 +226,7 @@ class OrderStatus extends Model
     {
         return Yii::$app->getDb()->createCommand(
             "SELECT beta_order_id
-            FROM integration_betapost.`test_track`
+            FROM integration_betapost.`track_and_status_from_beta`
             where order_status not in (4,5,6,7) or order_status is null"
         )->queryAll();
     }
@@ -230,7 +235,7 @@ class OrderStatus extends Model
     public static function updateOrderStatusInTable($state_code, $beta_order_id)
     {
         $sql =
-            "update integration_betapost.`test_track`
+            "update integration_betapost.`track_and_status_from_beta`
             set order_status = '{$state_code}'
             where `beta_order_id` = '{$beta_order_id}'
             ";
@@ -242,10 +247,11 @@ class OrderStatus extends Model
     {
         return Yii::$app->getDb()->createCommand(
             "select salesorderid,state_code.crm_status as order_status
-            from integration_betapost.test_track
-            inner join integration_betapost.state_code on test_track.order_status = state_code.state_code
+            from integration_betapost.track_and_status_from_beta
+            inner join integration_betapost.state_code on track_and_status_from_beta.order_status = state_code.state_code
             where order_status in (3,4,6)
-            and is_status_update_in_crm is null"
+            and is_status_update_in_crm is null
+            and date(add_time) = CURDATE()"
         )->queryAll();
     }
 
@@ -253,7 +259,7 @@ class OrderStatus extends Model
     public static function setFlagAfterUpdateStatusInCrm()
     {
         $sql =
-            "update integration_betapost.test_track
+            "update integration_betapost.track_and_status_from_beta
             set is_status_update_in_crm = 1
             where order_status not in (0,1,2,3)";
         \Yii::$app->db->createCommand($sql)->execute();

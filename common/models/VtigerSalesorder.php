@@ -373,20 +373,46 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
             "select concat(intermediate_beta_post.salesorderid,'_','/',shipping_order_row_good_id) as ordrow_id,
             concat(intermediate_beta_post.salesorderid,'_',{$actual_doc_number}) as order_id,
             integration_betapost.goods_to_products.shipping_order_row_good_id as good_id, 
-            (case when(vtiger_inventoryproductrel.listprice = 99)
-             then 99
-            when(integration_betapost.intermediate_beta_post.repeat_order = 'list') then intermediate_beta_post.total/vtiger_inventoryproductrel.quantity
-           when (vtiger_products.unit_price = 990 and intermediate_beta_post.payment_status != 'Оплачен') then 990
-						 when (vtiger_products.unit_price = 990 and intermediate_beta_post.payment_status = 'Оплачен') then 1
-						else 0 end) as price,
-						(case when(vtiger_inventoryproductrel.listprice = 99)
-             then 99
-          when(integration_betapost.intermediate_beta_post.repeat_order = 'list') then intermediate_beta_post.total/vtiger_inventoryproductrel.quantity
-						 when (vtiger_products.unit_price = 990 and intermediate_beta_post.payment_status = 'Оплачен') then 0
-						else round(vtiger_products.unit_price) end) 
+            round((case when (vtiger_products.unit_price = 990 and intermediate_beta_post.payment_status = 'Оплачен') then 1
+when(integration_betapost.intermediate_beta_post.repeat_order in ('list','kup')) 
+then ((intermediate_beta_post.total)/(select (sum(inventory.quantity)) from vtiger_inventoryproductrel as inventory where inventory.id = intermediate_beta_post.salesorderid))
+            when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_order_row_good_id != '008' and 
+(CASE WHEN (SELECT COUNT(*)FROM integration_betapost.intermediate_beta_post 
+			INNER JOIN vtiger_inventoryproductrel  ON intermediate_beta_post.salesorderid = vtiger_inventoryproductrel.id
+			INNER JOIN vtiger_products  ON vtiger_inventoryproductrel.productid = vtiger_products.productid
+			WHERE intermediate_beta_post.salesorderid = tigr.salesorderid
+			AND vtiger_products.productname IN ('Доставка')) > 0 THEN 1 ELSE 0 END) = 1)
+						then ((intermediate_beta_post.total-330)/(select (sum(inventory.quantity)-1) from vtiger_inventoryproductrel as inventory where inventory.id = intermediate_beta_post.salesorderid))
+
+when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_order_row_good_id != '008' and 
+(CASE WHEN (SELECT COUNT(*)FROM integration_betapost.intermediate_beta_post 
+			INNER JOIN vtiger_inventoryproductrel  ON intermediate_beta_post.salesorderid = vtiger_inventoryproductrel.id
+			INNER JOIN vtiger_products  ON vtiger_inventoryproductrel.productid = vtiger_products.productid
+			WHERE intermediate_beta_post.salesorderid = tigr.salesorderid
+			AND vtiger_products.productname IN ('Доставка')) > 0 THEN 1 ELSE 0 END) = 0)
+						then ((intermediate_beta_post.total)/(select (sum(inventory.quantity)) from vtiger_inventoryproductrel as inventory where inventory.id = intermediate_beta_post.salesorderid))else 0 end),2) as price,
+						round((case when (vtiger_products.unit_price = 990 and intermediate_beta_post.payment_status = 'Оплачен') then 0
+when(integration_betapost.intermediate_beta_post.repeat_order in ('list','kup')) 
+then ((intermediate_beta_post.total)/(select (sum(inventory.quantity)) from vtiger_inventoryproductrel as inventory where inventory.id = intermediate_beta_post.salesorderid))
+            when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_order_row_good_id != '008' and 
+(CASE WHEN (SELECT COUNT(*)FROM integration_betapost.intermediate_beta_post 
+			INNER JOIN vtiger_inventoryproductrel  ON intermediate_beta_post.salesorderid = vtiger_inventoryproductrel.id
+			INNER JOIN vtiger_products  ON vtiger_inventoryproductrel.productid = vtiger_products.productid
+			WHERE intermediate_beta_post.salesorderid = tigr.salesorderid
+			AND vtiger_products.productname IN ('Доставка')) > 0 THEN 1 ELSE 0 END) = 1)
+						then ((intermediate_beta_post.total-330)/(select (sum(inventory.quantity)-1) from vtiger_inventoryproductrel as inventory where inventory.id = intermediate_beta_post.salesorderid))
+
+when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_order_row_good_id != '008' and 
+(CASE WHEN (SELECT COUNT(*)FROM integration_betapost.intermediate_beta_post 
+			INNER JOIN vtiger_inventoryproductrel  ON intermediate_beta_post.salesorderid = vtiger_inventoryproductrel.id
+			INNER JOIN vtiger_products  ON vtiger_inventoryproductrel.productid = vtiger_products.productid
+			WHERE intermediate_beta_post.salesorderid = tigr.salesorderid
+			AND vtiger_products.productname IN ('Доставка')) > 0 THEN 1 ELSE 0 END) = 0)
+						then ((intermediate_beta_post.total)/(select (sum(inventory.quantity)) from vtiger_inventoryproductrel as inventory where inventory.id = intermediate_beta_post.salesorderid))
+						else round(vtiger_products.unit_price) end),2) 
              as clnt_price,vtiger_inventoryproductrel.quantity
             from integration_betapost.intermediate_beta_post
-            inner join vtiger_salesorder on intermediate_beta_post.salesorderid = vtiger_salesorder.salesorderid
+            inner join vtiger_salesorder as tigr on intermediate_beta_post.salesorderid = tigr.salesorderid
             inner join vtiger_inventoryproductrel on intermediate_beta_post.salesorderid = vtiger_inventoryproductrel.id
             inner join vtiger_products on vtiger_inventoryproductrel.productid = vtiger_products.productid
             inner join integration_betapost.goods_to_products on vtiger_products.productid = integration_betapost.goods_to_products.productid
@@ -429,20 +455,46 @@ class VtigerSalesorder extends \yii\db\ActiveRecord
             "select concat(intermediate_beta_post.salesorderid,'_','/',shipping_order_row_good_id) as ordrow_id,
             concat(intermediate_beta_post.salesorderid,'_',{$actual_doc_number}) as order_id,
             integration_betapost.goods_to_products.shipping_order_row_good_id as good_id, 
-            (case when(vtiger_inventoryproductrel.listprice = 99)
-             then 99
-            when(integration_betapost.intermediate_beta_post.repeat_order = 'list') then intermediate_beta_post.total/vtiger_inventoryproductrel.quantity
-           when (vtiger_products.unit_price = 990 and intermediate_beta_post.payment_status != 'Оплачен') then 990
-						 when (vtiger_products.unit_price = 990 and intermediate_beta_post.payment_status = 'Оплачен') then 1
-						else 0 end) as price,
-						(case when(vtiger_inventoryproductrel.listprice = 99)
-             then 99
-          when(integration_betapost.intermediate_beta_post.repeat_order = 'list') then intermediate_beta_post.total/vtiger_inventoryproductrel.quantity
-						 when (vtiger_products.unit_price = 990 and intermediate_beta_post.payment_status = 'Оплачен') then 0
-						else round(vtiger_products.unit_price) end) 
+            round((case when (vtiger_products.unit_price = 990 and intermediate_beta_post.payment_status = 'Оплачен') then 1
+when(integration_betapost.intermediate_beta_post.repeat_order in ('list','kup')) 
+then ((intermediate_beta_post.total)/(select (sum(inventory.quantity)) from vtiger_inventoryproductrel as inventory where inventory.id = intermediate_beta_post.salesorderid))
+            when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_order_row_good_id != '008' and 
+(CASE WHEN (SELECT COUNT(*)FROM integration_betapost.intermediate_beta_post 
+			INNER JOIN vtiger_inventoryproductrel  ON intermediate_beta_post.salesorderid = vtiger_inventoryproductrel.id
+			INNER JOIN vtiger_products  ON vtiger_inventoryproductrel.productid = vtiger_products.productid
+			WHERE intermediate_beta_post.salesorderid = tigr.salesorderid
+			AND vtiger_products.productname IN ('Доставка')) > 0 THEN 1 ELSE 0 END) = 1)
+						then ((intermediate_beta_post.total-330)/(select (sum(inventory.quantity)-1) from vtiger_inventoryproductrel as inventory where inventory.id = intermediate_beta_post.salesorderid))
+
+when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_order_row_good_id != '008' and 
+(CASE WHEN (SELECT COUNT(*)FROM integration_betapost.intermediate_beta_post 
+			INNER JOIN vtiger_inventoryproductrel  ON intermediate_beta_post.salesorderid = vtiger_inventoryproductrel.id
+			INNER JOIN vtiger_products  ON vtiger_inventoryproductrel.productid = vtiger_products.productid
+			WHERE intermediate_beta_post.salesorderid = tigr.salesorderid
+			AND vtiger_products.productname IN ('Доставка')) > 0 THEN 1 ELSE 0 END) = 0)
+						then ((intermediate_beta_post.total)/(select (sum(inventory.quantity)) from vtiger_inventoryproductrel as inventory where inventory.id = intermediate_beta_post.salesorderid))else 0 end),2) as price,
+						round((case when (vtiger_products.unit_price = 990 and intermediate_beta_post.payment_status = 'Оплачен') then 0
+when(integration_betapost.intermediate_beta_post.repeat_order in ('list','kup')) 
+then ((intermediate_beta_post.total)/(select (sum(inventory.quantity)) from vtiger_inventoryproductrel as inventory where inventory.id = intermediate_beta_post.salesorderid))
+            when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_order_row_good_id != '008' and 
+(CASE WHEN (SELECT COUNT(*)FROM integration_betapost.intermediate_beta_post 
+			INNER JOIN vtiger_inventoryproductrel  ON intermediate_beta_post.salesorderid = vtiger_inventoryproductrel.id
+			INNER JOIN vtiger_products  ON vtiger_inventoryproductrel.productid = vtiger_products.productid
+			WHERE intermediate_beta_post.salesorderid = tigr.salesorderid
+			AND vtiger_products.productname IN ('Доставка')) > 0 THEN 1 ELSE 0 END) = 1)
+						then ((intermediate_beta_post.total-330)/(select (sum(inventory.quantity)-1) from vtiger_inventoryproductrel as inventory where inventory.id = intermediate_beta_post.salesorderid))
+
+when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_order_row_good_id != '008' and 
+(CASE WHEN (SELECT COUNT(*)FROM integration_betapost.intermediate_beta_post 
+			INNER JOIN vtiger_inventoryproductrel  ON intermediate_beta_post.salesorderid = vtiger_inventoryproductrel.id
+			INNER JOIN vtiger_products  ON vtiger_inventoryproductrel.productid = vtiger_products.productid
+			WHERE intermediate_beta_post.salesorderid = tigr.salesorderid
+			AND vtiger_products.productname IN ('Доставка')) > 0 THEN 1 ELSE 0 END) = 0)
+						then ((intermediate_beta_post.total)/(select (sum(inventory.quantity)) from vtiger_inventoryproductrel as inventory where inventory.id = intermediate_beta_post.salesorderid))
+						else round(vtiger_products.unit_price) end),2) 
              as clnt_price,vtiger_inventoryproductrel.quantity
             from integration_betapost.intermediate_beta_post
-inner join vtiger_salesorder on intermediate_beta_post.salesorderid = vtiger_salesorder.salesorderid
+            inner join vtiger_salesorder as tigr on intermediate_beta_post.salesorderid = tigr.salesorderid
             inner join vtiger_inventoryproductrel on intermediate_beta_post.salesorderid = vtiger_inventoryproductrel.id
             inner join vtiger_products on vtiger_inventoryproductrel.productid = vtiger_products.productid
             inner join integration_betapost.goods_to_products on vtiger_products.productid = integration_betapost.goods_to_products.productid
@@ -1275,7 +1327,7 @@ group by vtiger_salesorder.salesorderid";
         return Yii::$app->getDb()->createCommand(
             "SELECT * 
             FROM integration_betapost.`accounts` 
-            WHERE `accounts_lk` = '267'"
+            WHERE `accounts_lk` = '868'"
         )->queryAll();
     }
 
@@ -1283,7 +1335,7 @@ group by vtiger_salesorder.salesorderid";
     {
         return Yii::$app->getDb()->createCommand(
             "SELECT salesorderid 
-            FROM integration_betapost.`test_track`"
+            FROM integration_betapost.`track_and_status_from_beta`"
         )->queryAll();
     }
 
@@ -1327,8 +1379,8 @@ group by vtiger_salesorder.salesorderid";
         $oXMLout->startDocument('1.0', 'UTF-8');
         $oXMLout->setIndent(true);
         $oXMLout->startElement("request");
-        $oXMLout->writeAttribute("partner_id", "267");
-        $oXMLout->writeAttribute("password", "u5/*yf;9O2]");
+        $oXMLout->writeAttribute("partner_id", "868");
+        $oXMLout->writeAttribute("password", "jhi308qr");
         $oXMLout->writeAttribute("request_type", "151");
 
         $oXMLout->endElement(); //request

@@ -42,6 +42,8 @@ class OrderController extends \common\controllers\OrderController
      */
     public function actionIndex()
     {
+        
+
         $searchModel = new VtigerSalesorderSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
@@ -108,8 +110,9 @@ class OrderController extends \common\controllers\OrderController
                 $partner_id = ($lk['accounts_lk']);
                 $accounts_url = ($lk['accounts_url']);
             }
+
             //создаем xml документ почта онлайн
-            $xml_post = VtigerSalesorder::createXMLDoc($pass,$partner_id,$partner_id);
+            $xml_post = VtigerSalesorder::createXMLDoc($pass,$partner_id);
 
             //отправляем почта онлайн
             VtigerSalesorder::sendXMLData($xml_post,$accounts_url);
@@ -120,7 +123,7 @@ class OrderController extends \common\controllers\OrderController
             //отправляем первый класс
             VtigerSalesorder::sendXMLData($xml_first_class,$accounts_url);
 
-            //обновляем статусы отправленных заказов
+//            обновляем статусы отправленных заказов
             $new = new VtigerUpdateInfo();
             $new->updateInfo();
 

@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\Html;
-use kartik\export\ExportMenu;
+//use kartik\export\ExportMenu;
 use yii\grid\GridView;
 use common\models;
 use common\controllers;
@@ -163,15 +163,15 @@ $this->params['breadcrumbs'][] = $this->title;
             'sp_delivery_date',
         ];
 
-    echo ExportMenu::widget([
-        'dataProvider' => $dataProvider,
-        'columns' => $gridColumns,
-        'columnSelectorOptions'=>[
-            'label' => 'Columns',
-            'class' => 'btn btn-info'
-        ],
-    ]);
-    ?>
+//    echo ExportMenu::widget([
+//        'dataProvider' => $dataProvider,
+//        'columns' => $gridColumns,
+//        'columnSelectorOptions'=>[
+//            'label' => 'Columns',
+//            'class' => 'btn btn-info'
+//        ],
+//    ]);
+//    ?>
 
     <!--    --><?php
     //    FloatThead::widget(
@@ -359,28 +359,5 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= Html::a( ' Почта Онлайн', ['order/index', 'pochta_online' => 4],['class' => 'btn btn-info btn-md glyphicon glyphicon-envelope']); ?>
     <?= Html::a( ' Бандероль 1 класс', ['order/index', 'first_class' => 5],['class' => 'btn btn-warning btn-md glyphicon glyphicon-send']); ?>
 
-    <!--    <div><br>-->
-    <!--        --><?php //$form = ActiveForm::begin(['id' => 'all_search', 'method' => 'GET',]) ?>
-    <!--        <input type="hidden" value="1" name="all_search">-->
-    <!--        <div class="form-group" style="float:left;" >-->
-    <!--            --><?//= Html::submitButton('Все Заказы', ['class' => 'btn btn-primary btn-lg glyphicon glyphicon-search', 'name' => 'last']) ?>
-    <!--        </div>-->
-    <!--        --><?php //ActiveForm::end(); ?>
-    <!---->
-    <!--        --><?php //$form1 = ActiveForm::begin(['id' => 'final_search', 'method' => 'GET',]) ?>
-    <!--        <input type="hidden" value="2" name="final_search">-->
-    <!--        <div class="form-group" style="float:left; margin-left: 5px;"  >-->
-    <!--            --><?//= Html::submitButton('Корректные Заказы', ['class' => 'btn btn-success btn-lg glyphicon glyphicon-thumbs-up', 'name' => 'last1']) ?>
-    <!--            </div>-->
-    <!--        --><?php //ActiveForm::end(); ?>
-    <!---->
-    <!--        --><?php //$form2 = ActiveForm::begin(['id' => 'uncorrect_search', 'method' => 'GET',]) ?>
-    <!--        <input type="hidden" value="3" name="uncorrect_search">-->
-    <!--        <div class="form-group" style="float:left; margin-left: 5px;" >-->
-    <!--            --><?//= Html::submitButton('Некорректные Заказы', ['class' => 'btn btn-danger btn-lg glyphicon glyphicon-thumbs-down', 'name' => 'last2']) ?>
-    <!--        </div>-->
-    <!--        <div style="clear:both;"></div>-->
-    <!--        --><?php //ActiveForm::end(); ?>
-    <!---->
-    <!--    </div>-->
+  
 </div>

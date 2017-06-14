@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\Html;
-use kartik\export\ExportMenu;
+//use kartik\export\ExportMenu;
 use yii\grid\GridView;
 use common\models;
 use common\controllers;
@@ -116,15 +116,15 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
         ];
 
-    echo ExportMenu::widget([
-        'dataProvider' => $dataProvider,
-        'columns' => $gridColumns,
-        'columnSelectorOptions'=>[
-            'label' => 'Columns',
-            'class' => 'btn btn-info'
-        ],
-    ]);
-    ?>
+//    echo ExportMenu::widget([
+//        'dataProvider' => $dataProvider,
+//        'columns' => $gridColumns,
+//        'columnSelectorOptions'=>[
+//            'label' => 'Columns',
+//            'class' => 'btn btn-info'
+//        ],
+//    ]);
+//    ?>
 
     <!--    --><?php
     //    FloatThead::widget(
@@ -143,7 +143,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'class' => 'table table-striped table-bordered',
         ],
         'dataProvider' => $dataProvider,
-        'filterModel' => $searchModel,
+//        'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\CheckboxColumn'],
             ['class' => 'yii\grid\SerialColumn'],

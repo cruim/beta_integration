@@ -5,7 +5,9 @@ namespace common\models;
 use Yii;
 use yii\base\Model;
 
-ini_set('max_execution_time', 3600);
+ini_set("display_errors", "on");
+ini_set("display_startup_errors", "on");
+ini_set('max_execution_time', 0);
 require_once(Yii::getAlias('@common') . '/vtiger/vtwsclib/Vtiger/WSClient.php');
 
 class VtigerUpdateInfo extends Model

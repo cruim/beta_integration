@@ -1,12 +1,13 @@
 <?php
 
 use yii\helpers\Html;
-use kartik\export\ExportMenu;
+//use kartik\export\ExportMenu;
 use yii\grid\GridView;
 use common\models;
 use common\controllers;
 use bluezed\floatThead\FloatThead;
 use yii\bootstrap\ActiveForm;
+use yii\helpers\Url;
 
 /* @var $this yii\web\View */
 /* @var $searchModel common\models\VtigerSalesorderSearch */
@@ -25,6 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php
     $gridColumns =
         [
+
             'salesorderid',
 
             [
@@ -165,15 +167,15 @@ $this->params['breadcrumbs'][] = $this->title;
             'sp_delivery_date',
         ];
 
-    echo ExportMenu::widget([
-    'dataProvider' => $dataProvider,
-    'columns' => $gridColumns,
-        'columnSelectorOptions'=>[
-            'label' => 'Columns',
-            'class' => 'btn btn-info'
-        ],
-    ]);
-    ?>
+//    echo ExportMenu::widget([
+//    'dataProvider' => $dataProvider,
+//    'columns' => $gridColumns,
+//        'columnSelectorOptions'=>[
+//            'label' => 'Columns',
+//            'class' => 'btn btn-info'
+//        ],
+//    ]);
+//    ?>
 
 <!--    --><?php
 //    FloatThead::widget(
@@ -199,21 +201,29 @@ $this->params['breadcrumbs'][] = $this->title;
             {
                 return ['class' => 'danger'];
             }
-            foreach ($model->index as $request)
-            {
-                $index =  $request->partpost->partpost_INDEX;
-            }
-
-            if($index == '')
-            {
-                return ['class' => 'danger'];
-            }
+//            foreach ($model->index as $request)
+//            {
+//                $index =  $request->partpost->partpost_INDEX;
+//            }
+//
+//            if($index == '')
+//            {
+//                return ['class' => 'danger'];
+//            }
         },
         'columns' => [
             ['class' => 'yii\grid\CheckboxColumn'],
             ['class' => 'yii\grid\SerialColumn'],
 
-            'salesorder_custom',
+            [
+                'value' => function ($data) {
+                    if($data->salesorderid){
+                        return Html::a($data->salesorder_custom, 'http://crm.zdorov.top/index.php?module=SalesOrder&view=Detail&record=' . $data->salesorderid);
+                    }
+                    return null;
+                },
+                'format' => 'raw',
+            ],
             'salesorderid',
 
             [
@@ -236,18 +246,19 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'real_mobile_phone',
 
-            [
-                'header' => 'Индекс',
-                'value' => function($model)
-                {
-                    foreach ($model->index as $request)
-                    {
-                        $index =  $request->partpost->partpost_INDEX;
-                    }
-                    return $index;
-                },
-
-            ],
+//            [
+//                'header' => 'Индекс',
+//                'value' => function($model)
+//                {
+//                    $index = '';
+//                    foreach ($model->index as $request)
+//                    {
+//                        $index =  $request->partpost->partpost_INDEX;
+//                    }
+//                    return $index;
+//                },
+//
+//            ],
 
             [
                 'header' => 'Регион',
@@ -361,28 +372,4 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= Html::a( ' Все Заказы', ['order/index', 'all_search' => 1],['class' => 'btn btn-primary btn-md glyphicon glyphicon-search']); ?>
     <?= Html::a( ' Корректные Заказы', ['order/index', 'final_search' => 2],['class' => 'btn btn-success btn-md glyphicon glyphicon-thumbs-up']); ?>
     <?= Html::a( ' Некорректные Заказы', ['order/index', 'uncorrect_search' => 3],['class' => 'btn btn-danger btn-md glyphicon glyphicon-thumbs-down']); ?>
-<!--    <div><br>-->
-<!--        --><?php //$form = ActiveForm::begin(['id' => 'all_search', 'method' => 'GET',]) ?>
-<!--        <input type="hidden" value="1" name="all_search">-->
-<!--        <div class="form-group" style="float:left;" >-->
-<!--            --><?//= Html::submitButton('Все Заказы', ['class' => 'btn btn-primary btn-lg glyphicon glyphicon-search', 'name' => 'last']) ?>
-<!--        </div>-->
-<!--        --><?php //ActiveForm::end(); ?>
-<!---->
-<!--        --><?php //$form1 = ActiveForm::begin(['id' => 'final_search', 'method' => 'GET',]) ?>
-<!--        <input type="hidden" value="2" name="final_search">-->
-<!--        <div class="form-group" style="float:left; margin-left: 5px;"  >-->
-<!--            --><?//= Html::submitButton('Корректные Заказы', ['class' => 'btn btn-success btn-lg glyphicon glyphicon-thumbs-up', 'name' => 'last1']) ?>
-<!--            </div>-->
-<!--        --><?php //ActiveForm::end(); ?>
-<!---->
-<!--        --><?php //$form2 = ActiveForm::begin(['id' => 'uncorrect_search', 'method' => 'GET',]) ?>
-<!--        <input type="hidden" value="3" name="uncorrect_search">-->
-<!--        <div class="form-group" style="float:left; margin-left: 5px;" >-->
-<!--            --><?//= Html::submitButton('Некорректные Заказы', ['class' => 'btn btn-danger btn-lg glyphicon glyphicon-thumbs-down', 'name' => 'last2']) ?>
-<!--        </div>-->
-<!--        <div style="clear:both;"></div>-->
-<!--        --><?php //ActiveForm::end(); ?>
-<!---->
-<!--    </div>-->
 </div>

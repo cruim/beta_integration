@@ -60,5 +60,7 @@ class VtigerSoshipads extends \yii\db\ActiveRecord
     public function getPartpost()
     {
         return $this->hasOne(Partpost::className(), ['partpost_INDEX' => 'ship_code']);
+        
     }
+    
 }

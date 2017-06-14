@@ -370,11 +370,12 @@ class VtigerSalesorderSearch extends VtigerSalesorder
     public function uncorrectSearch($params)
     {
         $query = VtigerSalesorder::find()
-            ->andWhere(['sostatus' => "Отправлять"])
+
 //            ->joinWith('address')
             ->innerJoin('vtiger_soshipads', 'vtiger_salesorder.salesorderid=vtiger_soshipads.soshipaddressid')
             ->leftJoin('integration_betapost.partpost', 'vtiger_soshipads.ship_code=integration_betapost.partpost.partpost_INDEX')
-            ->andWhere(['OR',['integration_betapost.partpost.partpost_INDEX' => null], ['sp_house' => ''], ['vtiger_soshipads.ship_street' => ''],
+            ->andWhere(['sostatus' => "Отправлять"])
+            ->andWhere(['OR',['partpost.partpost_INDEX' => null], ['sp_house' => ''], ['vtiger_soshipads.ship_street' => ''],
                 ['vtiger_soshipads.ship_city' => ''], ['vtiger_soshipads.ship_state' => ''], ['total' => 330]])
             ->andWhere(['sp_delivery_service' => "Beta Post"]);
 
@@ -383,6 +384,8 @@ class VtigerSalesorderSearch extends VtigerSalesorder
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);
+
+
 
         $this->load($params);
 

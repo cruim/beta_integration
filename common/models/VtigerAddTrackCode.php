@@ -4,7 +4,7 @@ namespace common\models;
 use Yii;
 use yii\base\Model;
 
-ini_set('max_execution_time', 3600);
+ini_set('max_execution_time', 0);
 require_once(Yii::getAlias('@common'). '/vtiger/vtwsclib/Vtiger/WSClient.php');
 
 class VtigerAddTrackCode extends Model
@@ -40,7 +40,7 @@ class VtigerAddTrackCode extends Model
     public static function getTrackCodes()
     {
         return Yii::$app->getDb()->createCommand(
-            "SELECT * FROM integration_betapost.`test_track`
+            "SELECT * FROM integration_betapost.`track_and_status_from_beta`
             where order_status is null"
         )->queryAll();
     }
