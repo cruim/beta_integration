@@ -1237,3 +1237,27 @@
 
 ﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
 ﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+﻿<response xmlns="FBox/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
+  <error code="-20001" msg="doc/ordrow[@ordrow_id=1402212_1123/027/4]ORA-20001: Для позиции заказа не найден товар @good_id=027" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 699 ORA-06512: на  &quot;ANP.FBR&quot;, line 1952 ORA-06512: на  &quot;ANP.FBR&quot;, line 3633 " request_id="131886705"/>
+</response>
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
+  <error code="-20001" msg="doc/ordrow[@ordrow_id=1427287_1124/030/5]ORA-20001: Для позиции заказа не найден товар @good_id=030" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 699 ORA-06512: на  &quot;ANP.FBR&quot;, line 1952 ORA-06512: на  &quot;ANP.FBR&quot;, line 3633 " request_id="131886870"/>
+</response>
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response_err" state="-1">
+  <error code="-20001" msg="doc/ordrow[@ordrow_id=1409908_1125/016/5]ORA-20001: Для позиции заказа не найден товар @good_id=016" backtrace="ORA-06512: на  &quot;ANP.FBR&quot;, line 699 ORA-06512: на  &quot;ANP.FBR&quot;, line 1952 ORA-06512: на  &quot;ANP.FBR&quot;, line 3633 " request_id="131886928"/>
+</response>
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+
+<response xmlns="FBox/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="response" state="0"/>
+

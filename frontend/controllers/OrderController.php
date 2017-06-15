@@ -84,7 +84,6 @@ class OrderController extends \common\controllers\OrderController
                 'sort' => [
                 ],
             ]);
-
             return $this->render('correct_orders',['dataProvider' =>$dataProvider]);
         }
 

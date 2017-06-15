@@ -410,7 +410,8 @@ when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_ord
 			AND vtiger_products.productname IN ('Доставка')) > 0 THEN 1 ELSE 0 END) = 0)
 						then ((intermediate_beta_post.total)/(select (sum(inventory.quantity)) from vtiger_inventoryproductrel as inventory where inventory.id = intermediate_beta_post.salesorderid))
 						else round(vtiger_products.unit_price) end),2) 
-             as clnt_price,vtiger_inventoryproductrel.quantity
+             as clnt_price,vtiger_inventoryproductrel.quantity,
+             vtiger_products.productname
             from integration_betapost.intermediate_beta_post
             inner join vtiger_salesorder as tigr on intermediate_beta_post.salesorderid = tigr.salesorderid
             inner join vtiger_inventoryproductrel on intermediate_beta_post.salesorderid = vtiger_inventoryproductrel.id
@@ -492,7 +493,8 @@ when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_ord
 			AND vtiger_products.productname IN ('Доставка')) > 0 THEN 1 ELSE 0 END) = 0)
 						then ((intermediate_beta_post.total)/(select (sum(inventory.quantity)) from vtiger_inventoryproductrel as inventory where inventory.id = intermediate_beta_post.salesorderid))
 						else round(vtiger_products.unit_price) end),2) 
-             as clnt_price,vtiger_inventoryproductrel.quantity
+             as clnt_price,vtiger_inventoryproductrel.quantity,
+             vtiger_products.productname
             from integration_betapost.intermediate_beta_post
             inner join vtiger_salesorder as tigr on intermediate_beta_post.salesorderid = tigr.salesorderid
             inner join vtiger_inventoryproductrel on intermediate_beta_post.salesorderid = vtiger_inventoryproductrel.id
@@ -620,12 +622,15 @@ when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_ord
         $reg = null;
         foreach ($order_data as $val)
         {
+            $gift = $val['productname'];
+            $pattern = 'подарок';
             $inter = $val['good_id'];
             $clnt_price = $val['clnt_price'];
             $ordrow_id = $val['ordrow_id'];
             $nc = strrpos($ordrow_id, "_");
             $ordrow_id = substr($ordrow_id, 0, $nc + 1) . $actual_doc_number . substr($ordrow_id, $nc + 1);
             $val['ordrow_id'] = $ordrow_id;
+            $pos = strpos($gift, $pattern);
 
             if ($reg != substr_replace($val['ordrow_id'], '', -3))
             {
@@ -640,7 +645,8 @@ when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_ord
                 $count3 = 0;
             }
 
-            if (in_array($val['good_id'], $elixir_collection_parse) and $count == 0 and $clnt_price != 0)
+
+            if (in_array($val['good_id'], $elixir_collection_parse) and $count == 0 and $clnt_price != 0 and $pos === false)
             {
                 $some = $val['good_id'];
                 $repo = $val;
@@ -704,7 +710,7 @@ when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_ord
                 $val = $repo;
             }
 
-            if (in_array($val['good_id'], $erect_collection_parse) and $count2 == 0 and $clnt_price != 0)
+            if (in_array($val['good_id'], $erect_collection_parse) and $count2 == 0 and $clnt_price != 0 and $pos === false)
             {
                 $repo = $val;
                 $count++;
@@ -742,7 +748,7 @@ when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_ord
 
                 $val = $repo;
             }
-            if (in_array($val['good_id'], $simple_collection_parse) and $count3 == 0 and $clnt_price != 0)
+            if (in_array($val['good_id'], $simple_collection_parse) and $count3 == 0 and $clnt_price != 0 and $pos === false)
             {
                 $repo = $val;
                 $count++;
@@ -965,12 +971,15 @@ when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_ord
         $reg = null;
         foreach ($order_data as $val)
         {
+            $gift = $val['productname'];
+            $pattern = 'подарок';
             $inter = $val['good_id'];
             $clnt_price = $val['clnt_price'];
             $ordrow_id = $val['ordrow_id'];
             $nc = strrpos($ordrow_id, "_");
             $ordrow_id = substr($ordrow_id, 0, $nc + 1) . $actual_doc_number . substr($ordrow_id, $nc + 1);
             $val['ordrow_id'] = $ordrow_id;
+            $pos = strpos($gift, $pattern);
 
             if ($reg != substr_replace($val['ordrow_id'], '', -3))
             {
@@ -985,7 +994,7 @@ when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_ord
                 $count3 = 0;
             }
 
-            if (in_array($val['good_id'], $elixir_collection_parse) and $count == 0 and $clnt_price != 0)
+            if (in_array($val['good_id'], $elixir_collection_parse) and $count == 0 and $clnt_price != 0 and $pos === false)
             {
                 $some = $val['good_id'];
                 $repo = $val;
@@ -1049,7 +1058,7 @@ when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_ord
                 $val = $repo;
             }
 
-            if (in_array($val['good_id'], $erect_collection_parse) and $count2 == 0 and $clnt_price != 0)
+            if (in_array($val['good_id'], $erect_collection_parse) and $count2 == 0 and $clnt_price != 0 and $pos === false)
             {
                 $repo = $val;
                 $count++;
@@ -1087,7 +1096,7 @@ when (intermediate_beta_post.payment_status != 'Оплачен' and shipping_ord
 
                 $val = $repo;
             }
-            if (in_array($val['good_id'], $simple_collection_parse) and $count3 == 0 and $clnt_price != 0)
+            if (in_array($val['good_id'], $simple_collection_parse) and $count3 == 0 and $clnt_price != 0 and $pos === false)
             {
                 $repo = $val;
                 $count++;
